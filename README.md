@@ -97,6 +97,7 @@ Run:
 - [.NET Web API](./exercisefiles/dotnet/README.md)
 - [Java Spring Boot](./exercisefiles/springboot/README.md)
 - [Java Quarkus](./exercisefiles/quarkus/README.md)
+- [Python](./exercisefiles/python/README.md)
 - [Python Data Engineer](./exercisefiles/dataengineer/README.md)
 - [Python Data Scientist](./exercisefiles/datascientist/README.md)
 - [C++](./exercisefiles/c++/README.md)
