@@ -52,6 +52,7 @@ Install the Copilot Extension for you IDE:
 
 Follow the instructions for your operating system:
 - [Copilot CLI](https://github.com/cli/cli#installation)
+- [Configuring GitHub Copilot in the CLI](https://docs.github.com/en/copilot/managing-copilot/configure-personal-settings/configuring-github-copilot-in-the-cli)
 
 ### Work locally
 
