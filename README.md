@@ -57,7 +57,7 @@ Follow the instructions for your operating system:
 - [Install GitHub CLI](https://github.com/cli/cli#installation)
 - [Install GitHub Copilot CLI Extension](https://docs.github.com/en/copilot/managing-copilot/configure-personal-settings/installing-github-copilot-in-the-cli)
 - [Configuring GitHub Copilot in the CLI](https://docs.github.com/en/copilot/managing-copilot/configure-personal-settings/configuring-github-copilot-in-the-cli)
-
+    (Please note: For Windows this only works for PowerShell Core)
 ### Work locally
 
 **VisualStudio Code**
