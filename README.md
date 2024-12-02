@@ -44,14 +44,18 @@ To start programming just start a new codespace and you are ready to go, don't n
 Install the Copilot Extension for you IDE:
 
 - [Visual Studio Code Copilot Extension](https://docs.github.com/en/copilot/using-github-copilot/getting-code-suggestions-in-your-ide-with-github-copilot?tool=vscode)
+- [JetBrains Copilot Extension](https://docs.github.com/en/copilot/using-github-copilot/getting-code-suggestions-in-your-ide-with-github-copilot?tool=jetbrains)
+
+Please note, the extensions are already installed in Visual Studio 2022 if you have a recent version. You need to login:
+
 - [Visual Studio 2022 Copilot Extension](https://learn.microsoft.com/en-us/visualstudio/ide/visual-studio-github-copilot-extension?view=vs-2022)
 - [Visual Studio 2022 Copilot Chat Extension](https://learn.microsoft.com/en-us/visualstudio/ide/visual-studio-github-copilot-chat?view=vs-2022)
-- [JetBrains Copilot Extension](https://docs.github.com/en/copilot/using-github-copilot/getting-code-suggestions-in-your-ide-with-github-copilot?tool=jetbrains)
 
 ### Install Copilot CLI
 
 Follow the instructions for your operating system:
-- [Copilot CLI](https://github.com/cli/cli#installation)
+- [Install GitHub CLI](https://github.com/cli/cli#installation)
+- [Install GitHub Copilot CLI Extension](https://docs.github.com/en/copilot/managing-copilot/configure-personal-settings/installing-github-copilot-in-the-cli)
 - [Configuring GitHub Copilot in the CLI](https://docs.github.com/en/copilot/managing-copilot/configure-personal-settings/configuring-github-copilot-in-the-cli)
 
 ### Work locally
@@ -59,10 +63,6 @@ Follow the instructions for your operating system:
 **VisualStudio Code**
 
 https://code.visualstudio.com/
-
-**Install Docker**
-
-https://docs.docker.com/engine/install/
 
 **For Nodejs**
 
@@ -114,13 +114,8 @@ Run:
 ## Quick Links 
 
 1. [About GitHub Copilot](https://docs.github.com/en/copilot/about-github-copilot)
-
 2. [Getting started with GitHub Copilot](https://docs.github.com/en/copilot/using-github-copilot/getting-started-with-github-copilot)
-
 3. [About code referencing in GitHub Copilot](https://docs.github.com/en/copilot/using-github-copilot/finding-public-code-that-matches-github-copilot-suggestions)
-
 4. [Using GitHub Copilot Chat in your IDE](https://docs.github.com/en/copilot/github-copilot-chat/using-github-copilot-chat-in-your-ide)
-
 5. [Enabling GitHub Copilot in the CLI](https://docs.github.com/en/copilot/github-copilot-in-the-cli/enabling-github-copilot-in-the-cli)
-
 6. [GitHub Copilot Badges and Certifications](https://learn.microsoft.com/en-us/training/browse/?terms=github%20copilot)
