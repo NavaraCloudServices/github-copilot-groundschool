@@ -33,11 +33,6 @@ The exercise consist of building a web server using Nodejs that serves the reque
 
 The requests that the server must attend are the following:
 
-- **/Get** : 
-
-  * Return a hello world message
-
-
 - **/DaysBetweenDates**: 
 
   * Calculate days between two dates
@@ -62,6 +57,8 @@ The requests that the server must attend are the following:
   * calculate DNI letter
   * if DNI is valid return "valid"
   * if DNI is not valid return "invalid"
+
+  * 98765432M is a valid DNI, 42424242H is an invalid DNI
 
   > NOTE: Use above information inside a comment in the `nodeserver.ts` file. In this case, you may want to see multiple solutions from Copilot to pick the one that best fits the way to calculate the letter. In order to see the firs 10 suggestions from Copilot press ctrl + enter.
 

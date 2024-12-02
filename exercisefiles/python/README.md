@@ -63,6 +63,8 @@ The requests that the server must attend are the following:
   * if DNI is valid return "valid"
   * if DNI is not valid return "invalid"
 
+  * 98765432M is a valid DNI, 42424242H is an invalid DNI
+
   > NOTE: Use above information inside a comment in the `server.py` file. In this case, you may want to see multiple solutions from Copilot to pick the one that best fits the way to calculate the letter. In order to see the first 10 suggestions from Copilot press ctrl + enter.
 
 
