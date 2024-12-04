@@ -57,7 +57,7 @@ Here are some useful shortcut commands for using GitHub Copilot:
 
 - Type `@copilotext-dev` in the chat to handle/run queries on/about Copilot extension. It also helps in developing your own extension(s). 
 
-- Type `@teamsagent` this is an agent that help developer to develop an teams app.
+- Type `@teamsagent`. This is an agent that helps developers create Teams apps.
 
 - Type `@readme-api` in the chat to handle/run queries on/about README API output(s)/error(s).
 
@@ -65,7 +65,7 @@ Here are some useful shortcut commands for using GitHub Copilot:
 
 - Type `#kb` in the chat after `@github` to run queries on your knowledge base(s).
 
-- Type `#web` in the chat after `@github` to run queries directly using Bing search..
+- Type `#web` in the chat after `@github` to run queries directly using Bing search.
 
 - Type `#editor` in the chat to handle/run queries on/about editor output(s)/error(s).
 
@@ -75,7 +75,7 @@ Here are some useful shortcut commands for using GitHub Copilot:
 
 - Type `#TerminalLastCommand` in the chat to handle/run queries on/about the last command in the terminal.
 
-- Type `#TerminlSelection` in the chat to handle/run queries on/about selected terminal output(s)/error(s).
+- Type `#TerminalSelection` in the chat to handle/run queries on/about selected terminal output(s)/error(s).
 
 - Type `#vscodeApi` in the chat to handle/run queries on/about VSCode API output(s)/error(s).
 
@@ -83,7 +83,7 @@ Here are some useful shortcut commands for using GitHub Copilot:
 
 Press `Ctrl + I` to open inline GitHub Copilot Chat
 
-![alt text](image-1.png)
+![GitHub Copilot Chat Inline Example](image-1.png)
 
 - Type `/doc` in the chat to get the documentation for the code.
 
@@ -97,7 +97,7 @@ Press `Ctrl + I` to open inline GitHub Copilot Chat
 
 - Highlight the error message in the terminal and press `Ctrl + I` to open inline GitHub Copilot Chat.
 
-![alt text](image-2.png)
+![GitHub Copilot Terminal Inline Assistance Example](image-2.png)
 
 ## Easter Eggs
 
