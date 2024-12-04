@@ -11,18 +11,18 @@ Demo project for running labs to evaluate Copilot viability
 
 ## Goal
 
-The goal of a GitHub Copilot Hackathon is to learn how to use it, using a set of [exercises (labs)](#labs-instructions) that consist of building a web server using Nodejs with different functionalities, a .NET Web API or a Java Rest API (either Spring Boot or Quarkus).
+The goal of a GitHub Copilot Hackathon is to learn how to use it through a set of [exercises (labs)](#labs-instructions). These exercises consist of building a web server using Nodejs with different functionalities, a .NET Web API, or a Java Rest API (either Spring Boot or Quarkus).
 
-We have also set two exercises for data engineers and data scientists based on python.
+We have also set two exercises for data engineers and data scientists based on Python.
 
-For those who are already familiar with GitHub Copilot, we have also defined a series of [challenges](#challenges-instructions) to test your skills. In this case, you will find an introduction and short guidance to help you solve the challenge, but you will have to do most of the work on your own (with the help of Copilot, of course).
+For those who are already familiar with GitHub Copilot, we have also defined a series of [challenges](#challenges-instructions) to test your skills. You will find an introduction and short guidance to help you solve the challenge, but you will have to do most of the work on your own (with the help of Copilot, of course).
 
 GitHub Copilot is an AI-powered code assistant that helps developers write better code faster. It uses machine learning models trained on billions of lines of code to suggest whole lines or entire functions based on the context of what you’re working on. By using Copilot, you can learn how to write better code and improve your productivity.
 
 Remember:
 
-- As you type GitHub Copilot will make suggestions, you can accept them by pressing Tab.
-- If nothing shows up after Copilot write some lines, press enter and wait a couple of seconds.
+- As you type, GitHub Copilot will make suggestions, you can accept them by pressing Tab.
+- If nothing shows up after Copilot writes some lines, press enter and wait a couple of seconds.
 - Press **Ctrl + Enter**, to see more suggestions.
 - Use Copilot chat to support your learning and development.
 - Press **Ctrl + i** to start Copilot chat inline within your code. 
@@ -35,18 +35,18 @@ If you still do not have an active Copilot license, a 30 day trial can be reques
 
 ### Work with GitHub Codespaces
 
-Environment is already configured to work with Github Codespaces, you can find the configuration files in the `.devcontainer` folder.
+Environment is already configured to work with GitHub Codespaces, you can find the configuration files in the `.devcontainer` folder.
 
-To start programming just start a new codespace and you are ready to go, don't need to install anything.
+To start programming, just start a new codespace. You are ready to go and don't need to install anything.
 
 ### IDE Extensions
 
-Install the Copilot Extension for you IDE:
+Install the Copilot Extension for your IDE:
 
 - [Visual Studio Code Copilot Extension](https://docs.github.com/en/copilot/using-github-copilot/getting-code-suggestions-in-your-ide-with-github-copilot?tool=vscode)
 - [JetBrains Copilot Extension](https://docs.github.com/en/copilot/using-github-copilot/getting-code-suggestions-in-your-ide-with-github-copilot?tool=jetbrains)
 
-Please note, the extensions are already installed in Visual Studio 2022 if you have a recent version. You need to login:
+Please note, the extensions are already installed in Visual Studio 2022 if you have a recent version. You need to log in to use them:
 
 - [Visual Studio 2022 Copilot Extension](https://learn.microsoft.com/en-us/visualstudio/ide/visual-studio-github-copilot-extension?view=vs-2022)
 - [Visual Studio 2022 Copilot Chat Extension](https://learn.microsoft.com/en-us/visualstudio/ide/visual-studio-github-copilot-chat?view=vs-2022)
@@ -57,17 +57,18 @@ Follow the instructions for your operating system:
 - [Install GitHub CLI](https://github.com/cli/cli#installation)
 - [Install GitHub Copilot CLI Extension](https://docs.github.com/en/copilot/managing-copilot/configure-personal-settings/installing-github-copilot-in-the-cli)
 - [Configuring GitHub Copilot in the CLI](https://docs.github.com/en/copilot/managing-copilot/configure-personal-settings/configuring-github-copilot-in-the-cli)
-    (Please note: For Windows this only works for PowerShell Core)
+    (Please note: For Windows, this only works for PowerShell Core.)
+
 ### Work locally
 
 **VisualStudio Code**
 
 https://code.visualstudio.com/
 
-**For Nodejs**
+**For Node.js**
 
 - [Install Node and npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
-- Install mocha: 
+- Install Mocha: 
 
 Run:
 
@@ -78,18 +79,18 @@ Run:
 
 **For .NET**
 
-[Install .Net](https://dotnet.microsoft.com/download)
+[Install .NET](https://dotnet.microsoft.com/download)
 
 **For Java**
 
-- [Install Java](https://learn.microsoft.com/en-us/java/openjdk/install)
+- [Install Java (OpenJDK)](https://learn.microsoft.com/en-us/java/openjdk/install)
 - [Install Maven](https://maven.apache.org/install.html)
 
 **For Python**
 - [Install Python](https://www.python.org/downloads/)
 
 **For C++**
-- [Install cmake](https://cmake.org/download/)
+- [Install CMake](https://cmake.org/download/)
 
 ## Labs instructions
 
@@ -109,7 +110,7 @@ Run:
 - [Develop a memory game](./challenges/memorygame/memorygame.md)
 - [Develop a chat based on websockets](./challenges/chatwebsockets/chatwebsockets.md)
 - [Behavior Driven Development (BDD) challenge](./challenges/bdd/README.md)
-- [Analysis cryptocurrency market](./challenges/cryptoanalisis/crypto.md)
+- [Analysis cryptocurrency market analysis](./challenges/cryptoanalisis/crypto.md)
 
 ## Quick Links 
 
