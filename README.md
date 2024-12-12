@@ -41,6 +41,8 @@ To start programming, just start a new codespace. You are ready to go and don't 
 
 ### IDE Extensions
 
+Please update your IDE to the latest version. This is important to have the best experience with GitHub Copilot.
+
 Install the Copilot Extension for your IDE:
 
 - [Visual Studio Code Copilot Extension](https://docs.github.com/en/copilot/using-github-copilot/getting-code-suggestions-in-your-ide-with-github-copilot?tool=vscode)
