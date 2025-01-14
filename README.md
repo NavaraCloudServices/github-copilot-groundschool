@@ -121,4 +121,5 @@ Run:
 3. [About code referencing in GitHub Copilot](https://docs.github.com/en/copilot/using-github-copilot/finding-public-code-that-matches-github-copilot-suggestions)
 4. [Using GitHub Copilot Chat in your IDE](https://docs.github.com/en/copilot/github-copilot-chat/using-github-copilot-chat-in-your-ide)
 5. [Enabling GitHub Copilot in the CLI](https://docs.github.com/en/copilot/github-copilot-in-the-cli/enabling-github-copilot-in-the-cli)
-6. [GitHub Copilot Badges and Certifications](https://learn.microsoft.com/en-us/training/browse/?terms=github%20copilot)
+6. [GitHub Copilot MS Learn Modules](https://learn.microsoft.com/en-us/training/browse/?terms=github%20copilot)
+7. [GitHub Copilot Certifications](https://resources.github.com/learn/certifications/)
