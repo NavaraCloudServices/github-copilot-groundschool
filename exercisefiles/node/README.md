@@ -4,6 +4,8 @@ Demo project for running labs to evaluate Copilot viability
 
 > Make sure GitHub Copilot is configure and enabled for the current language, just check the status bar on the bottom right corner of VS Code.
 
+## Exercises
+
 ### Exercise 1: Introduction
 
 - Go to the exercisefile folder

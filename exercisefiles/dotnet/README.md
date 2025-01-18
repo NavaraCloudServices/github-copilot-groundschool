@@ -1,12 +1,12 @@
 # Goal
 
-The goal is to create a Minimal WebAPI using .NET 8.0 and a corresponding Docker image with the help of GitHub Copilot.
+The goal is to create a Minimal WebAPI using .NET 8.0 with the help of GitHub Copilot.
 Follow the instructions below and try to use GitHub Copilot as much as possible.
 Try different things and see what GitHub Copilot can do for you, like generating a Dockerfile or a class, add comments, etc.
 
 > Make sure GitHub Copilot is configure and enabled for the current laguage, just check the status bar on the bottom right corner of VS Code.
 
-## Instructions
+## Exercises
 
 The `dotnet` folder contains the `MinimalAPI.sln` solution, with 2 projects:
 
@@ -25,12 +25,6 @@ To run the app, open a terminal in the `dotnet` folder and run:
 
 ```bash
 dotnet run --project .\MinimalAPI\MinimalAPI.csproj
-```
-
-**Codespaces, Linux & Unix environments**
-
-```bash
-dotnet run --project ./MinimalAPI/MinimalAPI.csproj
 ```
 
 ### Exercise 1: Introduction
