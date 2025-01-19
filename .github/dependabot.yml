@@ -1,7 +1,11 @@
 version: 2
 updates:
   - package-ecosystem: "npm"
-    directory: "/exercisefiles/"
+    directories:
+      - "/exercisefiles/node/"
+      - "/exercisefiles/node_typescript/"
+      - "/completesolution/node/"
+      - "/completesolution/node_typescript/"
     schedule:
       interval: "weekly"
     groups:
