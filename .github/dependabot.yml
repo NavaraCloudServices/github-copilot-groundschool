@@ -1,7 +1,7 @@
 version: 2
 updates:
   - package-ecosystem: "npm"
-    directory: "/exercisefiles/**"
+    directory: "/exercisefiles/"
     schedule:
       interval: "weekly"
     groups:
