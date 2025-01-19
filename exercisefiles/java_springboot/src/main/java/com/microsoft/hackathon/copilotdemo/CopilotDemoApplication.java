@@ -18,5 +18,12 @@ public class CopilotDemoApplication {
 		SpringApplication.run(CopilotDemoApplication.class, args);
 	}
 
-	// Insert Methods here
+	@GetMapping("/get")
+	public String get(@RequestParam(value = "key", required = false) String key) {
+		System.out.println("server is listening on port 3000");
+		if (key == null) {
+			return "key not passed";
+		}
+		return "hello " + key;
+	}
 }
