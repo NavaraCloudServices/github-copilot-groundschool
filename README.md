@@ -4,7 +4,6 @@ Supporting GitHub repository for the GitHub Copilot Ground School
 
 - [Goal](#goal)
 - [Pre-requisites](#pre-requisites)
-- [Work with Github Codespaces](#work-with-github-codespaces)
 - [Work locally](#work-locally)
 - [Instructions](#instructions)
 - [Quick Links](#quick-links)
