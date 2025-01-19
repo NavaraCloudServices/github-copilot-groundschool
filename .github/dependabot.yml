@@ -13,7 +13,12 @@ updates:
         patterns:
           - "*"
   - package-ecosystem: "pip"
-    directory: "/"
+    directories:
+      - "/exercisefiles/python/"
+      - "/exercisefiles/python_dataengineer/"
+      - "/exercisefiles/python_datascientist/"
+      - "/completesolution/dataengineer/"
+      - "/completesolution/datascientist/"
     schedule:
       interval: "weekly"
     groups:
@@ -21,7 +26,11 @@ updates:
         patterns:
           - "*"
   - package-ecosystem: "maven"
-    directory: "/"
+    directories:
+      - "/exercisefiles/java_quarkus/"
+      - "/exercisefiles/java_springboot/"
+      - "/completesolution/java_quarkus/"
+      - "/completesolution/java_springboot/"
     schedule:
       interval: "weekly"
     groups:
@@ -29,7 +38,9 @@ updates:
         patterns:
           - "*"
   - package-ecosystem: "nuget"
-    directory: "/"
+    directories:
+    - "/exercisefiles/dotnet/"
+    - "/completesolution/dotnet/"
     schedule:
       interval: "weekly"
     groups:
@@ -37,7 +48,9 @@ updates:
         patterns:
           - "*"
   - package-ecosystem: "dotnet-sdk"
-    directory: "/"
+    directories:
+    - "/exercisefiles/dotnet/"
+    - "/completesolution/dotnet/"
     schedule:
       interval: "weekly"
     groups:
