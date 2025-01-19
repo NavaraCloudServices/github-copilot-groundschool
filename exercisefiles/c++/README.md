@@ -4,8 +4,6 @@ The goal is to create a server using C++ with the help of GitHub Copilot. Follow
 
 Try different things and see what GitHub Copilot can do for you.
 
-> Make sure GitHub Copilot is configure and enabled for the current laguage, just check the status bar on the bottom right corner of VS Code.
-
 The tests are using the googletests framework
 
 ## Exercise 1: Introduction

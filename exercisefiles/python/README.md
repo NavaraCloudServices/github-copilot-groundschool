@@ -1,8 +1,8 @@
-# Activate GitHub Copilot using Python
+# Goal
 
-Demo project for running labs to evaluate Copilot viability
+The goal is to create a server using python with the help of GitHub Copilot. Follow the instructions below and try to use GitHub Copilot as much as possible.
 
-> Make sure GitHub Copilot is configured and enabled for the current language, just check the status bar on the bottom right corner of VS Code.
+Try different things and see what GitHub Copilot can do for you.
 
 ## Exercises
 

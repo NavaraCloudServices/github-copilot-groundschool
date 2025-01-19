@@ -96,9 +96,10 @@ Run:
 
 ## Labs instructions
 
+- [C++](./exercisefiles/c++/README.md)
 - [Node Server](./exercisefiles/node/README.md)
 - [Node Server Typescript](./exercisefiles/node_typescript/README.md)
-- [.NET Web API](./exercisefiles/dotnet/README.md)
+- [.NET](./exercisefiles/dotnet/README.md)
 - [Java Spring Boot](./exercisefiles/java_springboot/README.md)
 - [Java Quarkus](./exercisefiles/java_quarkus/README.md)
 - [Python](./exercisefiles/python/README.md)
