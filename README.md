@@ -33,12 +33,6 @@ Remember:
 
 If you still do not have an active Copilot license, a 30 day trial can be requested here: https://github.com/github-copilot/signup.
 
-### Work with GitHub Codespaces
-
-Environment is already configured to work with GitHub Codespaces, you can find the configuration files in the `.devcontainer` folder.
-
-To start programming, just start a new codespace. You are ready to go and don't need to install anything.
-
 ### IDE Extensions
 
 Please update your IDE to the latest version. This is important to have the best experience with GitHub Copilot.
