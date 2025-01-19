@@ -1,10 +1,12 @@
 # Goal
 
-The goal is to create a server using C++ with the help of GitHub Copilot.
-Follow the instructions below and try to use GitHub Copilot as much as possible.
+The goal is to create a server using C++ with the help of GitHub Copilot. Follow the instructions below and try to use GitHub Copilot as much as possible.
+
 Try different things and see what GitHub Copilot can do for you.
 
 > Make sure GitHub Copilot is configure and enabled for the current laguage, just check the status bar on the bottom right corner of VS Code.
+
+The tests are using the googletests framework
 
 ## Exercise 1: Introduction
 
@@ -17,11 +19,14 @@ Try different things and see what GitHub Copilot can do for you.
 - To run:
   - Go to the `\src` directory and run `httpserver`
 - To test:
-  - Go to the `\tests` directory and run `tests` (we don't use a test framework but if you want, you can use one)
+  - Go to the `\tests` directory and run `tests`
 - See the result, it should display something like:
 
 ```bash
-[PASS] Key not passed test succeeded
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ServerTest
+[ RUN      ] ServerTest.KeyNotPassedTest
 ```
 
 ### Exercise 2: Inline suggestions
