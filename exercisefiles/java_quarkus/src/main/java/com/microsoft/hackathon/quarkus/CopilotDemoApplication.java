@@ -1,10 +1,6 @@
 package com.microsoft.hackathon.quarkus;
 
-import jakarta.ws.rs.GET;
 import jakarta.ws.rs.Path;
-import jakarta.ws.rs.Produces;
-import jakarta.ws.rs.QueryParam;
-import jakarta.ws.rs.core.MediaType;
 
 // write a Java Quarkus server that will expose a method call "get" that will return the value of the key passed in the query string
 // example: http://localhost:3000/get?key=hello
@@ -13,21 +9,11 @@ import jakarta.ws.rs.core.MediaType;
 // if the url has other methods, return "method not supported"
 // when server is listening, log "server is listening on port 3000"
 
+@Path("")
 public class CopilotDemoApplication {
-  
-	public static void main(String[] args) {
-        System.out.println("server is listening on port 3000");
-    }
 
-    @GET
-    @Path("/get")
-    @Produces(MediaType.TEXT_PLAIN)
-    public String get(@QueryParam("key") String key) {
-        System.out.println("server is listening on port 3000");
-        if (key == null) {
-            return "key not passed";
-        }
-        return "hello " + key;
+    public static void main(String[] args) {
+        io.quarkus.runtime.Quarkus.run(args);
     }
 }
 
