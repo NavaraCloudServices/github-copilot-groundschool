@@ -1,21 +1,26 @@
 package com.microsoft.hackathon.quarkus;
 
-import io.quarkus.test.junit.QuarkusTest;
+
+import static org.hamcrest.Matchers.equalTo;
 import org.junit.jupiter.api.Test;
 
+import io.quarkus.test.junit.QuarkusTest;
+import io.restassured.RestAssured;
 import static io.restassured.RestAssured.given;
-import static org.hamcrest.CoreMatchers.is;
 
 @QuarkusTest
-public class CopilotDemoApplicationTests {
+class CopilotDemoApplicationTests {
 
     @Test
-    public void testHelloEndpoint() {
-        given()
-          .when().get("/hello?key=world")
-          .then()
-             .statusCode(200)
-             .body(is("hello world"));
-    }
+    void hello() {
+        RestAssured.port = 3000; // Set the port if different from default
 
+        given()
+            .queryParam("key", "world")
+        .when()
+            .get("/get")
+        .then()
+            .statusCode(200)
+            .body(equalTo("hello world"));
+    }
 }

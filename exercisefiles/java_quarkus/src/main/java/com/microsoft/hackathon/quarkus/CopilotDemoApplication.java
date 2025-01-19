@@ -5,7 +5,6 @@ import jakarta.ws.rs.Path;
 import jakarta.ws.rs.Produces;
 import jakarta.ws.rs.QueryParam;
 import jakarta.ws.rs.core.MediaType;
-import jakarta.annotation.PostConstruct;
 
 // write a Java Quarkus server that will expose a method call "get" that will return the value of the key passed in the query string
 // example: http://localhost:3000/get?key=hello

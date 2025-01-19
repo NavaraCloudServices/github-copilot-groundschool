@@ -1,25 +1,25 @@
 package com.microsoft.hackathon.copilotdemo;
 
+import static org.hamcrest.Matchers.equalTo;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.test.web.servlet.MockMvc;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
-import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
-import org.springframework.test.web.servlet.result.MockMvcResultMatchers;;
 
+import io.restassured.RestAssured;
+import static io.restassured.RestAssured.given;
 
-@SpringBootTest()
+@SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.DEFINED_PORT)
 class CopilotDemoApplicationTests {
 
-    @Autowired
-    private MockMvc mockMvc;
-
     @Test
-	void hello() throws Exception {
-		mockMvc.perform(MockMvcRequestBuilders.get("/hello?key=world"))
-			.andExpect(MockMvcResultMatchers.status().isOk())
-			.andExpect(MockMvcResultMatchers.content().string("hello world"));
-	}
+    void hello() {
+        RestAssured.port = 3000; // Set the port if different from default
 
+        given()
+            .queryParam("key", "world")
+        .when()
+            .get("/get")
+        .then()
+            .statusCode(200)
+            .body(equalTo("hello world"));
+    }
 }
