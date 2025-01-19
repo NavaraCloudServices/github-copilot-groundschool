@@ -1,6 +1,6 @@
-# GitHub Copilot Hackathon
+# GitHub Copilot Ground School
 
-Demo project for running labs to evaluate Copilot viability
+Supporting GitHub repository for the GitHub Copilot Ground School
 
 - [Goal](#goal)
 - [Pre-requisites](#pre-requisites)
@@ -11,9 +11,7 @@ Demo project for running labs to evaluate Copilot viability
 
 ## Goal
 
-The goal of a GitHub Copilot Hackathon is to learn how to use it through a set of [exercises (labs)](#labs-instructions). These exercises consist of building a web server using Nodejs with different functionalities, a .NET Web API, or a Java Rest API (either Spring Boot or Quarkus).
-
-We have also set two exercises for data engineers and data scientists based on Python.
+The goal of a GitHub Copilot Ground School is to learn how to use it through a set of [exercises (labs)](#labs-instructions). These exercises consist of building a web server using Nodejs with different functionalities, a .NET Web API, C++, Python or a Java Rest API (either Spring Boot or Quarkus).
 
 For those who are already familiar with GitHub Copilot, we have also defined a series of [challenges](#challenges-instructions) to test your skills. You will find an introduction and short guidance to help you solve the challenge, but you will have to do most of the work on your own (with the help of Copilot, of course).
 
@@ -98,11 +96,11 @@ Run:
 - [Java Quarkus](./exercisefiles/java_quarkus/README.md)
 - [Python](./exercisefiles/python/README.md)
 
-## Other Excersizes
+## Other Exercises
 
 - [Python Data Engineer](./exercisefiles/python_dataengineer/README.md)
 - [Python Data Scientist](./exercisefiles/python_datascientist/README.md)
-- [C++ Oktoconverter](./exercisefiles/c++_octoconverter/README.md)
+- [C++ Okto Converter](./exercisefiles/c++_octoconverter/README.md)
 
 ## Challenges instructions
 
@@ -112,7 +110,7 @@ Run:
 - [Behavior Driven Development (BDD) challenge for Java](./challenges/bdd/README.md)
 - [Analysis cryptocurrency market analysis](./challenges/cryptoanalisis/crypto.md)
 
-## Quick Links 
+## Quick Links
 
 1. [About GitHub Copilot](https://docs.github.com/en/copilot/about-github-copilot)
 2. [Getting started with GitHub Copilot](https://docs.github.com/en/copilot/using-github-copilot/getting-started-with-github-copilot)
