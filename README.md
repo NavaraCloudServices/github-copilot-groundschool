@@ -67,7 +67,7 @@ Follow the instructions for your operating system:
 
 https://code.visualstudio.com/
 
-**For Node.js**
+**For Node.js and Typescript**
 
 - [Install Node and npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 - Install Mocha: 
@@ -99,12 +99,15 @@ Run:
 - [Node Server](./exercisefiles/node/README.md)
 - [Node Server Typescript](./exercisefiles/node_typescript/README.md)
 - [.NET Web API](./exercisefiles/dotnet/README.md)
-- [Java Spring Boot](./exercisefiles/springboot/README.md)
-- [Java Quarkus](./exercisefiles/quarkus/README.md)
+- [Java Spring Boot](./exercisefiles/java_springboot/README.md)
+- [Java Quarkus](./exercisefiles/java_quarkus/README.md)
 - [Python](./exercisefiles/python/README.md)
-- [Python Data Engineer](./exercisefiles/dataengineer/README.md)
-- [Python Data Scientist](./exercisefiles/datascientist/README.md)
-- [C++](./exercisefiles/c++/README.md)
+
+## Other Excersizes
+
+- [Python Data Engineer](./exercisefiles/python_dataengineer/README.md)
+- [Python Data Scientist](./exercisefiles/python_datascientist/README.md)
+- [C++ Oktoconverter](./exercisefiles/c++_octoconverter/README.md)
 
 ## Challenges instructions
 
