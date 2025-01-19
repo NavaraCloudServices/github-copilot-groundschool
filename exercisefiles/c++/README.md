@@ -140,7 +140,7 @@ After adding the tests, the tests might be integration tests. Refactor your code
 
 ### Exercise 7: Create a Dockerfile
 
-Now that we have the new functionality added and tests covering it, lets create a Dockerfile for the Node JS Application.
+Now that we have the new functionality added and tests covering it, lets create a Dockerfile for the C++ application.
 
 - Build the image using Copilot and expose the port 3000.
 
