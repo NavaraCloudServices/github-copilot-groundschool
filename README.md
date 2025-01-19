@@ -109,7 +109,7 @@ Run:
 - [Develop a shop cart](./challenges/eshop/eshop.md) 
 - [Develop a memory game](./challenges/memorygame/memorygame.md)
 - [Develop a chat based on websockets](./challenges/chatwebsockets/chatwebsockets.md)
-- [Behavior Driven Development (BDD) challenge](./challenges/bdd/README.md)
+- [Behavior Driven Development (BDD) challenge for Java](./challenges/bdd/README.md)
 - [Analysis cryptocurrency market analysis](./challenges/cryptoanalisis/crypto.md)
 
 ## Quick Links 
