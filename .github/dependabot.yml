@@ -32,3 +32,11 @@ updates:
       all:
         patterns:
           - "*"
+  - package-ecosystem: "dotnet-sdk"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    groups:
+      all:
+        patterns:
+          - "*"
