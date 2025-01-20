@@ -108,6 +108,7 @@ Run:
 - [Java Spring Boot](./exercisefiles/java_springboot/README.md)
 - [Java Quarkus](./exercisefiles/java_quarkus/README.md)
 - [Python](./exercisefiles/python/README.md)
+- [PHP](./exercisefiles/php/README.md)
 
 ## Other Exercises
 
