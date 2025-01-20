@@ -16,9 +16,9 @@ This repository is forked from the [Microsoft Copilot Hackathon](https://github.
 
 ## Goal
 
-The goal of a GitHub Copilot Ground School is to learn how to use it through a set of [Exercises](#exercises)(#labs-instructions). These exercises consist of building a web server using Nodejs with different functionalities, a .NET Web API, C++, Python or a Java Rest API (either Spring Boot or Quarkus).
+The goal of a GitHub Copilot Ground School is to learn how to use it through a set of [Exercises](#exercises). These exercises consist of building a web server using Nodejs with different functionalities, a .NET Web API, C++, Python or a Java Rest API (either Spring Boot or Quarkus).
 
-For those who are already familiar with GitHub Copilot, we have also defined a series of [challenges](#challenges-instructions) to test your skills. You will find an introduction and short guidance to help you solve the challenge, but you will have to do most of the work on your own (with the help of Copilot, of course).
+For those who are already familiar with GitHub Copilot, we have also defined a series of [Challenges](#challenges-instructions) to test your skills. You will find an introduction and short guidance to help you solve the challenge, but you will have to do most of the work on your own (with the help of Copilot, of course).
 
 GitHub Copilot is an AI-powered code assistant that helps developers write better code faster. It uses machine learning models trained on billions of lines of code to suggest whole lines or entire functions based on the context of what you’re working on. By using Copilot, you can learn how to write better code and improve your productivity.
 
@@ -101,20 +101,20 @@ Run:
 
 ## Exercises
 
-- [C++](./exercisefiles/c++/README.md)
-- [Node Server](./exercisefiles/node/README.md)
-- [Node Server Typescript](./exercisefiles/node_typescript/README.md)
 - [.NET](./exercisefiles/dotnet/README.md)
+- [C++](./exercisefiles/c++/README.md)
 - [Java Spring Boot](./exercisefiles/java_springboot/README.md)
 - [Java Quarkus](./exercisefiles/java_quarkus/README.md)
-- [Python](./exercisefiles/python/README.md)
+- [Node Server](./exercisefiles/node/README.md)
+- [Node Server Typescript](./exercisefiles/node_typescript/README.md)
 - [PHP](./exercisefiles/php/README.md)
+- [Python](./exercisefiles/python/README.md)
 
 ## Other Exercises
 
+- [C++ Okto Converter](./exercisefiles/c++_octoconverter/README.md)
 - [Python Data Engineer](./exercisefiles/python_dataengineer/README.md)
 - [Python Data Scientist](./exercisefiles/python_datascientist/README.md)
-- [C++ Okto Converter](./exercisefiles/c++_octoconverter/README.md)
 
 ## Challenges instructions
 
