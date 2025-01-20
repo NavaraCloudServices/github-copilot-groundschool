@@ -8,6 +8,10 @@ Supporting GitHub repository for the GitHub Copilot Ground School
 - [Instructions](#instructions)
 - [Quick Links](#quick-links)
 
+## Forked from
+
+This repository is forked from https://github.com/microsoft/CopilotHackathon
+
 ## Goal
 
 The goal of a GitHub Copilot Ground School is to learn how to use it through a set of [exercises (labs)](#labs-instructions). These exercises consist of building a web server using Nodejs with different functionalities, a .NET Web API, C++, Python or a Java Rest API (either Spring Boot or Quarkus).

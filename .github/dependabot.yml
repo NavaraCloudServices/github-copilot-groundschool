@@ -40,8 +40,7 @@ updates:
           - "*"
   - package-ecosystem: "dotnet-sdk"
     directories:
-    - "/exercisefiles/dotnet/MinimalAPI"
-    - "/exercisefiles/dotnet/MinimalAPI.Tests"
+    - "/exercisefiles/dotnet/"
     schedule:
       interval: "weekly"
     groups:
