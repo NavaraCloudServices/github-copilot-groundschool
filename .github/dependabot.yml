@@ -47,3 +47,12 @@ updates:
       all:
         patterns:
           - "*"
+  - package-ecosystem: "composer"
+    directories:
+    - "/exercisefiles/php/"
+    schedule:
+      interval: "weekly"
+    groups:
+      all:
+        patterns:
+          - "*"

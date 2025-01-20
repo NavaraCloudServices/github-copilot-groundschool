@@ -4,17 +4,19 @@ Supporting GitHub repository for the GitHub Copilot Ground School
 
 - [Goal](#goal)
 - [Pre-requisites](#pre-requisites)
-- [Work locally](#work-locally)
-- [Instructions](#instructions)
+- [Install Development Tools](#install-development-tools)
+- [Exercises](#exercises)
+- [Other Exercises](#other-exercises)
+- [Challenges instructions](#challenges-instructions)
 - [Quick Links](#quick-links)
 
 ## Forked from
 
-This repository is forked from https://github.com/microsoft/CopilotHackathon
+This repository is forked from the [Microsoft Copilot Hackathon](https://github.com/microsoft/CopilotHackathon)
 
 ## Goal
 
-The goal of a GitHub Copilot Ground School is to learn how to use it through a set of [exercises (labs)](#labs-instructions). These exercises consist of building a web server using Nodejs with different functionalities, a .NET Web API, C++, Python or a Java Rest API (either Spring Boot or Quarkus).
+The goal of a GitHub Copilot Ground School is to learn how to use it through a set of [Exercises](#exercises)(#labs-instructions). These exercises consist of building a web server using Nodejs with different functionalities, a .NET Web API, C++, Python or a Java Rest API (either Spring Boot or Quarkus).
 
 For those who are already familiar with GitHub Copilot, we have also defined a series of [challenges](#challenges-instructions) to test your skills. You will find an introduction and short guidance to help you solve the challenge, but you will have to do most of the work on your own (with the help of Copilot, of course).
 
@@ -26,13 +28,13 @@ Remember:
 - If nothing shows up after Copilot writes some lines, press enter and wait a couple of seconds.
 - Press **Ctrl + Enter**, to see more suggestions.
 - Use Copilot chat to support your learning and development.
-- Press **Ctrl + i** to start Copilot chat inline within your code. 
+- Press **Ctrl + i** to start Copilot chat inline within your code.
 
 ## Pre-requisites
 
-**GitHub Copilot access**
+### GitHub Copilot access
 
-If you still do not have an active Copilot license, a 30 day trial can be requested here: https://github.com/github-copilot/signup.
+If you still do not have an active Copilot license, a 30 day trial can be requested [here](https://github.com/github-copilot/signup).
 
 ### IDE Extensions
 
@@ -51,21 +53,22 @@ Please note, the extensions are already installed in Visual Studio 2022 if you h
 ### Install Copilot CLI
 
 Follow the instructions for your operating system:
+
 - [Install GitHub CLI](https://github.com/cli/cli#installation)
 - [Install GitHub Copilot CLI Extension](https://docs.github.com/en/copilot/managing-copilot/configure-personal-settings/installing-github-copilot-in-the-cli)
 - [Configuring GitHub Copilot in the CLI](https://docs.github.com/en/copilot/managing-copilot/configure-personal-settings/configuring-github-copilot-in-the-cli)
     (Please note: For Windows, this only works for PowerShell Core.)
 
-### Work locally
+## Install Development Tools
 
-**VisualStudio Code**
+### VisualStudio Code
 
-https://code.visualstudio.com/
+- [Download and install](https://code.visualstudio.com/)
 
-**For Node.js and Typescript**
+### Node.js and Typescript
 
 - [Install Node and npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
-- Install Mocha: 
+- Install Mocha:
 
 Run:
 
@@ -74,22 +77,29 @@ Run:
  npm install axios
 ```
 
-**For .NET**
+### .NET
 
 [Install .NET](https://dotnet.microsoft.com/download)
 
-**For Java**
+### Java and Maven
 
 - [Install Java (OpenJDK)](https://learn.microsoft.com/en-us/java/openjdk/install)
 - [Install Maven](https://maven.apache.org/install.html)
 
-**For Python**
+### Python
+
 - [Install Python](https://www.python.org/downloads/)
 
-**For C++**
+### C++
+
 - [Install CMake](https://cmake.org/download/)
 
-## Labs instructions
+### PHP
+
+- [Install PHP](https://www.php.net/manual/en/install.php)
+- [Install Composer](https://getcomposer.org/download/)
+
+## Exercises
 
 - [C++](./exercisefiles/c++/README.md)
 - [Node Server](./exercisefiles/node/README.md)
