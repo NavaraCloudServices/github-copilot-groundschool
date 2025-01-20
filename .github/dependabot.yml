@@ -4,8 +4,6 @@ updates:
     directories:
       - "/exercisefiles/node/"
       - "/exercisefiles/node_typescript/"
-      - "/completesolution/node/"
-      - "/completesolution/node_typescript/"
     schedule:
       interval: "weekly"
     groups:
@@ -15,10 +13,6 @@ updates:
   - package-ecosystem: "pip"
     directories:
       - "/exercisefiles/python/"
-      - "/exercisefiles/python_dataengineer/"
-      - "/exercisefiles/python_datascientist/"
-      - "/completesolution/dataengineer/"
-      - "/completesolution/datascientist/"
     schedule:
       interval: "weekly"
     groups:
@@ -29,8 +23,6 @@ updates:
     directories:
       - "/exercisefiles/java_quarkus/"
       - "/exercisefiles/java_springboot/"
-      - "/completesolution/java_quarkus/"
-      - "/completesolution/java_springboot/"
     schedule:
       interval: "weekly"
     groups:
@@ -40,7 +32,6 @@ updates:
   - package-ecosystem: "nuget"
     directories:
     - "/exercisefiles/dotnet/"
-    - "/completesolution/dotnet/"
     schedule:
       interval: "weekly"
     groups:
@@ -50,7 +41,6 @@ updates:
   - package-ecosystem: "dotnet-sdk"
     directories:
     - "/exercisefiles/dotnet/"
-    - "/completesolution/dotnet/"
     schedule:
       interval: "weekly"
     groups:
