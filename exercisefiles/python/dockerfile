@@ -12,4 +12,4 @@
 
 # Run server.py when the container launches
 
-# Write a docker comand to build the image and tag it as mynodeapp
+# Write a docker comnand to build the image and tag it as mypythonapp

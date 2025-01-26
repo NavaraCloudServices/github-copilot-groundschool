@@ -81,6 +81,10 @@ Run:
 
 [Install .NET](https://dotnet.microsoft.com/download)
 
+### Go
+
+[Install Go](https://go.dev/doc/install)
+
 ### Java and Maven
 
 - [Install Java (OpenJDK)](https://learn.microsoft.com/en-us/java/openjdk/install)
@@ -102,6 +106,7 @@ Run:
 ## Exercises
 
 - [C++](./exercisefiles/c++/README.md)
+- [Go](./exercisefiles/go/README.md)
 - [Node Server](./exercisefiles/node/README.md)
 - [Node Server Typescript](./exercisefiles/node_typescript/README.md)
 - [.NET](./exercisefiles/dotnet/README.md)

@@ -29,12 +29,7 @@ describe('Node Server', () => {
 
     //write test to validate validateSpanishDNI
    
-
     //write test for returnColorCode red should return code #FF0000
 
-
-   //write test for daysBetweenDates
-
-
-
+    //write test for daysBetweenDates
 });
