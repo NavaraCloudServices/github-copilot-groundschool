@@ -106,10 +106,10 @@ Run:
 ## Exercises
 
 - [C++](./exercisefiles/c++/README.md)
+- [C#](./exercisefiles/dotnet/README.md)
 - [Node Server](./exercisefiles/node/README.md)
 - [Node Server Typescript](./exercisefiles/node_typescript/README.md)
 - [.NET](./exercisefiles/dotnet/README.md)
-- [C++](./exercisefiles/c++/README.md)
 - [Java Spring Boot](./exercisefiles/java_springboot/README.md)
 - [Java Quarkus](./exercisefiles/java_quarkus/README.md)
 - [Node Server](./exercisefiles/node/README.md)
