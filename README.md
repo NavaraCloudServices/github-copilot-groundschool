@@ -42,13 +42,15 @@ Please update your IDE to the latest version. This is important to have the best
 
 Install the Copilot Extension for your IDE:
 
-- [Visual Studio Code Copilot Extension](https://docs.github.com/en/copilot/using-github-copilot/getting-code-suggestions-in-your-ide-with-github-copilot?tool=vscode)
+- [Azure Data Studio](https://docs.github.com/en/copilot/using-github-copilot/getting-code-suggestions-in-your-ide-with-github-copilot?tool=azure_data_studio)
+- [Eclipse Copilot Extension](https://docs.github.com/en/copilot/using-github-copilot/getting-code-suggestions-in-your-ide-with-github-copilot?tool=eclipse)
 - [JetBrains Copilot Extension](https://docs.github.com/en/copilot/using-github-copilot/getting-code-suggestions-in-your-ide-with-github-copilot?tool=jetbrains)
+- [Vim/Nevim Copilot Extension](https://docs.github.com/en/copilot/using-github-copilot/getting-code-suggestions-in-your-ide-with-github-copilot?tool=vimneovim)
+- [Visual Studio Code](https://docs.github.com/en/copilot/using-github-copilot/getting-code-suggestions-in-your-ide-with-github-copilot?tool=vscode)
+- [Visual Studio](https://docs.github.com/en/copilot/using-github-copilot/getting-code-suggestions-in-your-ide-with-github-copilot?tool=visualstudio)
+- [Xcode Copilot Extension](https://docs.github.com/en/copilot/using-github-copilot/getting-code-suggestions-in-your-ide-with-github-copilot?tool=xcode)
 
-Please note, the extensions are already installed in Visual Studio 2022 if you have a recent version. You need to log in to use them:
-
-- [Visual Studio 2022 Copilot Extension](https://learn.microsoft.com/en-us/visualstudio/ide/visual-studio-github-copilot-extension?view=vs-2022)
-- [Visual Studio 2022 Copilot Chat Extension](https://learn.microsoft.com/en-us/visualstudio/ide/visual-studio-github-copilot-chat?view=vs-2022)
+Please note, the extensions are already installed in Visual Studio 2022 if you have a recent version.
 
 ### Install Copilot CLI
 
@@ -106,16 +108,13 @@ Run:
 ## Exercises
 
 - [C++](./exercisefiles/c++/README.md)
-- [C#](./exercisefiles/dotnet/README.md)
-- [Node Server](./exercisefiles/node/README.md)
-- [Node Server Typescript](./exercisefiles/node_typescript/README.md)
-- [.NET](./exercisefiles/dotnet/README.md)
+- [C#](./exercisefiles/csharp/README.md)
 - [Java Spring Boot](./exercisefiles/java_springboot/README.md)
 - [Java Quarkus](./exercisefiles/java_quarkus/README.md)
-- [Node Server](./exercisefiles/node/README.md)
-- [Node Server Typescript](./exercisefiles/node_typescript/README.md)
+- [Javascript](./exercisefiles/javascript/README.md)
 - [PHP](./exercisefiles/php/README.md)
 - [Python](./exercisefiles/python/README.md)
+- [Typescript](./exercisefiles/typescript/README.md)
 
 ## Other Exercises
 
