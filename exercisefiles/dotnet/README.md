@@ -1,3 +1,5 @@
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/NavaraCloudServices/github-copilot-external/tree/codespaces?devcontainer_path=.devcontainer%2Fdotnet%2Fdevcontainer.json)
+
 # Goal
 
 The goal is to create a Minimal WebAPI using .NET 8.0 with the help of GitHub Copilot.

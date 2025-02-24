@@ -1,3 +1,5 @@
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/NavaraCloudServices/github-copilot-external/tree/codespaces?devcontainer_path=.devcontainer%2Fcpp%2Fdevcontainer.json)
+
 # Goal
 
 The goal is to create a server using C++ with the help of GitHub Copilot. Follow the instructions below and try to use GitHub Copilot as much as possible.
