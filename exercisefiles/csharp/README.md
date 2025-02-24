@@ -29,6 +29,8 @@ dotnet run --project .\MinimalAPI\MinimalAPI.csproj
 
 ## Exercise 1: Introduction
 
+>The goal of this exercise is to get acquainted with the project files, run the server and its tests. After this we will start exploring GitHub Copilot features. 
+
 - Inside `MinimalAPI\Program.cs` add a new Hello World endpoint at `/` that returns a `Hello World!` string. You can test the Copilot inline feature by pressing `ctrl + i`. Then write in the text box the desired behaviour.
 - Run `dotnet test`
 - If test pass you should see something like this:
