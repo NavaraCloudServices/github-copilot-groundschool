@@ -3,28 +3,24 @@
 {
 	"$schema": "https://raw.githubusercontent.com/devcontainers/spec/main/schemas/devContainer.schema.json",
 	
-	"name": "C# (.NET)",
+	"name": "C++",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"image": "mcr.microsoft.com/devcontainers/dotnet:8.0",
+	"build": {
+		"dockerfile": "Dockerfile",
+		"args": { "VARIANT": "debian-11" }
+	},
+	"runArgs": ["--cap-add=SYS_PTRACE", "--security-opt", "seccomp=unconfined"],
 
-	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}/exercisefiles/dotnet/",
+	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}/exercisefiles/cpp/",
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	"features": {
 
     },
 
-	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	"forwardPorts": [5000, 5001],
-	// "portsAttributes": {
-	//		"5001": {
-	//			"protocol": "https"
-	//		}
-	// }
-
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "dotnet restore",
-
+	// "postCreateCommand": "",
+	
 	// Configure tool-specific properties.
 	"customizations": {
 		"vscode": {
@@ -38,15 +34,29 @@
 				"ms-vscode-remote.remote-containers",
 
 				// Specific language support
-				"ms-dotnettools.csharp",
-				"ms-dotnettools.csdevkit",
-				"ms-dotnettools.vscode-dotnet-runtime",
+				"ms-vscode.cpptools",
+				"ms-vscode.cpptools-extension-pack",
+				"ms-vscode.cmake-tools",
+				"ms-vscode.makefile-tools",
 
 				// General language support
 				"redhat.vscode-yaml",
 				"zainchen.json",
 				"streetsidesoftware.code-spell-checker"
 			]
+		},
+
+		"settings": {
+			"cmake.sourceDirectory": "${workspaceFolder}/src",
+			"terminal.integrated.shell.linux": "/bin/bash",
+			"files.associations": {
+				"zengithub.h": "c"
+			},
+			"C_Cpp.default.includePath": [
+				"~/.conan/data/**",
+				"${default}"
+			],
+			"C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools"
 		}
 	},
 

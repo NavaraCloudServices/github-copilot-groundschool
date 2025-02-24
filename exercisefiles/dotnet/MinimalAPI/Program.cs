@@ -17,7 +17,6 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 // ADD NEW ENDPOINTS HERE
-app.MapGet("/", () => "Hello, World!");  // New endpoint to return "Hello, World!"
 
 
 app.Run();
