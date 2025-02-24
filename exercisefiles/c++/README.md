@@ -63,15 +63,15 @@ You will be implementing the following additional features:
 
 - **/DaysBetweenDates**:
 
-  - Calculate the days between two dates
-  - receive by the querystring 2 parameters, date1 and date 2, and calculate the days between those two dates
+  - Calculate days between two dates
+  - receive by query string two parameters `date1` and `date2`, and calculate the days between those two dates.
 
   > **_NOTE:_** Use above information inside the Copilot inline feature in the `main.cpp` file. Press enter and wait for Copilot to suggest you the code.
 
 - **/ValidatePhoneNumber**:
 
   - Receive by querystring a parameter called *phoneNumber*
-  - validate phoneNumber with Spanish format, for example +34666777888
+  - validate phoneNumber with Spanish format, for example `+34666777888`
   - if phoneNumber is valid return `"valid"`
   - if phoneNumber is not valid return `"invalid"`
 
@@ -189,15 +189,14 @@ You will be implementing the following additional features:
 
 Documenting code is always a boring and painful task. However, we can use Copilot to document it for us. 
 
-- In the chat, ask Copilot to document the `main.cpp` file.
+- In the chat, ask Copilot to document the `main.cpp` file by including it using `#main.cpp`.
 
 
 ## Exercise 6: Building tests
 
-We will create automated tests to check that the functionality of the previous endpoints is correctly implemented. The tests should be together in the `tests.cpp` file.
+You can leverage Copilot to run the tests. There is a `/tests` command that you can directly run from Copilot Chat or by selecting the piece of code you want to create tests for and using the Copilot inline feature.
 
-- Ask Copilot to write additional tests for the new endpoints, include the changed file using `#file`
-- Tests can also be generated for selected code by providing the `/tests`-command in the chat.
+After adding the tests, the tests might be integration tests. Refactor your code to make it testable by unit tests. Push down the integration tests.
 
 
 ## Exercise 7: Create a Dockerfile
@@ -215,7 +214,6 @@ With the previous exercises you have gone through some common activities that de
 - Work with external APIs
 - Create documentation
 - Create tests
-- Create a Dockerfile
 
 ---
 Use **slash commands** to avoid writing complex prompts for common scenarios. To use a slash command, type `/` in the chat prompt box, followed by the command name.
@@ -236,7 +234,7 @@ Use **chat variables** to include specific context in your prompt. To use a chat
 **Chat participants** are like domain experts who have a specialty that they can help you with. You can specify a chat participant by typing `@` in the chat prompt box, followed by a chat participant name. To see all available chat participants, type @ in the chat prompt box.
 
 - `@azure`: Has context about Azure services and how to use, deploy and manage them. Use @azure when you want help with Azure.
-- `terminal`: Has context about the Visual Studio Code terminal shell and its contents. Use @terminal when you want help creating or debugging terminal commands.
+- `@terminal`: Has context about the Visual Studio Code terminal shell and its contents. Use @terminal when you want help creating or debugging terminal commands.
 - ...
 
 For a full list of command options, please visit the [documentation](https://docs.github.com/en/copilot/using-github-copilot/copilot-chat/github-copilot-chat-cheat-sheet?tool=vscode#slash-commands).
