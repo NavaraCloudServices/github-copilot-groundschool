@@ -1,5 +1,3 @@
-<div style="height:175px; background-color:#000b3b;" align="center"><img src="./Resources/navara/nav_logo_navy_diap_rgb.svg" /></div><br>
-
 # GitHub Copilot Ground School
 
 Supporting GitHub repository for the GitHub Copilot Ground School
