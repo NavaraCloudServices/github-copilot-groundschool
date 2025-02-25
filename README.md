@@ -1,6 +1,6 @@
 # GitHub Copilot Ground School
 
-Supporting GitHub repository for the GitHub Copilot Ground School
+Supporting GitHub repository for the Navara's GitHub Copilot Ground School
 
 - [Goal](#goal)
 - [Pre-requisites](#pre-requisites)
@@ -12,7 +12,7 @@ Supporting GitHub repository for the GitHub Copilot Ground School
 
 ## Forked from
 
-This repository is forked from the [Microsoft Copilot Hackathon](https://github.com/microsoft/CopilotHackathon)
+This repository is inspired from the [Microsoft Copilot Hackathon](https://github.com/microsoft/CopilotHackathon). We aim to build a comprehensive learning resource for developers interested in leveraging AI for coding.
 
 ## Goal
 
