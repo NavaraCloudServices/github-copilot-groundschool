@@ -6,28 +6,26 @@ Try different things and see what GitHub Copilot can do for you.
 
 ## Exercises
 
-### Exercise 1: Introduction
+## Exercise 1: Introduction
 
-- Go to the exercisefile folder
+- Go to the `exercisefiles/developer` folder
 - Open `server.py` and begin by writing a Python server, check the first suggestions based on the initial text
 - Open `test.py` file and analyze the current test
 - Use `pytest` to run the tests
 - Open a command prompt and run the test (`pytest test.py`)
 - See the result, it should display something like:
+  ```bash
+  pytest test.py
+  server is listening on port 3000
 
-```bash
-pytest test.py
-server is listening on port 3000
+    Node Server
 
-  Node Server
+      √ should return "key not passed" if key is not passed
 
-    √ should return "key not passed" if key is not passed
+    1 passing (34ms)
+  ```
 
-  1 passing (34ms)
-
-```
-
-### Exercise 2: Inline suggestions
+## Exercise 2: Inline suggestions
 
 The exercise consists of building a web server using Python that serves the request of various functionalities.
 
