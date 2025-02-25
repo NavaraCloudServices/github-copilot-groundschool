@@ -2,13 +2,15 @@
 
 # Goal
 
-The goal is to create a server using C++ with the help of GitHub Copilot. Follow the instructions below and try to use GitHub Copilot as much as possible. Try different things and see what GitHub Copilot can do for you.
+The goal is to create a server using C++ with the help of GitHub Copilot. 
+Follow the instructions below and try to use GitHub Copilot as much as possible.
+Try different things and see what GitHub Copilot can do for you, like generating a Dockerfile or a class, add comments, etc.
 
-The tests are using the *googletests* framework
+> Make sure GitHub Copilot is configured and enabled for the current language, just check the status bar on the bottom right corner of VS Code.
 
+## Exercises
 
-
-## Exercise 1: Introduction
+### Exercise 1: Introduction
 
 >The goal of this exercise is to get acquainted with the project files, run the HTTP server and its tests. After this we will start exploring GitHub Copilot features. 
 
@@ -33,7 +35,7 @@ The tests are using the *googletests* framework
   ```
 
 
-## Exercise 2: Inline suggestions
+### Exercise 2: Inline suggestions
 
 >The goal of this exercise is using GitHub Copilot Inline suggestions feature to extend the HTTP server endpoints. 
 
@@ -61,7 +63,7 @@ You will be implementing the following additional features:
 
 ---
 
-### Implement the following:
+#### Implement the following:
 
 - **/DaysBetweenDates**:
 
@@ -90,7 +92,7 @@ You will be implementing the following additional features:
   > **_NOTE:_** Use above information inside a comment in the `main.cpp` file. In this case, you may want to see multiple solutions from Copilot to pick the one that best fits the way to calculate the letter. In order to see the firs 10 suggestions from Copilot press `ctrl + enter`.
 
 
-## Exercise 3: GitHub Copilot Chat and prompting
+### Exercise 3: GitHub Copilot Chat and prompting
 
 >The goal of this exercise is to get familiar with the GitHub Copilot Chat feature and extend the server with additional features.
 
@@ -105,7 +107,7 @@ You will be implementing the following additional features:
 
 ---
 
-### Implement the following:
+#### Implement the following:
 
 - **/ReturnColorCode**:
 
@@ -146,7 +148,7 @@ You will be implementing the following additional features:
   > **_NOTE:_** Copilot can also help with these kind of commands locally. The feature is called Copilot in the CLI. You can learn more information about this feature [here](https://docs.github.com/en/copilot/github-copilot-in-the-cli/about-github-copilot-in-the-cli).
 
 
-## Exercise 4: Refactoring and optimizing
+### Exercise 4: Refactoring and optimizing
 
 > In this exercise we will use Copilot to refactor existing code
 
@@ -157,6 +159,8 @@ You will be implementing the following additional features:
 - [ ] RandomEuropeanCountry
 
 ---
+
+#### Implement the following:
 
 - **/GetFullTextFile**:
 
@@ -187,21 +191,21 @@ You will be implementing the following additional features:
   > **_NOTE:_** Copilot can help you to generate data sets.
 
 
-## Exercise 5: Document the code
+### Exercise 5: Document the code
 
 Documenting code is always a boring and painful task. However, we can use Copilot to document it for us. 
 
 - In the chat, ask Copilot to document the `main.cpp` file by including it using `#main.cpp`.
 
 
-## Exercise 6: Building tests
+### Exercise 6: Building tests
 
 You can leverage Copilot to run the tests. There is a `/tests` command that you can directly run from Copilot Chat or by selecting the piece of code you want to create tests for and using the Copilot inline feature.
 
 After adding the tests, the tests might be integration tests. Refactor your code to make it testable by unit tests. Push down the integration tests.
 
 
-## Exercise 7: Create a Dockerfile
+### Exercise 7: Create a Dockerfile
 
 Now that we have the new functionality added and tests covering it, lets create a Dockerfile for the C++ application.
 

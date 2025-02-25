@@ -22,14 +22,11 @@ dotnet test
 ```
 
 To run the app, open a terminal in the `dotnet` folder and run:
-
-**Windows environments**
-
 ```bash
 dotnet run --project .\MinimalAPI\MinimalAPI.csproj
 ```
 
-## Exercise 1: Introduction
+### Exercise 1: Introduction
 
 >The goal of this exercise is to get acquainted with the project files, run the server and its tests. After this we will start exploring GitHub Copilot features. 
 
@@ -47,7 +44,7 @@ dotnet run --project .\MinimalAPI\MinimalAPI.csproj
   ```
 
 
-## Exercise 2: Inline suggestions
+### Exercise 2: Inline suggestions
 
 >The goal of this exercise is using GitHub Copilot Inline suggestions feature to extend the HTTP server endpoints. 
 
@@ -75,7 +72,7 @@ You will be implementing the following additional features:
 
 ---
 
-### Implement the following:
+#### Implement the following:
 
 Inside `MinimalAPI\Program.cs` add the following endpoints using the help of Copilot:
 
@@ -84,7 +81,7 @@ Inside `MinimalAPI\Program.cs` add the following endpoints using the help of Cop
   - Calculate days between two dates
   - receive by query string two parameters `date1` and `date2`, and calculate the days between those two dates.
 
-> **_NOTE:_** Use above information inside the Copilot inline feature in the `Program.cs` file. Press enter and wait for Copilot to suggest you the code.
+  > **_NOTE:_** Use above information inside the Copilot inline feature in the `Program.cs` file. Press enter and wait for Copilot to suggest you the code.
 
 - **/ValidatePhoneNumber**:
 
@@ -93,7 +90,7 @@ Inside `MinimalAPI\Program.cs` add the following endpoints using the help of Cop
   - if phoneNumber is valid return `"valid"`
   - if phoneNumber is not valid return `"invalid"`
 
-> **_NOTE:_** Use above information inside a comment in the `Program.cs` file. Press enter and wait for Copilot to suggest you the code.
+  > **_NOTE:_** Use above information inside a comment in the `Program.cs` file. Press enter and wait for Copilot to suggest you the code.
 
 - **/ValidateSpanishDNI**:
 
@@ -103,10 +100,10 @@ Inside `MinimalAPI\Program.cs` add the following endpoints using the help of Cop
   - if DNI is not valid return `"invalid"`
   - 98765432M is a valid DNI, 42424242H is an invalid DNI
 
-> **_NOTE:_** Use above information inside a comment in the `Program.cs` file. In this case, you may want to see multiple solutions from Copilot to pick the one that best fits the way to calculate the letter. In order to see the firs 10 suggestions from Copilot press `ctrl + enter`.
+  > **_NOTE:_** Use above information inside a comment in the `Program.cs` file. In this case, you may want to see multiple solutions from Copilot to pick the one that best fits the way to calculate the letter. In order to see the firs 10 suggestions from Copilot press `ctrl + enter`.
 
 
-## Exercise 3: GitHub Copilot Chat and prompting
+### Exercise 3: GitHub Copilot Chat and prompting
 
 >The goal of this exercise is to get familiar with the GitHub Copilot Chat feature and extend the server with additional features.
 
@@ -121,7 +118,7 @@ You will be implementing the following additional features:
 
 ---
 
-### Implement the following:
+#### Implement the following:
 
 - **/ReturnColorCode**:
 
@@ -166,7 +163,7 @@ You will be implementing the following additional features:
   > **_NOTE:_** Copilot can also help with these kind of commands locally. The feature is called Copilot in the CLI. You can learn more information about this feature [here](https://docs.github.com/en/copilot/github-copilot-in-the-cli/about-github-copilot-in-the-cli).
 
 
-## Exercise 4: Refactoring and optimizing
+### Exercise 4: Refactoring and optimizing
 
 > In this exercise we will use Copilot to refactor existing code
 
@@ -177,6 +174,8 @@ You will be implementing the following additional features:
 - [ ] RandomEuropeanCountry
 
 ---
+
+#### Implement the following:
 
 - **/GetFullTextFile**:
 
@@ -207,7 +206,7 @@ You will be implementing the following additional features:
   > **_NOTE:_** Copilot can help you to generate data sets.
 
 
-## Exercise 5: Document the code
+### Exercise 5: Document the code
 
 Documenting code is always a boring and painful task. However, we can use Copilot to document it for us. 
 
