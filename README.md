@@ -1,3 +1,6 @@
+![alt text](Resources/navara/banner.png)
+
+
 # GitHub Copilot Ground School
 
 Supporting GitHub repository for the GitHub Copilot Ground School

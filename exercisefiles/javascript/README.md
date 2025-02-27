@@ -15,7 +15,7 @@ Try different things and see what GitHub Copilot can do for you.
 - See the result, it should display something like:
 
 ```bash
-mocha test.js
+npm run test
 server is listening on port 3000
 
   Node Server
