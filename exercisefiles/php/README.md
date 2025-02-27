@@ -9,7 +9,6 @@ Try different things and see what GitHub Copilot can do for you.
 ### Exercise 1: Introduction
 
 - Go to the exercisefile folder
-- Do a `composer install`
 - Open `PHPServer.php` and begin by writing a PHP server, check the first suggestions based on the initial text
 - Open `TestServer.php` file and analyze the current test
 - Run the server with `php -S localhost:3000 PHPServer.php`
