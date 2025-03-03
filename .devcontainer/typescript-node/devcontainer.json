@@ -1,0 +1,48 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/typescript-node
+{
+	"name": "TypeScript",
+	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+	"image": "mcr.microsoft.com/devcontainers/typescript-node",
+
+	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}/exercisefiles/typescript/",
+
+	// Features to add to the dev container. More info: https://containers.dev/features.
+	// "features": {},
+
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	// "forwardPorts": [],
+
+	// Use 'postCreateCommand' to run commands after the container is created.
+	"postCreateCommand": "npm install",
+
+	// Configure tool-specific properties.
+    "customizations": {
+		"vscode": {
+			"openFiles": [
+      			"README.md"
+			],
+			"extensions": [
+				// GitHub
+				"GitHub.copilot",
+				"GitHub.copilot-chat",
+				"GitHub.vscode-github-actions",
+
+				// Dev Containers
+				"ms-vscode-remote.remote-containers",
+
+				// Specific language support
+                "ms-vscode.vscode-typescript-next",
+                
+				// General language support
+				"redhat.vscode-yaml",
+				"zainchen.json",
+				"streetsidesoftware.code-spell-checker",
+                "mechatroner.rainbow-csv"
+			]
+		}
+	}
+
+	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
+	// "remoteUser": "root"
+}

@@ -1,12 +1,13 @@
+![alt text](Resources/navara/banner.png)
+
+
 # GitHub Copilot Ground School
 
 Supporting GitHub repository for the Navara's GitHub Copilot Ground School
 
 - [Goal](#goal)
 - [Pre-requisites](#pre-requisites)
-- [Install Development Tools](#install-development-tools)
-- [Exercises](#exercises)
-- [Other Exercises](#other-exercises)
+- [Exercises](#available-exercises)
 - [Challenges instructions](#challenges-instructions)
 - [Quick Links](#quick-links)
 
@@ -32,95 +33,26 @@ Remember:
 
 ## Pre-requisites
 
+You can make these exercises either using [GitHub Codespaces](https://github.com/features/codespaces), or locally using [dev containers](https://containers.dev) in VS Code. These containerized instances install the required dependencies en setup the environment needed to perform the exercises, no additional configuration needed!
+
 ### GitHub Copilot access
 
 If you still do not have an active Copilot license, a 30 day trial can be requested [here](https://github.com/github-copilot/signup).
 
-### IDE Extensions
+## Available Exercises
 
-Please update your IDE to the latest version. This is important to have the best experience with GitHub Copilot.
-
-Install the Copilot Extension for your IDE:
-
-- [Azure Data Studio](https://docs.github.com/en/copilot/using-github-copilot/getting-code-suggestions-in-your-ide-with-github-copilot?tool=azure_data_studio)
-- [Eclipse Copilot Extension](https://docs.github.com/en/copilot/using-github-copilot/getting-code-suggestions-in-your-ide-with-github-copilot?tool=eclipse)
-- [JetBrains Copilot Extension](https://docs.github.com/en/copilot/using-github-copilot/getting-code-suggestions-in-your-ide-with-github-copilot?tool=jetbrains)
-- [Vim/Nevim Copilot Extension](https://docs.github.com/en/copilot/using-github-copilot/getting-code-suggestions-in-your-ide-with-github-copilot?tool=vimneovim)
-- [Visual Studio Code](https://docs.github.com/en/copilot/using-github-copilot/getting-code-suggestions-in-your-ide-with-github-copilot?tool=vscode)
-- [Visual Studio](https://docs.github.com/en/copilot/using-github-copilot/getting-code-suggestions-in-your-ide-with-github-copilot?tool=visualstudio)
-- [Xcode Copilot Extension](https://docs.github.com/en/copilot/using-github-copilot/getting-code-suggestions-in-your-ide-with-github-copilot?tool=xcode)
-
-Please note, the extensions are already installed in Visual Studio 2022 if you have a recent version.
-
-### Install Copilot CLI
-
-Follow the instructions for your operating system:
-
-- [Install GitHub CLI](https://github.com/cli/cli#installation)
-- [Install GitHub Copilot CLI Extension](https://docs.github.com/en/copilot/managing-copilot/configure-personal-settings/installing-github-copilot-in-the-cli)
-- [Configuring GitHub Copilot in the CLI](https://docs.github.com/en/copilot/managing-copilot/configure-personal-settings/configuring-github-copilot-in-the-cli)
-    (Please note: For Windows, this only works for PowerShell Core.)
-
-## Install Development Tools
-
-### VisualStudio Code
-
-- [Download and install](https://code.visualstudio.com/)
-
-### Node.js and Typescript
-
-- [Install Node and npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
-- Install Mocha:
-
-Run:
-
-``` bash
- npm install --global mocha
- npm install axios
-```
-
-### .NET
-
-[Install .NET](https://dotnet.microsoft.com/download)
-
-### Go
-
-[Install Go](https://go.dev/doc/install)
-
-### Java and Maven
-
-- [Install Java (OpenJDK)](https://learn.microsoft.com/en-us/java/openjdk/install)
-- [Install Maven](https://maven.apache.org/install.html)
-
-### Python
-
-- [Install Python](https://www.python.org/downloads/)
-
-### C++
-
-- [Install CMake](https://cmake.org/download/)
-
-### PHP
-
-- [Install PHP](https://www.php.net/manual/en/install.php)
-- [Install Composer](https://getcomposer.org/download/)
-
-## Exercises
-
-- [C++](./exercisefiles/c++/README.md)
-- [C#](./exercisefiles/csharp/README.md)
-- [Java Spring Boot](./exercisefiles/java_springboot/README.md)
-- [Java Quarkus](./exercisefiles/java_quarkus/README.md)
-- [Javascript](./exercisefiles/javascript/README.md)
-- [PHP](./exercisefiles/php/README.md)
-- [Python](./exercisefiles/python/README.md)
-- [Typescript](./exercisefiles/typescript/README.md)
-
-## Other Exercises
-
-- [C++ Okto Converter](./exercisefiles/c++_octoconverter/README.md)
-- [Python Data Engineer](./exercisefiles/python_dataengineer/README.md)
-- [Python Data Scientist](./exercisefiles/python_datascientist/README.md)
+| Language | Role | Exercises | GitHub Codespaces |
+|---|---|---|---|
+| C++ | Developer | [Link](https://github.com/NavaraCloudServices/github-copilot-groundschool/tree/main/cpp) | [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/NavaraCloudServices/github-copilot-groundschool/tree/main?devcontainer_path=.devcontainer%2Fcpp%2Fdevcontainer.json) |
+| C# | Developer | [Link](https://github.com/NavaraCloudServices/github-copilot-groundschool/tree/main/dotnet) | [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/NavaraCloudServices/github-copilot-groundschool/tree/main?devcontainer_path=.devcontainer%2Fdotnet%2Fdevcontainer.json) |
+| Java Quarkus | Developer | [Link](https://github.com/NavaraCloudServices/github-copilot-groundschool/tree/main/java/quarkus) | [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/NavaraCloudServices/github-copilot-groundschool/tree/main?devcontainer_path=.devcontainer%2Fjava_quarkus%2Fdevcontainer.json) |
+| Java Springboot | Developer | [Link](https://github.com/NavaraCloudServices/github-copilot-groundschool/tree/main/java/springboot) | [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/NavaraCloudServices/github-copilot-groundschool/tree/main?devcontainer_path=.devcontainer%2Fjava_springboot%2Fdevcontainer.json) |
+| PHP | Developer | [Link](https://github.com/NavaraCloudServices/github-copilot-groundschool/tree/main/php) | [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/NavaraCloudServices/github-copilot-groundschool/tree/main?devcontainer_path=.devcontainer%2Fphp%2Fdevcontainer.json) |
+| Python | Developer | [Link](https://github.com/NavaraCloudServices/github-copilot-groundschool/tree/main/python/developer) | [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/NavaraCloudServices/github-copilot-groundschool/tree/main?devcontainer_path=.devcontainer%2Fpython%2Fdevcontainer.json) |
+| Python | Data Engineer | [Link](https://github.com/NavaraCloudServices/github-copilot-groundschool/tree/main/python/data_engineer) | [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/NavaraCloudServices/github-copilot-groundschool/tree/main?devcontainer_path=.devcontainer%2Fpython%2Fdevcontainer.json) |
+| Python | Data Scientist | [Link](https://github.com/NavaraCloudServices/github-copilot-groundschool/tree/main/python/data_scientist) | [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/NavaraCloudServices/github-copilot-groundschool/tree/main?devcontainer_path=.devcontainer%2Fpython%2Fdevcontainer.json) |
+| Javascript | Developer | [Link](https://github.com/NavaraCloudServices/github-copilot-groundschool/tree/main/javascript) | [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/NavaraCloudServices/github-copilot-groundschool/tree/main?devcontainer_path=.devcontainer%2Fjavascript-node%2Fdevcontainer.json) |
+| Typescript | Developer | [Link](https://github.com/NavaraCloudServices/github-copilot-groundschool/tree/main/typescript) | [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/NavaraCloudServices/github-copilot-groundschool/tree/main?devcontainer_path=.devcontainer%2Ftypescript-node%2Fdevcontainer.json) |
 
 ## Challenges instructions
 

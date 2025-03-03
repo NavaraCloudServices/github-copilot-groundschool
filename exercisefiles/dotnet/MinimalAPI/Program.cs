@@ -18,6 +18,7 @@ app.UseHttpsRedirection();
 
 // ADD NEW ENDPOINTS HERE
 
+
 app.Run();
 
 // Needed to be able to access this type from the MinimalAPI.Tests project.

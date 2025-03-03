@@ -1,8 +1,8 @@
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/NavaraCloudServices/github-copilot-groundschool/tree/main?devcontainer_path=.devcontainer%2Fphp%2Fdevcontainer.json)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/NavaraCloudServices/github-copilot-groundschool/tree/main?devcontainer_path=.devcontainer%2Fdotnet%2Fdevcontainer.json)
 
 # Goal
 
-The goal is to create a server using PHP with the help of GitHub Copilot. 
+The goal is to create a Minimal WebAPI using .NET 8.0 with the help of GitHub Copilot.
 Follow the instructions below and try to use GitHub Copilot as much as possible.
 Try different things and see what GitHub Copilot can do for you, like generating a Dockerfile or a class, add comments, etc.
 
@@ -10,19 +10,37 @@ Try different things and see what GitHub Copilot can do for you, like generating
 
 ## Exercises
 
+The `dotnet` folder contains the `MinimalAPI.sln` solution, with 2 projects:
+
+- `MinimalAPI` is a minimal WebAPI project created using `dotnet new webapi -minimal`
+- `MinimalAPI.Tests` is a minimal xUnit project created using `dotnet new xunit`
+
+To run the tests, open a terminal in the `dotnet` folder and run:
+
+```bash
+dotnet test
+```
+
+To run the app, open a terminal in the `dotnet` folder and run:
+```bash
+dotnet run --project .\MinimalAPI\MinimalAPI.csproj
+```
+
 ### Exercise 1: Introduction
 
->The goal of this exercise is to get acquainted with the project files, run the HTTP server and its tests. After this we will start exploring GitHub Copilot features. 
+>The goal of this exercise is to get acquainted with the project files, run the server and its tests. After this we will start exploring GitHub Copilot features. 
 
-- Open `PHPServer.php` and begin by writing a PHP server, check the first suggestions based on the initial text
-- Open `TestServer.php` file and analyze the current test
-- Run the server with `php -S localhost:3000 PHPServer.php`
-- Run the tests with `./vendor/bin/phpunit tests/TestServer.php`
-- See the result, it should display something like:
+- Inside `MinimalAPI\Program.cs` add a new Hello World endpoint at `/` that returns a `Hello World!` string. You can test the Copilot inline feature by pressing `ctrl + i`. Then write in the text box the desired behaviour.
+- Run `dotnet test`
+- If test pass you should see something like this:
   ```bash
-  Time: 00:00.008, Memory: 4.00 MB
+  Microsoft (R) Test Execution Command Line Tool Version 17.6.0 (x64)
+  Copyright (c) Microsoft Corporation.  All rights reserved.
 
-  OK (2 tests, 2 assertions)
+  Starting test execution, please wait...
+  A total of 1 test files matched the specified pattern.
+
+  Passed!  - Failed:     0, Passed:     1, Skipped:     0, Total:     1, Duration: < 1 ms - MinimalAPI.Tests.dll
   ```
 
 
@@ -56,12 +74,14 @@ You will be implementing the following additional features:
 
 #### Implement the following:
 
+Inside `MinimalAPI\Program.cs` add the following endpoints using the help of Copilot:
+
 - **/DaysBetweenDates**:
 
   - Calculate days between two dates
   - receive by query string two parameters `date1` and `date2`, and calculate the days between those two dates.
 
-  > **_NOTE:_** Use above information inside the Copilot inline feature in the `PHPServer.php` file. Press enter and wait for Copilot to suggest you the code.
+  > **_NOTE:_** Use above information inside the Copilot inline feature in the `Program.cs` file. Press enter and wait for Copilot to suggest you the code.
 
 - **/ValidatePhoneNumber**:
 
@@ -70,7 +90,7 @@ You will be implementing the following additional features:
   - if phoneNumber is valid return `"valid"`
   - if phoneNumber is not valid return `"invalid"`
 
-  > **_NOTE:_** Use above information inside the Copilot inline feature in the `PHPServer.php` file. Press enter and wait for Copilot to suggest you the code.
+  > **_NOTE:_** Use above information inside a comment in the `Program.cs` file. Press enter and wait for Copilot to suggest you the code.
 
 - **/ValidateSpanishDNI**:
 
@@ -80,7 +100,7 @@ You will be implementing the following additional features:
   - if DNI is not valid return `"invalid"`
   - 98765432M is a valid DNI, 42424242H is an invalid DNI
 
-  > **_NOTE:_** Use above information inside a comment in the `PHPServer.php` file. In this case, you may want to see multiple solutions from Copilot to pick the one that best fits the way to calculate the letter. In order to see the firs 10 suggestions from Copilot press `ctrl + enter`.
+  > **_NOTE:_** Use above information inside a comment in the `Program.cs` file. In this case, you may want to see multiple solutions from Copilot to pick the one that best fits the way to calculate the letter. In order to see the firs 10 suggestions from Copilot press `ctrl + enter`.
 
 
 ### Exercise 3: GitHub Copilot Chat and prompting
@@ -114,7 +134,11 @@ You will be implementing the following additional features:
 
   - Make a call to the joke api and return a random joke using axios (https://official-joke-api.appspot.com/random_joke)
 
-  > **_NOTE:_** The format of the api is as follows: `{ "type":string, "setup":string, "punchline":string, "id":int }`
+  > **_NOTE:_** Here's example where you might need to use you own knowledge and judgement
+  > to validate that Copilot follows best practices. Just because Copilot mimic
+  > what many developers do, doesn't always mean it's the correct way. You might need
+  > to be extra specific in your prompt to let Copilot know what's best practices.
+  > _Hint: Pay attention to HttpClient._
 
 - **/MoviesByDirector**:
 
@@ -186,24 +210,25 @@ You will be implementing the following additional features:
 
 Documenting code is always a boring and painful task. However, we can use Copilot to document it for us. 
 
-- In the chat, ask Copilot to document the `PHPServer.php` file by including it using `#PHPServer.php`
-
+- In the chat, ask Copilot to document the `main.cpp` file by including it using `#main.cpp`.
 
 ### Exercise 6: Building tests
 
-We will create automated tests to check that the functionality of the previous endpoints is correctly implemented. The tests should be together in the `TestServer.php` file.
+We will create automated tests to check that the functionality of the previous endpoints is correctly implemented. The tests should be together in the `MinimalAPI.Tests\IntegrationTests.cs` file.
 
 You can leverage Copilot to run the tests. There is a `/tests` command that you can directly run from Copilot Chat or by selecting the piece of code you want to create tests for and using the Copilot inline feature.
 
 After adding the tests, the tests might be integration tests. Refactor your code to make it testable by unit tests. Push down the integration tests.
 
-
 ### Exercise 7: Create a Dockerfile
 
-Now that we have the new functionality added and tests covering it, lets create a Dockerfile for the PHP Application.
+Now that we have the new functionality added and tests covering it, lets create a Dockerfile for the Minimal API project.
 
-- Build the image using Copilot and expose the port `3000`.
-
+- Build the image using Copilot and run the app on port 8080
+  ```powershell
+  docker build -t dotnetapp .
+  docker run -d -p 8080:80 --name dotnetapp dotnetapp
+  ```
 
 ## Summary
 

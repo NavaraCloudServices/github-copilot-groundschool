@@ -4,10 +4,13 @@
   "main": "nodeserver.js",
   "scripts": {
     "start": "node nodeserver.js",
-    "test": "mocha test.js"
+    "test": "npx mocha test.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "mocha": "^11.1.0"
+  }
 }

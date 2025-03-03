@@ -1,8 +1,8 @@
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/NavaraCloudServices/github-copilot-groundschool/tree/main?devcontainer_path=.devcontainer%2Fphp%2Fdevcontainer.json)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/NavaraCloudServices/github-copilot-groundschool/tree/main?devcontainer_path=.devcontainer%2Fcpp%2Fdevcontainer.json)
 
 # Goal
 
-The goal is to create a server using PHP with the help of GitHub Copilot. 
+The goal is to create a server using C++ with the help of GitHub Copilot. 
 Follow the instructions below and try to use GitHub Copilot as much as possible.
 Try different things and see what GitHub Copilot can do for you, like generating a Dockerfile or a class, add comments, etc.
 
@@ -14,15 +14,22 @@ Try different things and see what GitHub Copilot can do for you, like generating
 
 >The goal of this exercise is to get acquainted with the project files, run the HTTP server and its tests. After this we will start exploring GitHub Copilot features. 
 
-- Open `PHPServer.php` and begin by writing a PHP server, check the first suggestions based on the initial text
-- Open `TestServer.php` file and analyze the current test
-- Run the server with `php -S localhost:3000 PHPServer.php`
-- Run the tests with `./vendor/bin/phpunit tests/TestServer.php`
+- Go to the `\src` directory
+- Open `main.cpp` and begin by writing a HTTP server, check the first suggestions based on the initial text
+- Open `tests.cpp` file and analyze the current test
+- To compile:
+  - run `cmake .` in the root of the `c++` directory
+  - run `make`  in the root of the `c++` directory
+- To run:
+  - Go to the `\src` directory and run `httpserver`
+- To test:
+  - Go to the `\tests` directory and run `tests`
 - See the result, it should display something like:
-  ```bash
-  Time: 00:00.008, Memory: 4.00 MB
-
-  OK (2 tests, 2 assertions)
+  ```
+  [==========] Running 1 test from 1 test suite.
+  [----------] Global test environment set-up.
+  [----------] 1 test from ServerTest
+  [ RUN      ] ServerTest.KeyNotPassedTest
   ```
 
 
@@ -61,7 +68,7 @@ You will be implementing the following additional features:
   - Calculate days between two dates
   - receive by query string two parameters `date1` and `date2`, and calculate the days between those two dates.
 
-  > **_NOTE:_** Use above information inside the Copilot inline feature in the `PHPServer.php` file. Press enter and wait for Copilot to suggest you the code.
+  > **_NOTE:_** Use above information inside the Copilot inline feature in the `main.cpp` file. Press enter and wait for Copilot to suggest you the code.
 
 - **/ValidatePhoneNumber**:
 
@@ -70,7 +77,7 @@ You will be implementing the following additional features:
   - if phoneNumber is valid return `"valid"`
   - if phoneNumber is not valid return `"invalid"`
 
-  > **_NOTE:_** Use above information inside the Copilot inline feature in the `PHPServer.php` file. Press enter and wait for Copilot to suggest you the code.
+  > **_NOTE:_** Use above information inside the Copilot inline feature in the `main.cpp` file. Press enter and wait for Copilot to suggest you the code.
 
 - **/ValidateSpanishDNI**:
 
@@ -80,7 +87,7 @@ You will be implementing the following additional features:
   - if DNI is not valid return `"invalid"`
   - 98765432M is a valid DNI, 42424242H is an invalid DNI
 
-  > **_NOTE:_** Use above information inside a comment in the `PHPServer.php` file. In this case, you may want to see multiple solutions from Copilot to pick the one that best fits the way to calculate the letter. In order to see the firs 10 suggestions from Copilot press `ctrl + enter`.
+  > **_NOTE:_** Use above information inside a comment in the `main.cpp` file. In this case, you may want to see multiple solutions from Copilot to pick the one that best fits the way to calculate the letter. In order to see the firs 10 suggestions from Copilot press `ctrl + enter`.
 
 
 ### Exercise 3: GitHub Copilot Chat and prompting
@@ -186,12 +193,10 @@ You will be implementing the following additional features:
 
 Documenting code is always a boring and painful task. However, we can use Copilot to document it for us. 
 
-- In the chat, ask Copilot to document the `PHPServer.php` file by including it using `#PHPServer.php`
+- In the chat, ask Copilot to document the `main.cpp` file by including it using `#main.cpp`.
 
 
 ### Exercise 6: Building tests
-
-We will create automated tests to check that the functionality of the previous endpoints is correctly implemented. The tests should be together in the `TestServer.php` file.
 
 You can leverage Copilot to run the tests. There is a `/tests` command that you can directly run from Copilot Chat or by selecting the piece of code you want to create tests for and using the Copilot inline feature.
 
@@ -200,7 +205,7 @@ After adding the tests, the tests might be integration tests. Refactor your code
 
 ### Exercise 7: Create a Dockerfile
 
-Now that we have the new functionality added and tests covering it, lets create a Dockerfile for the PHP Application.
+Now that we have the new functionality added and tests covering it, lets create a Dockerfile for the C++ application.
 
 - Build the image using Copilot and expose the port `3000`.
 

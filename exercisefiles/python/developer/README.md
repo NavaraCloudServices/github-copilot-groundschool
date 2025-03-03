@@ -2,7 +2,7 @@
 
 # Goal
 
-The goal is to create a server using PHP with the help of GitHub Copilot. 
+The goal is to create a Minimal WebAPI using Python 3 with the help of GitHub Copilot. 
 Follow the instructions below and try to use GitHub Copilot as much as possible.
 Try different things and see what GitHub Copilot can do for you, like generating a Dockerfile or a class, add comments, etc.
 
@@ -10,25 +10,32 @@ Try different things and see what GitHub Copilot can do for you, like generating
 
 ## Exercises
 
+
 ### Exercise 1: Introduction
 
 >The goal of this exercise is to get acquainted with the project files, run the HTTP server and its tests. After this we will start exploring GitHub Copilot features. 
 
-- Open `PHPServer.php` and begin by writing a PHP server, check the first suggestions based on the initial text
-- Open `TestServer.php` file and analyze the current test
-- Run the server with `php -S localhost:3000 PHPServer.php`
-- Run the tests with `./vendor/bin/phpunit tests/TestServer.php`
+- Go to the `exercisefiles/developer` folder
+- Open `server.py` and begin by writing a Python server, check the first suggestions based on the initial text
+- Open `test.py` file and analyze the current test
+- Use `pytest` to run the tests
+- Open a command prompt and run the test (`pytest test.py`)
 - See the result, it should display something like:
   ```bash
-  Time: 00:00.008, Memory: 4.00 MB
+  pytest test.py
+  server is listening on port 3000
 
-  OK (2 tests, 2 assertions)
+    Node Server
+
+      √ should return "key not passed" if key is not passed
+
+    1 passing (34ms)
   ```
 
 
 ### Exercise 2: Inline suggestions
 
->The goal of this exercise is using GitHub Copilot Inline suggestions feature to extend the HTTP server endpoints. 
+>The goal of this exercise is using GitHub Copilot Inline suggestions feature to web server using Python that serves the request of various functionalities.
 
 GitHub Copilot offers coding suggestions as you type. For example, type this function header in a JavaScript file:
 ```javascript
@@ -48,6 +55,7 @@ GitHub Copilot will automatically suggest code. To accept the suggestion, press 
 Click [here](https://docs.github.com/en/copilot/using-github-copilot/getting-code-suggestions-in-your-ide-with-github-copilot#getting-code-suggestions-2) for more information on Copilot code suggestions
 
 You will be implementing the following additional features:
+- [ ] Get
 - [ ] DaysBetweenDates
 - [ ] ValidatePhoneNumber
 - [ ] ValidateSpanishDNI
@@ -56,12 +64,16 @@ You will be implementing the following additional features:
 
 #### Implement the following:
 
+- **/Get**:
+
+  - Return a hello world message
+
 - **/DaysBetweenDates**:
 
   - Calculate days between two dates
   - receive by query string two parameters `date1` and `date2`, and calculate the days between those two dates.
 
-  > **_NOTE:_** Use above information inside the Copilot inline feature in the `PHPServer.php` file. Press enter and wait for Copilot to suggest you the code.
+  > **_NOTE:_** Use above information inside the Copilot inline feature in the `server.py` file. Press enter and wait for Copilot to suggest you the code.
 
 - **/ValidatePhoneNumber**:
 
@@ -70,7 +82,7 @@ You will be implementing the following additional features:
   - if phoneNumber is valid return `"valid"`
   - if phoneNumber is not valid return `"invalid"`
 
-  > **_NOTE:_** Use above information inside the Copilot inline feature in the `PHPServer.php` file. Press enter and wait for Copilot to suggest you the code.
+  > **_NOTE:_** Use above information inside the Copilot inline feature in the `server.py` file. Press enter and wait for Copilot to suggest you the code.
 
 - **/ValidateSpanishDNI**:
 
@@ -80,7 +92,7 @@ You will be implementing the following additional features:
   - if DNI is not valid return `"invalid"`
   - 98765432M is a valid DNI, 42424242H is an invalid DNI
 
-  > **_NOTE:_** Use above information inside a comment in the `PHPServer.php` file. In this case, you may want to see multiple solutions from Copilot to pick the one that best fits the way to calculate the letter. In order to see the firs 10 suggestions from Copilot press `ctrl + enter`.
+  > NOTE: Use above information inside a comment in the `server.py` file. In this case, you may want to see multiple solutions from Copilot to pick the one that best fits the way to calculate the letter. In order to see the first 10 suggestions from Copilot press `ctrl + enter`.
 
 
 ### Exercise 3: GitHub Copilot Chat and prompting
@@ -112,9 +124,12 @@ You will be implementing the following additional features:
 
 - **/TellMeAJoke**:
 
+- **/TellMeAJoke**:
+
   - Make a call to the joke api and return a random joke using axios (https://official-joke-api.appspot.com/random_joke)
 
-  > **_NOTE:_** The format of the api is as follows: `{ "type":string, "setup":string, "punchline":string, "id":int }`
+  > **_NOTE:_** Here's example where you might need to use you own knowledge and judgement
+  > to validate that Copilot follows best practices. 
 
 - **/MoviesByDirector**:
 
@@ -136,7 +151,7 @@ You will be implementing the following additional features:
   - Get the list of files in the current directory
   - Return the list of files
 
-  > **_NOTE:_** Copilot can also help with these kind of commands locally. The feature is called Copilot in the CLI. You can learn more information about this feature [here](https://docs.github.com/en/copilot/github-copilot-in-the-cli/about-github-copilot-in-the-cli).
+    > **_NOTE:_** Copilot can also help with these kind of commands locally. The feature is called Copilot in the CLI. You can learn more information about this feature [here](https://docs.github.com/en/copilot/github-copilot-in-the-cli/about-github-copilot-in-the-cli).
 
 
 ### Exercise 4: Refactoring and optimizing
@@ -161,11 +176,11 @@ You will be implementing the following additional features:
   >
   > You can use Copilot Code completion or inline chat. Once done you can also use Copilot Inline Chat to refactor the code to put this logic in a function.
 
-- **/GetLineByLineFromTextFile**:
+- **/GetLineByLinefromTextFile**:
 
   - Read `sample.txt` line by line
-  - create a promise to read the file line by line, and return a list of lines that contains the word "Fusce"
-  - return the list of lines
+  - Create a promise to read the file line by line, and return a list of lines that contain the word "Fusce"
+  - Return the list of lines
 
   > **_NOTE:_** You can use Copilot Code completion or inline chat. Once done you can also use Copilot Inline Chat to refactor the code to put this logic in a function.
 
@@ -181,29 +196,25 @@ You will be implementing the following additional features:
 
   > **_NOTE:_** Copilot can help you to generate data sets.
 
-
 ### Exercise 5: Document the code
 
 Documenting code is always a boring and painful task. However, we can use Copilot to document it for us. 
 
-- In the chat, ask Copilot to document the `PHPServer.php` file by including it using `#PHPServer.php`
-
+- In the chat, ask Copilot to document the `server.py` file.
 
 ### Exercise 6: Building tests
 
-We will create automated tests to check that the functionality of the previous endpoints is correctly implemented. The tests should be together in the `TestServer.php` file.
+We will create automated tests to check that the functionality of the previous endpoints is correctly implemented. The tests should be together in the `test.py` file.
 
 You can leverage Copilot to run the tests. There is a `/tests` command that you can directly run from Copilot Chat or by selecting the piece of code you want to create tests for and using the Copilot inline feature.
 
 After adding the tests, the tests might be integration tests. Refactor your code to make it testable by unit tests. Push down the integration tests.
 
-
 ### Exercise 7: Create a Dockerfile
 
-Now that we have the new functionality added and tests covering it, lets create a Dockerfile for the PHP Application.
+Now that we have the new functionality added and tests covering it, lets create a Dockerfile for the Python Application.
 
-- Build the image using Copilot and expose the port `3000`.
-
+- Build the image using Copilot and expose the port 3000.
 
 ## Summary
 
