@@ -3,7 +3,7 @@
 
 # GitHub Copilot Ground School
 
-Supporting GitHub repository for the GitHub Copilot Ground School
+Supporting GitHub repository for the Navara's GitHub Copilot Ground School
 
 - [Goal](#goal)
 - [Pre-requisites](#pre-requisites)
