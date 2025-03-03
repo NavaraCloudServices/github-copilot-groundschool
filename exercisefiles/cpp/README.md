@@ -1,4 +1,4 @@
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/NavaraCloudServices/github-copilot-external/tree/codespaces?devcontainer_path=.devcontainer%2Fcpp%2Fdevcontainer.json)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/NavaraCloudServices/github-copilot-groundschool/tree/main?devcontainer_path=.devcontainer%2Fcpp%2Fdevcontainer.json)
 
 # Goal
 
@@ -13,8 +13,6 @@ Try different things and see what GitHub Copilot can do for you, like generating
 ### Exercise 1: Introduction
 
 >The goal of this exercise is to get acquainted with the project files, run the HTTP server and its tests. After this we will start exploring GitHub Copilot features. 
-
----
 
 - Go to the `\src` directory
 - Open `main.cpp` and begin by writing a HTTP server, check the first suggestions based on the initial text
