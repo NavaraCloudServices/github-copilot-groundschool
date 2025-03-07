@@ -52,26 +52,20 @@ Install the Copilot Extension for your IDE:
 
 Please note, the extensions are already installed in Visual Studio 2022 if you have a recent version.
 
-### Dev Containers
-
-You can run a [dev containers](https://containers.dev) in VS Code. These containerized instances install the required dependencies en setup the environment needed to perform the exercises, no additional configuration needed!
-
-### GitHub Codespaces (not available yet)
-
-You can make these exercises either using [GitHub Codespaces](https://github.com/features/codespaces).
-
 ## Available Exercises
+
+Please note: The GitHub Workspaces links are 'work in progress'
 
 | Language | Role | Exercises | GitHub Codespaces |
 |---|---|---|---|
-| C++ | Developer | [Link](https://github.com/NavaraCloudServices/github-copilot-groundschool/tree/main/exercisefiles/cpp) | [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/NavaraCloudServices/github-copilot-groundschool/tree/main?devcontainer_path=.devcontainer%2Fcpp%2Fdevcontainer.json) |
-| C# | Developer | [Link](https://github.com/NavaraCloudServices/github-copilot-groundschool/tree/main/exercisefiles/dotnet) | [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/NavaraCloudServices/github-copilot-groundschool/tree/main?devcontainer_path=.devcontainer%2Fdotnet%2Fdevcontainer.json) |
-| Java Quarkus | Developer | [Link](https://github.com/NavaraCloudServices/github-copilot-groundschool/tree/main/exercisefiles/java/quarkus) | [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/NavaraCloudServices/github-copilot-groundschool/tree/main?devcontainer_path=.devcontainer%2Fjava_quarkus%2Fdevcontainer.json) |
-| Java Springboot | Developer | [Link](https://github.com/NavaraCloudServices/github-copilot-groundschool/tree/main/exercisefiles/java/springboot) | [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/NavaraCloudServices/github-copilot-groundschool/tree/main?devcontainer_path=.devcontainer%2Fjava_springboot%2Fdevcontainer.json) |
-| PHP | Developer | [Link](https://github.com/NavaraCloudServices/github-copilot-groundschool/tree/main/exercisefiles/php) | [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/NavaraCloudServices/github-copilot-groundschool/tree/main?devcontainer_path=.devcontainer%2Fphp%2Fdevcontainer.json) |
-| Python | Developer | [Link](https://github.com/NavaraCloudServices/github-copilot-groundschool/tree/main/exercisefiles/python/developer) | [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/NavaraCloudServices/github-copilot-groundschool/tree/main?devcontainer_path=.devcontainer%2Fpython%2Fdevcontainer.json) |
-| Javascript | Developer | [Link](https://github.com/NavaraCloudServices/github-copilot-groundschool/tree/main/exercisefiles/javascript) | [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/NavaraCloudServices/github-copilot-groundschool/tree/main?devcontainer_path=.devcontainer%2Fjavascript-node%2Fdevcontainer.json) |
-| Typescript | Developer | [Link](https://github.com/NavaraCloudServices/github-copilot-groundschool/tree/main/exercisefiles/typescript) | [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/NavaraCloudServices/github-copilot-groundschool/tree/main?devcontainer_path=.devcontainer%2Ftypescript-node%2Fdevcontainer.json) |
+| C++ | Developer | [Link](./exercisefiles/cpp/README.md) | [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/NavaraCloudServices/github-copilot-groundschool/tree/main?devcontainer_path=.devcontainer%2Fcpp%2Fdevcontainer.json) |
+| C# | Developer | [Link](./exercisefiles/dotnet/README.md) | [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/NavaraCloudServices/github-copilot-groundschool/tree/main?devcontainer_path=.devcontainer%2Fdotnet%2Fdevcontainer.json) |
+| Java Quarkus | Developer | [Link](./exercisefiles/java/quarkus/README.md) | [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/NavaraCloudServices/github-copilot-groundschool/tree/main?devcontainer_path=.devcontainer%2Fjava_quarkus%2Fdevcontainer.json) |
+| Java Springboot | Developer | [Link](./exercisefiles/java/springboot/README.md) | [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/NavaraCloudServices/github-copilot-groundschool/tree/main?devcontainer_path=.devcontainer%2Fjava_springboot%2Fdevcontainer.json) |
+| PHP | Developer | [Link](./exercisefiles/php/README.md) | [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/NavaraCloudServices/github-copilot-groundschool/tree/main?devcontainer_path=.devcontainer%2Fphp%2Fdevcontainer.json) |
+| Python | Developer | [Link](./exercisefiles/python/README.md) | [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/NavaraCloudServices/github-copilot-groundschool/tree/main?devcontainer_path=.devcontainer%2Fpython%2Fdevcontainer.json) |
+| Javascript | Developer | [Link](./exercisefiles/javascript/README.md) | [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/NavaraCloudServices/github-copilot-groundschool/tree/main?devcontainer_path=.devcontainer%2Fjavascript-node%2Fdevcontainer.json) |
+| Typescript | Developer | [Link](./exercisefiles/typescript/README.md) | [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/NavaraCloudServices/github-copilot-groundschool/tree/main?devcontainer_path=.devcontainer%2Ftypescript-node%2Fdevcontainer.json) |
 
 ## Challenges instructions
 
