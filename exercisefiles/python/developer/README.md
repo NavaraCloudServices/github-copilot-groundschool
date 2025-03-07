@@ -35,21 +35,12 @@ Try different things and see what GitHub Copilot can do for you, like generating
 
 ### Exercise 2: Inline suggestions
 
->The goal of this exercise is using GitHub Copilot Inline suggestions feature to web server using Python that serves the request of various functionalities.
+>The goal of this exercise is using GitHub Copilot Inline suggestions feature to extend the HTTP server endpoints. 
 
-GitHub Copilot offers coding suggestions as you type. For example, type this function header in a JavaScript file:
-```javascript
-function calculateDaysBetweenDates(begin, end) {
-```
-GitHub Copilot will automatically suggest the rest of the function. To accept the suggestion, press `Tab`. 
+GitHub Copilot offers coding suggestions as you type. GitHub Copilot will automatically suggest the rest of the function. To accept the suggestion, press `Tab`. Within Jetbrains IDE's you can enable code completions with `Alt + \` (Windows) and `Option (⌥) + \` for Mac 
 
 You can also describe something you want to do using natural language within a comment, and Copilot will suggest the code to accomplish your goal. For example, type this comment in a JavaScript file:
 
-```JavaScript
-// write a function to
-// find all images without alternate text
-// and give them a red border
-```
 GitHub Copilot will automatically suggest code. To accept the suggestion, press `Tab`.
 
 Click [here](https://docs.github.com/en/copilot/using-github-copilot/getting-code-suggestions-in-your-ide-with-github-copilot#getting-code-suggestions-2) for more information on Copilot code suggestions

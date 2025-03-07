@@ -25,9 +25,24 @@ ok      exercise/httpserver     0.205s
 
 ### Exercise 2: Inline suggestions
 
-The exercise consist of building a web server using Go that serves the request of various functionality.
+>The goal of this exercise is using GitHub Copilot Inline suggestions feature to extend the HTTP server endpoints. 
 
-The requests that the server must attend are the following:
+GitHub Copilot offers coding suggestions as you type. GitHub Copilot will automatically suggest the rest of the function. To accept the suggestion, press `Tab`. Within Jetbrains IDE's you can enable code completions with `Alt + \` (Windows) and `Option (⌥) + \` for Mac 
+
+You can also describe something you want to do using natural language within a comment, and Copilot will suggest the code to accomplish your goal. For example, type this comment in a JavaScript file:
+
+GitHub Copilot will automatically suggest code. To accept the suggestion, press `Tab`.
+
+Click [here](https://docs.github.com/en/copilot/using-github-copilot/getting-code-suggestions-in-your-ide-with-github-copilot#getting-code-suggestions-2) for more information on Copilot code suggestions
+
+You will be implementing the following additional features:
+- [ ] DaysBetweenDates
+- [ ] ValidatePhoneNumber
+- [ ] ValidateSpanishDNI
+
+---
+
+#### Implement the following:
 
 - **/DaysBetweenDates**:
 
