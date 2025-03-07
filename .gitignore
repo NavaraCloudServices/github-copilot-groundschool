@@ -589,3 +589,7 @@ FodyWeavers.xsd
 build
 
 .DS_Store
+
+#Maven
+.mvn/
+.mvn/wrapper
