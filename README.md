@@ -33,11 +33,32 @@ Remember:
 
 ## Pre-requisites
 
-You can make these exercises either using [GitHub Codespaces](https://github.com/features/codespaces), or locally using [dev containers](https://containers.dev) in VS Code. These containerized instances install the required dependencies en setup the environment needed to perform the exercises, no additional configuration needed!
+You need an GitHub Copilot license. You can participate with a free license, however, we expect that you hit the rate limit of the free license during the challenges.
 
-### GitHub Copilot access
+There are three ways to execute the exercises.
 
-If you still do not have an active Copilot license, a 30 day trial can be requested [here](https://github.com/github-copilot/signup).
+### Run on you local machine
+
+Please update your IDE to the latest version. This is important to have the best experience with GitHub Copilot.
+
+Install the Copilot Extension for your IDE:
+
+- [Eclipse Copilot Extension](https://docs.github.com/en/copilot/using-github-copilot/getting-code-suggestions-in-your-ide-with-github-copilot?tool=eclipse)
+- [JetBrains Copilot Extension](https://docs.github.com/en/copilot/using-github-copilot/getting-code-suggestions-in-your-ide-with-github-copilot?tool=jetbrains)
+- [Vim/Nevim Copilot Extension](https://docs.github.com/en/copilot/using-github-copilot/getting-code-suggestions-in-your-ide-with-github-copilot?tool=vimneovim)
+- [Visual Studio](https://docs.github.com/en/copilot/using-github-copilot/getting-code-suggestions-in-your-ide-with-github-copilot?tool=visualstudio)
+- [Visual Studio Code](https://docs.github.com/en/copilot/using-github-copilot/getting-code-suggestions-in-your-ide-with-github-copilot?tool=vscode)
+- [Xcode Copilot Extension](https://docs.github.com/en/copilot/using-github-copilot/getting-code-suggestions-in-your-ide-with-github-copilot?tool=xcode)
+
+Please note, the extensions are already installed in Visual Studio 2022 if you have a recent version.
+
+### Dev Containers
+
+You can run a [dev containers](https://containers.dev) in VS Code. These containerized instances install the required dependencies en setup the environment needed to perform the exercises, no additional configuration needed!
+
+### GitHub Codespaces (not available yet)
+
+You can make these exercises either using [GitHub Codespaces](https://github.com/features/codespaces).
 
 ## Available Exercises
 
