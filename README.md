@@ -70,8 +70,6 @@ You can make these exercises either using [GitHub Codespaces](https://github.com
 | Java Springboot | Developer | [Link](https://github.com/NavaraCloudServices/github-copilot-groundschool/tree/main/exercisefiles/java/springboot) | [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/NavaraCloudServices/github-copilot-groundschool/tree/main?devcontainer_path=.devcontainer%2Fjava_springboot%2Fdevcontainer.json) |
 | PHP | Developer | [Link](https://github.com/NavaraCloudServices/github-copilot-groundschool/tree/main/exercisefiles/php) | [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/NavaraCloudServices/github-copilot-groundschool/tree/main?devcontainer_path=.devcontainer%2Fphp%2Fdevcontainer.json) |
 | Python | Developer | [Link](https://github.com/NavaraCloudServices/github-copilot-groundschool/tree/main/exercisefiles/python/developer) | [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/NavaraCloudServices/github-copilot-groundschool/tree/main?devcontainer_path=.devcontainer%2Fpython%2Fdevcontainer.json) |
-| Python | Data Engineer | [Link](https://github.com/NavaraCloudServices/github-copilot-groundschool/tree/main/exercisefiles/python/data_engineer) | [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/NavaraCloudServices/github-copilot-groundschool/tree/main?devcontainer_path=.devcontainer%2Fpython%2Fdevcontainer.json) |
-| Python | Data Scientist | [Link](https://github.com/NavaraCloudServices/github-copilot-groundschool/tree/main/exercisefiles/python/data_scientist) | [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/NavaraCloudServices/github-copilot-groundschool/tree/main?devcontainer_path=.devcontainer%2Fpython%2Fdevcontainer.json) |
 | Javascript | Developer | [Link](https://github.com/NavaraCloudServices/github-copilot-groundschool/tree/main/exercisefiles/javascript) | [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/NavaraCloudServices/github-copilot-groundschool/tree/main?devcontainer_path=.devcontainer%2Fjavascript-node%2Fdevcontainer.json) |
 | Typescript | Developer | [Link](https://github.com/NavaraCloudServices/github-copilot-groundschool/tree/main/exercisefiles/typescript) | [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/NavaraCloudServices/github-copilot-groundschool/tree/main?devcontainer_path=.devcontainer%2Ftypescript-node%2Fdevcontainer.json) |
 
@@ -82,6 +80,8 @@ You can make these exercises either using [GitHub Codespaces](https://github.com
 - [Develop a chat based on websockets](./challenges/chatwebsockets/chatwebsockets.md)
 - [Behavior Driven Development (BDD) challenge for Java](./challenges/bdd/README.md)
 - [Analysis cryptocurrency market analysis](./challenges/cryptoanalisis/crypto.md)
+- [COVID19 Worldwide Testing Data (Python Data Engineer)](./challenges/python_data_engineer/README.md)
+- [Decision Tree Classicication Based on Diabetest Dataset (Python Data Scientist)](./challenges/python_data_scientist/README.md)
 
 ## Quick Links
 
