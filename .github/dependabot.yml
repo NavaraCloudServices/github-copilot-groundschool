@@ -5,7 +5,7 @@ updates:
       - "/exercisefiles/javascript/"
       - "/exercisefiles/typescript/"
     schedule:
-      interval: "weekly"
+      interval: "monthly"
     groups:
       all:
         patterns:
@@ -14,7 +14,7 @@ updates:
     directories:
       - "/exercisefiles/python/"
     schedule:
-      interval: "weekly"
+      interval: "monthly"
     groups:
       all:
         patterns:
@@ -24,7 +24,7 @@ updates:
       - "/exercisefiles/java/quarkus/"
       - "/exercisefiles/java/springboot/"
     schedule:
-      interval: "weekly"
+      interval: "monthly"
     groups:
       all:
         patterns:
@@ -33,7 +33,7 @@ updates:
     directories:
     - "/exercisefiles/dotnet/"
     schedule:
-      interval: "weekly"
+      interval: "monthly"
     groups:
       all:
         patterns:
@@ -42,7 +42,7 @@ updates:
     directories:
     - "/exercisefiles/php/"
     schedule:
-      interval: "weekly"
+      interval: "monthly"
     groups:
       all:
         patterns:
