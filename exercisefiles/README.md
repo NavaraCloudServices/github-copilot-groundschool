@@ -37,32 +37,31 @@ Click [here](https://docs.github.com/en/copilot/using-github-copilot/getting-cod
 
 Implement the following methods:
 
-- **/DaysBetweenDates**:
+- **/SecondsBetweenTimeStamps**:
 
-  - Calculate days between two dates
-  - receive by query string two parameters `date1` and `date2`, and calculate the days between those two dates.
+  - Calculate seconds between two timestamps
+  - receive by query string two parameters `timestamp1` and `timestamp2`, and calculate the seconds between those two timestamps.
 
   > **_NOTE:_** Use above information inside the Copilot inline feature in your server code file. Press enter and wait for Copilot to suggest you the code.
 
-- **/ValidatePhoneNumber**:
+- **/ValidateDutchPhoneNumber**:
 
   - Receive by querystring a parameter called *phoneNumber*
-  - validate phoneNumber with Spanish format, for example `+34666777888`
+  - validate phoneNumber with Dutch format, for example `+31612345678`
   - if phoneNumber is valid return `"valid"`
   - if phoneNumber is not valid return `"invalid"`
 
   > **_NOTE:_** Use above information inside the Copilot inline feature in your server code file. Press enter and wait for Copilot to suggest you the code.
 
-- **/ValidateSpanishDNI**:
+- **/ValidateDutchBSN**:
 
-  - Receive by querystring a parameter called *dni*
-  - calculate the DNI letter
-  - if DNI is valid return `"valid"`
-  - if DNI is not valid return `"invalid"`
-  - 98765432M is a valid DNI, 42424242H is an invalid DNI
+  - Receive by querystring a parameter called *bsn*
+  - Make it comply to the '11 proef'
+  - if BSN is valid return `"valid"`
+  - if BSN is not valid return `"invalid"`
+  - Provide examples in your prompt as comment
 
   > NOTE: Use above information inside a comment in your server code file. In this case, you may want to see multiple solutions from Copilot to pick the one that best fits the way to calculate the letter. In order to see the firs 10 suggestions from Copilot press `ctrl + enter`.
-
 
 ### Exercise 3: GitHub Copilot Chat and prompting
 
@@ -72,35 +71,30 @@ You can ask Copilot Chat to give code suggestions, explain code, generate unit t
 
 Implement the following methods:
 
-- **/ReturnColorCode**:
+- **/ReturnColorHexCode**:
 
-  - Receive by querystring a parameter called *color*
-  - read the `colors.json` file and return the *code.rgba* field
-  - get color var from the querystring
-  - iterate over each color in `colors.json` to find the color
-  - return the *code.hex* field
+  - Receive by querystring a parameter called *colorName*
+  - read the `colors.json` file and return the *hex* field of the right collor
 
   > **_NOTE:_** Paste the above information in the Copilot Chat window and make it as detailed as possible. Copilot will use by default the open file as context in order to generate the suggestion.
 
-- **/TellMeAJoke**:
+- **/GiveMeARandomChuckNorrisQuote**:
 
-  - Make a call to the joke api and return a random joke using axios (https://official-joke-api.appspot.com/random_joke)
+  - Make a call to the chuck noris api and return a random chuck noris quote using axios (https://api.chucknorris.io)
 
-  > **_NOTE:_** The format of the api is as follows: `{ "type":string, "setup":string, "punchline":string, "id":int }`
+- **/ListAllGameOfThronesEpisodesBySeason**:
 
-- **/MoviesByDirector**:
-
-  - Receive by querystring a parameter called *director*
-  - make a call to the movie api and return a list of movies of that director using axios
-  - return the full list of movies
+  - Receive by querystring a parameter called *season*
+  - Make a call to the movie api and return the lists of episodes of that Game Of Thrones season
 
   > **_NOTE:_** This will require to browse to https://www.omdbapi.com/apikey.aspx and request a FREE API Key
 
-- **/ParseUrl**:
+- **/ValidateDutchIBAN**:
 
-  - Retrieves a parameter from querystring called *someurl*
-  - Parse the url and return the protocol, host, port, path, querystring and hash
-  - Return the parsed host
+  - Receive by querystring a parameter called *iban*
+  - if IBAN is valid return `"valid"`
+  - if IBAN is not valid return `"invalid"`
+  - Provide examples in your prompt as comment
 
 - **/ListFiles**:
 
@@ -121,7 +115,7 @@ Implement the following methods:
 
 - **/GetFullTextFile**:
 
-  - Read `sample.txt` and return lines that contains the word "Fusce"
+  - Read `sample.txt` and return lines that contains the word "lacinia"
 
   > **_NOTE:_** Be careful with this implementation, since this normally reads the full content of the file before analyzing it, so memory usage is high and may fail when files are too big.
   >
@@ -130,14 +124,14 @@ Implement the following methods:
 - **/GetLineByLineFromTextFile**:
 
   - Read `sample.txt` line by line
-  - create a promise to read the file line by line, and return a list of lines that contains the word "Fusce"
+  - create a promise to read the file line by line, and return a list of lines that contains the word "lacinia"
   - return the list of lines
 
   > **_NOTE:_** You can use Copilot Code completion or inline chat. Once done you can also use Copilot Inline Chat to refactor the code to put this logic in a function.
 
 - **/CalculateMemoryConsumption**:
 
-  - Return the memory consumption of the process in GB, rounded to 2 decimals
+  - Return the memory consumption of the process in MB, rounded to 2 decimals
 
 - **/RandomEuropeanCountry**:
 
