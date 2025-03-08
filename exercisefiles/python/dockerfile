@@ -1,4 +1,4 @@
-# Create a dockerfile with node image
+# Create a dockerfile with python image
 
 # Create a directory to hold the application code inside the image, this will be the working directory for your application
 

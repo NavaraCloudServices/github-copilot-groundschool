@@ -54,9 +54,11 @@ Please note, the extensions are already installed in Visual Studio 2022 if you h
 
 ## Available Exercises
 
-Please note: The GitHub Workspaces links are 'work in progress'
+> Please note: The GitHub Workspaces links are 'work in progress'
 
-| Language | Role | Exercises | GitHub Codespaces |
+You can find the exercises [here](./exercisefiles/README.md). Please check the language instructions in the table below
+
+| Language | Role | Instructions | GitHub Codespaces |
 |---|---|---|---|
 | C++ | Developer | [Link](./exercisefiles/cpp/README.md) | [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/NavaraCloudServices/github-copilot-groundschool/tree/main?devcontainer_path=.devcontainer%2Fcpp%2Fdevcontainer.json) |
 | C# | Developer | [Link](./exercisefiles/dotnet/README.md) | [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/NavaraCloudServices/github-copilot-groundschool/tree/main?devcontainer_path=.devcontainer%2Fdotnet%2Fdevcontainer.json) |

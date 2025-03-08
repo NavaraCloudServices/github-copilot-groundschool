@@ -1,7 +1,3 @@
-//write npm command line to install mocha
-//command to run this test file
-//mocha test.js
-
 import * as assert from 'assert';
 import * as http from 'http';
 
@@ -18,19 +14,4 @@ describe('Node Server', () => {
             });
         });
     });
-
-    //add test to check get when key is equal to world
-
-    //add test to check validatephoneNumber
-
-    //write test to validate validateSpanishDNI
-   
-
-    //write test for returnColorCode red should return code #FF0000
-
-
-   //write test for daysBetweenDates
-
-
-
 });

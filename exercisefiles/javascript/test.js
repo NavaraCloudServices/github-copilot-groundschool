@@ -1,9 +1,3 @@
-//write npm command line to install mocha
-//npm install --global mocha
-
-//command to run this test file
-//mocha test.js
-
 const assert = require('assert');
 const http = require('http');
 const server = require('./nodeserver');
