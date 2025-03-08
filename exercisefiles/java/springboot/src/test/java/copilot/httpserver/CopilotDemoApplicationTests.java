@@ -15,9 +15,9 @@ class CopilotDemoApplicationTests {
         RestAssured.port = 3000; // Set the port if different from default
 
         given()
-            .queryParam("key", "world")
+            .queryParam("name", "world")
         .when()
-            .get("/get")
+            .get("/hello")
         .then()
             .statusCode(200)
             .body(equalTo("hello world"));

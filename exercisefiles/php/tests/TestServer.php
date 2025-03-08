@@ -35,16 +35,16 @@ class TestServer extends TestCase
 
     public function testGetWithKey()
     {
-        $response = $this->sendRequest('GET', '/get', ['key' => 'world']);
+        $response = $this->sendRequest('GET', '/hello', ['name' => 'world']);
         $expected = "hello world";
-        $this->assertEquals($expected, $response, "GET /get with key=hello should return 'hello world'");
+        $this->assertEquals($expected, $response, "GET /hello with name=world should return 'hello world'");
     }
 
     public function testGetWithoutKey()
     {
-        $response = $this->sendRequest('GET', '/get');
+        $response = $this->sendRequest('GET', '/hello');
         $expected = "key not passed";
-        $this->assertEquals($expected, $response, "GET /get without key should return 'key not passed'");
+        $this->assertEquals($expected, $response, "GET /hello without key should return 'name not passed'");
     }
 }
 ?>

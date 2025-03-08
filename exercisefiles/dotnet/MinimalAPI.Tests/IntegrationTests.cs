@@ -15,11 +15,12 @@ public class IntegrationTests : IClassFixture<TestWebApplicationFactory<Program>
         // Arrange
 
         // Act
-        var response = await _client.GetAsync("/");
+
+        var response = await _client.GetAsync("/hello");
 
         // Assert
         response.EnsureSuccessStatusCode();
         var content = await response.Content.ReadAsStringAsync();
-        Assert.Equal("Hello World!", content);
+        Assert.Equal("name not passed", content);
     }
 }

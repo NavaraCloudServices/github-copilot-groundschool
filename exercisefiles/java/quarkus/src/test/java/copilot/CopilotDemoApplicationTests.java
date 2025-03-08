@@ -12,9 +12,9 @@ class CopilotDemoApplicationTests {
     @Test
     void hello() {
         given()
-            .queryParam("key", "world")
+            .queryParam("name", "world")
         .when()
-            .get("/get")
+            .get("/hello")
         .then()
             .statusCode(200)
             .body(equalTo("hello world"));
