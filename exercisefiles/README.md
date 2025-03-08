@@ -41,6 +41,7 @@ Implement the following methods:
 
   - Calculate seconds between two timestamps
   - receive by query string two parameters `timestamp1` and `timestamp2`, and calculate the seconds between those two timestamps.
+  - If you want, add some validation
 
   > **_NOTE:_** Use above information inside the Copilot inline feature in your server code file. Press enter and wait for Copilot to suggest you the code.
 
