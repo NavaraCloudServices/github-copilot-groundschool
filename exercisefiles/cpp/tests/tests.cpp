@@ -18,7 +18,7 @@ TEST(ServerTest, KeyNotPassedTest) {
     int conn = connect(sock, (struct sockaddr*)&server, sizeof(server));
     ASSERT_GE(conn, 0) << "Connection to server failed";
 
-    std::string request = "GET /get HTTP/1.1\r\nHost: localhost\r\n\r\n";
+    std::string request = "GET /hello HTTP/1.1\r\nHost: localhost\r\n\r\n";
     send(sock, request.c_str(), request.size(), 0);
 
     char buffer[1024];
@@ -29,8 +29,8 @@ TEST(ServerTest, KeyNotPassedTest) {
     close(sock);
 
     // Validate "key not passed"
-    EXPECT_NE(std::string::npos, response.find("key not passed")) 
-        << "Expected response to contain 'key not passed'";
+    EXPECT_NE(std::string::npos, response.find("name not passed")) 
+        << "Expected response to contain 'name not passed'";
 }
 
 int main(int argc, char **argv) {

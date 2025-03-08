@@ -8,7 +8,7 @@ import (
 )
 
 func TestGetHandlerWithoutKey(t *testing.T) {
-	req, err := http.NewRequest("GET", "/get", nil)
+	req, err := http.NewRequest("GET", "/hello", nil)
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -17,5 +17,5 @@ func TestGetHandlerWithoutKey(t *testing.T) {
 	handler := http.HandlerFunc(getHandler)
 	handler.ServeHTTP(rr, req)
 
-	assert.Equal(t, "key not passed", rr.Body.String(), "handler returned unexpected body")
+	assert.Equal(t, "name not passed", rr.Body.String(), "handler returned unexpected body")
 }

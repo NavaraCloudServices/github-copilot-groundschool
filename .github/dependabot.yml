@@ -2,10 +2,10 @@ version: 2
 updates:
   - package-ecosystem: "npm"
     directories:
-      - "/exercisefiles/node/"
-      - "/exercisefiles/node_typescript/"
+      - "/exercisefiles/javascript/"
+      - "/exercisefiles/typescript/"
     schedule:
-      interval: "weekly"
+      interval: "monthly"
     groups:
       all:
         patterns:
@@ -14,17 +14,17 @@ updates:
     directories:
       - "/exercisefiles/python/"
     schedule:
-      interval: "weekly"
+      interval: "monthly"
     groups:
       all:
         patterns:
           - "*"
   - package-ecosystem: "maven"
     directories:
-      - "/exercisefiles/java_quarkus/"
-      - "/exercisefiles/java_springboot/"
+      - "/exercisefiles/java/quarkus/"
+      - "/exercisefiles/java/springboot/"
     schedule:
-      interval: "weekly"
+      interval: "monthly"
     groups:
       all:
         patterns:
@@ -33,16 +33,7 @@ updates:
     directories:
     - "/exercisefiles/dotnet/"
     schedule:
-      interval: "weekly"
-    groups:
-      all:
-        patterns:
-          - "*"
-  - package-ecosystem: "dotnet-sdk"
-    directories:
-    - "/exercisefiles/dotnet/"
-    schedule:
-      interval: "weekly"
+      interval: "monthly"
     groups:
       all:
         patterns:
@@ -51,7 +42,7 @@ updates:
     directories:
     - "/exercisefiles/php/"
     schedule:
-      interval: "weekly"
+      interval: "monthly"
     groups:
       all:
         patterns:
