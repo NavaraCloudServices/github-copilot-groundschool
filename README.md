@@ -72,7 +72,6 @@ Please note: The GitHub Workspaces links are 'work in progress'
 - [Develop a shop cart](./challenges/eshop/eshop.md) 
 - [Develop a memory game](./challenges/memorygame/memorygame.md)
 - [Develop a chat based on websockets](./challenges/chatwebsockets/chatwebsockets.md)
-- [Behavior Driven Development (BDD) challenge for Java](./challenges/bdd/README.md)
 - [Analysis cryptocurrency market analysis](./challenges/cryptoanalisis/crypto.md)
 - [COVID19 Worldwide Testing Data (Python Data Engineer)](./challenges/python_data_engineer/README.md)
 - [Decision Tree Classicication Based on Diabetest Dataset (Python Data Scientist)](./challenges/python_data_scientist/README.md)
