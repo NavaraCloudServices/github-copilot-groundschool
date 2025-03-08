@@ -6,7 +6,7 @@ The goal is to create a server using Java, Maven & Spring Boot with the help of 
 Follow the instructions below and try to use GitHub Copilot as much as possible.
 Try different things and see what GitHub Copilot can do for you, like generating a Dockerfile or a class, add comments, etc.
 
-> Make sure GitHub Copilot is configured and enabled for the current language, just check the status bar on the bottom right corner of VS Code.
+> Please note, this is tested on Java OpenJDK 21 (LTS) and Maven 3.9
 
 ## Exercises
 
@@ -22,9 +22,8 @@ Then, create a new unit test for the case when no key is provided in the request
 
 After every exercise, feel free to package and run your application to test it.
 
-- Package: `mvn package`
-- Run: `mvn quarkus:dev`
-- Test: `curl -v http://localhost:8080/hello?key=world`
+- Run: `./mvnw spring-boot:run`
+- Test: `curl -v http://localhost:3000/hello?key=world`
 
 
 ### Exercise 2: Inline suggestions
