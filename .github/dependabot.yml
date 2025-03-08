@@ -1,0 +1,49 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directories:
+      - "/exercisefiles/javascript/"
+      - "/exercisefiles/typescript/"
+    schedule:
+      interval: "weekly"
+    groups:
+      all:
+        patterns:
+          - "*"
+  - package-ecosystem: "pip"
+    directories:
+      - "/exercisefiles/python/"
+    schedule:
+      interval: "weekly"
+    groups:
+      all:
+        patterns:
+          - "*"
+  - package-ecosystem: "maven"
+    directories:
+      - "/exercisefiles/java/quarkus/"
+      - "/exercisefiles/java/springboot/"
+    schedule:
+      interval: "weekly"
+    groups:
+      all:
+        patterns:
+          - "*"
+  - package-ecosystem: "nuget"
+    directories:
+    - "/exercisefiles/dotnet/"
+    schedule:
+      interval: "weekly"
+    groups:
+      all:
+        patterns:
+          - "*"
+  - package-ecosystem: "composer"
+    directories:
+    - "/exercisefiles/php/"
+    schedule:
+      interval: "weekly"
+    groups:
+      all:
+        patterns:
+          - "*"
