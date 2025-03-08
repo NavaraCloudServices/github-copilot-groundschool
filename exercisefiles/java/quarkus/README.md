@@ -22,10 +22,8 @@ Then, create a new unit test for the case when no key is provided in the request
 
 After every exercise, feel free to package and run your application to test it.
 
-- Package: `mvn package`
-- Run: `mvn quarkus:dev`
-- Test: `curl -v http://localhost:8080/hello?key=world`
-
+- Run: `./mvnw quarkus:dev`
+- Test: `./mvnw quarkus:test`
 
 ### Exercise 2: Inline suggestions
 

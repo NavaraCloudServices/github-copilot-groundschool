@@ -1,5 +1,4 @@
-package com.microsoft.hackathon.quarkus;
-
+package copilot;
 
 import static org.hamcrest.Matchers.equalTo;
 import org.junit.jupiter.api.Test;

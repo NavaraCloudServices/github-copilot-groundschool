@@ -1,4 +1,4 @@
-package com.microsoft.hackathon.quarkus;
+package copilot;
 
 import jakarta.ws.rs.Path;
 

@@ -1,4 +1,4 @@
-package com.microsoft.hackathon.quarkus;
+package copilot;
 
 import io.quarkus.test.junit.QuarkusIntegrationTest;
 
