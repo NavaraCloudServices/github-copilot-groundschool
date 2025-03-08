@@ -23,6 +23,7 @@ Then, create a new unit test for the case when no key is provided in the request
 After every exercise, feel free to package and run your application to test it.
 
 - Run: `./mvnw spring-boot:run`
+- Test: `./mvnw test`
 - Test: `curl -v http://localhost:3000/hello?key=world`
 
 
