@@ -61,6 +61,11 @@ Implement the following methods:
   - if BSN is valid return `"valid"`
   - if BSN is not valid return `"invalid"`
   - Provide examples in your prompt as comment
+  - Examples:
+    - 267868303 - valid
+    - 051464548 - valid
+    - 051424548 - invalid
+    - 262868303 - invalid
 
   > NOTE: Use above information inside a comment in your server code file. In this case, you may want to see multiple solutions from Copilot to pick the one that best fits the way to calculate the letter. In order to see the firs 10 suggestions from Copilot press `ctrl + enter`.
 
