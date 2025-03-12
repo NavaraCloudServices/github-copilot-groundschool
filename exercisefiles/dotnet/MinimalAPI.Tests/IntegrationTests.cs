@@ -21,6 +21,6 @@ public class IntegrationTests : IClassFixture<TestWebApplicationFactory<Program>
         // Assert
         response.EnsureSuccessStatusCode();
         var content = await response.Content.ReadAsStringAsync();
-        Assert.Equal("name not passed", content);
+        Assert.Equal("name not passed", content.Trim('"'));
     }
 }

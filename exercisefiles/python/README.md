@@ -10,7 +10,7 @@
 
 ## Tests File
 
-- `test.py`
+- `test_server.py`
 
 ## How to Start the Server?
 
@@ -18,4 +18,4 @@
 
 ## How to Start the Tests?
 
-- Use `pytest test.py`
+- Use `pytest test_server.py`
