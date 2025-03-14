@@ -86,7 +86,7 @@ Implement the following methods:
 
 - **/GiveMeARandomChuckNorrisQuote**:
 
-  - Make a call to the chuck noris api and return a random chuck noris quote using axios (https://api.chucknorris.io)
+  - Make a call to the chuck noris api and return a random chuck noris quote. The API can be found here: (https://api.chucknorris.io)
 
 - **/ListAllGameOfThronesEpisodesBySeason**:
 
