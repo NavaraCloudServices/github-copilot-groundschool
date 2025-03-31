@@ -2,7 +2,7 @@ import * as assert from 'assert';
 import * as http from 'http';
 
 describe('Node Server', () => {
-    it('should return "key not passed" if key is not passed', (done: Mocha.Done) => {
+    it('should return "name not passed" if name is not passed', (done: Mocha.Done) => {
         http.get('http://localhost:3000/hello', (res: http.IncomingMessage) => {
             let data = '';
             res.on('data', (chunk: string) => {
