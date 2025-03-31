@@ -3,7 +3,7 @@ const http = require('http');
 const server = require('./nodeserver');
 
 describe('Node Server', () => {
-    it('should return "key not passed" if key is not passed', (done) => {
+    it('should return "name not passed" if name is not passed', (done) => {
         http
         .get('http://localhost:3000/hello' , (res) => {
             let data = '';

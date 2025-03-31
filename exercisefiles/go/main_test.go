@@ -7,7 +7,7 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-func TestGetHandlerWithoutKey(t *testing.T) {
+func TestGetHandlerWithoutName(t *testing.T) {
 	req, err := http.NewRequest("GET", "/hello", nil)
 	if err != nil {
 		t.Fatal(err)
