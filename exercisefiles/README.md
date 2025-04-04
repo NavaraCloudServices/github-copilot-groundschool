@@ -151,11 +151,9 @@ In the chat, ask GitHub Copilot to document your code. Tip: use the `#file` opti
 
 ### Exercise 6: Building tests
 
-> Use GitHub Copilot for your testing. We will create automated tests to check that the functionality of the previous endpoints is correctly implemented. 
+Use GitHub Copilot for your testing. We will create automated tests to check that the functionality of the previous endpoints is correctly implemented. Create both unit tests and integration tests.
 
-You can leverage GitHub Copilot to run the tests. There is a `/tests` command that you can directly run from GitHub Copilot Chat or by selecting the piece of code you want to create tests for and using the GitHub Copilot inline feature.
-
-After adding the tests, the tests might be integration tests. Refactor your code to make it testable by unit tests. Push down the integration tests so that you have unit test coverage.
+> If you are using Visual Studio Code, you can try out GitHub Copilot Chat Agent to iterate over the code and test outcomes.
 
 ### Exercise 7: Create a Dockerfile
 
