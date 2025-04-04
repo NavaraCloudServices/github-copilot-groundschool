@@ -37,7 +37,7 @@ Click [here](https://docs.github.com/en/copilot/using-github-copilot/getting-cod
 
 Implement the following methods:
 
-- **/SecondsBetweenTimeStamps**:
+#### **/SecondsBetweenTimeStamps**:
 
   - Calculate seconds between two timestamps
   - receive by query string two parameters `timestamp1` and `timestamp2`, and calculate the seconds between those two timestamps.
@@ -45,7 +45,7 @@ Implement the following methods:
 
   > **_NOTE:_** Use above information inside the GitHub Copilot inline feature in your server code file. Press enter and wait for GitHub Copilot to suggest you the code.
 
-- **/ValidateDutchPhoneNumber**:
+#### **/ValidateDutchPhoneNumber**:
 
   - Receive by querystring a parameter called *phoneNumber*
   - validate phoneNumber with Dutch format, for example `+31612345678`
@@ -54,7 +54,7 @@ Implement the following methods:
 
   > **_NOTE:_** Use above information inside the GitHub Copilot inline feature in your server code file. Press enter and wait for GitHub Copilot to suggest you the code.
 
-- **/ValidateDutchBSN**:
+#### **/ValidateDutchBSN**:
 
   - Receive by querystring a parameter called *bsn*
   - Make it comply to the '11 proef'
@@ -77,32 +77,32 @@ You can ask GitHub Copilot Chat to give code suggestions, explain code, generate
 
 Implement the following methods:
 
-- **/ReturnColorHexCode**:
+#### **/ReturnColorHexCode**:
 
   - Receive by querystring a parameter called *colorName*
   - read the `colors.json` file and return the *hex* field of the right collor
 
   > **_NOTE:_** Paste the above information in the GitHub Copilot Chat window and make it as detailed as possible. GitHub Copilot will use by default the open file as context in order to generate the suggestion.
 
-- **/GiveMeARandomChuckNorrisQuote**:
+#### **/GiveMeARandomChuckNorrisQuote**:
 
   - Make a call to the chuck noris api and return a random chuck noris quote. The API can be found here: (https://api.chucknorris.io)
 
-- **/ListAllGameOfThronesEpisodesBySeason**:
+#### **/ListAllGameOfThronesEpisodesBySeason**:
 
   - Receive by querystring a parameter called *season*
   - Make a call to the movie api and return the lists of episodes of that Game Of Thrones season
 
   > **_NOTE:_** This will require to browse to https://www.omdbapi.com/apikey.aspx and request a FREE API Key
 
-- **/ValidateDutchIBAN**:
+#### **/ValidateDutchIBAN**:
 
   - Receive by querystring a parameter called *iban*
   - if IBAN is valid return `"valid"`
   - if IBAN is not valid return `"invalid"`
   - Provide examples in your prompt as comment
 
-- **/ListFiles**:
+#### **/ListFiles**:
 
   - Get the current directory
   - Get the list of files in the current directory
@@ -119,15 +119,15 @@ Use your prompting skills together with the slash commands. An actual overview c
 
 Implement the following methods:
 
-- **/GetFullTextFile**:
+#### **/GetFullTextFile**:
 
   - Read `sample.txt` and return lines that contains the word "lacinia"
 
   > **_NOTE:_** Be careful with this implementation, since this normally reads the full content of the file before analyzing it, so memory usage is high and may fail when files are too big.
 
-  > Start with implementing the logic by yourself using GitHub Copilot code completion. Then ask GitHub Copilot Chat to refactor the code to use a more memory efficient way of reading the file. 
+  > Start with implementing the logic by yourself using GitHub Copilot Code completion. Then ask GitHub Copilot Chat to refactor the code to use a more memory efficient way of reading the file. 
 
-- **/RandomEuropeanCountry**:
+#### **/RandomEuropeanCountry**:
 
   - Make an array of european countries and its ISO-codes
   - select a random country from the array
@@ -135,7 +135,7 @@ Implement the following methods:
 
   > **_NOTE:_** GitHub Copilot can help you to generate data sets.
 
-- Make Controllers
+#### Make Controllers
 
 As you might have noticed, the code is getting a bit messy. We can use GitHub Copilot to create controllers for our endpoints. This will help us to separate the logic of the endpoints from the logic of the application and make it more readable, maintainable and testable.
 
@@ -156,7 +156,6 @@ In the chat, ask GitHub Copilot to document your code. Tip: use the `#file` opti
 You can leverage GitHub Copilot to run the tests. There is a `/tests` command that you can directly run from GitHub Copilot Chat or by selecting the piece of code you want to create tests for and using the GitHub Copilot inline feature.
 
 After adding the tests, the tests might be integration tests. Refactor your code to make it testable by unit tests. Push down the integration tests so that you have unit test coverage.
-
 
 ### Exercise 7: Create a Dockerfile
 
