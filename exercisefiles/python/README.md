@@ -1,5 +1,7 @@
 # Python
 
+You can find the exercises [here](../README.md). 
+
 ## Dependency Retrieval
 
 - Run `pip3 install -r requirements.txt`

@@ -1,5 +1,7 @@
 # PHP
 
+You can find the exercises [here](../README.md). 
+
 ## Dependency Retrieval
 
 - Run `php composer.phar install`

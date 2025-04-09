@@ -1,5 +1,7 @@
 # Javascript
 
+You can find the exercises [here](../README.md). 
+
 ## Dependency Retrieval
 
 - Run `npm install`

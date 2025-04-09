@@ -1,5 +1,7 @@
 # Go
 
+You can find the exercises [here](../README.md). 
+
 ## Main File
 
 - `main.go`
