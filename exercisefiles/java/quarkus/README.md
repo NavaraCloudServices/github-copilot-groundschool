@@ -1,5 +1,7 @@
 # Java - Quarkus
 
+You can find the exercises [here](../../README.md). 
+
 > Please note, this is tested on Java OpenJDK 21 (LTS) and Maven 3.9
 
 ## Main File

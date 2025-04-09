@@ -1,5 +1,7 @@
 # Dotnet
 
+You can find the exercises [here](../README.md). 
+
 >Requires dotnet SDK 9.0
 
 ## Restore dependencies
