@@ -10,3 +10,4 @@
 // Use design patterns where appropriate
 // Do not use asio
 
+#include <iostream>
