@@ -4,10 +4,5 @@
 // if the name is passed, return "hello " + key
 // if the url has other methods, return "method not implemented"
 // when server is listening, log "server is listening on port 3000"
-// Use modern c++20 features
-// favor compile-time features over runtime features
-// Use c++ standard library only, no third party libraries
-// Use design patterns where appropriate
-// Do not use asio
 
 #include <iostream>
