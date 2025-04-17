@@ -1,23 +1,14 @@
-// For format details, see https://aka.ms/devcontainer.json. For config options, see the
 {
 	"$schema": "https://raw.githubusercontent.com/devcontainers/spec/main/schemas/devContainer.schema.json",
 	
 	"name": "C++",
-	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 	"build": {
 		"dockerfile": "Dockerfile",
 		"args": { "VARIANT": "debian-11" }
 	},
 	"runArgs": ["--cap-add=SYS_PTRACE", "--security-opt", "seccomp=unconfined"],
 	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}/exercisefiles/cpp/",
-
-	// Features to add to the dev container. More info: https://containers.dev/features.
-	// "features": {},
-
-	// Use 'postCreateCommand' to run commands after the container is created.
-	// "postCreateCommand": "",
-	
-	// Configure tool-specific properties.
+	"forwardPorts": [3000],
 	"customizations": {
 		"vscode": {
 			"openFiles": [
@@ -58,7 +49,5 @@
 			"C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools"
 		}
 	},
-
-	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
 	"remoteUser": "root"
 }
