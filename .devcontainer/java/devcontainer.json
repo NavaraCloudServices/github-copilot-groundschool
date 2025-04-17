@@ -1,11 +1,10 @@
 {
-    "name": "Java Quarkus",
+    "name": "Java",
     "image": "mcr.microsoft.com/devcontainers/java",
 
-    "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}/exercisefiles/java/quarkus/",
+    "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}/exercisefiles/java/",
   
     "features": {
-        "ghcr.io/devcontainers-extra/features/quarkus-sdkman:2": {},
         "ghcr.io/devcontainers/features/java:1": {
             "version": "none",
             "installMaven": "true",
