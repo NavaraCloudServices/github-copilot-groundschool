@@ -69,7 +69,7 @@ You can find the exercises [here](./exercisefiles/Exercises_developer.md). Pleas
 There are three ways to run the exercises:
 1. **Run on your local machine**: You can run the exercises on your local machine. Please make sure you have the required software installed. You can find the instructions in the language readme files. Look for prerequisites
 2. **Run on DevContainers**: You can make use of DevContainers within Visual Studio Code. Use the [VSCode documentation to setup your machine](https://code.visualstudio.com/docs/devcontainers/tutorial). After setting up your local machine, go to your Command Pallete in VSCode and select `Dev Containers: Rebuild and open in Container`. Choose the correct container. You don't have to worry about the Prerequisites.
-3. **Run on GitHub Codespaces**: You can run the exercises on GitHub Codespaces. See the link above in the table. With your personal account you have 120 core hours to work with each month. 
+3. **Run on GitHub Codespaces**: You can run the exercises on GitHub Codespaces. See the link above in the table. With your personal account you have 120 core hours to work with each month. Don't forget to dispose the container afterwards.
 
 ## Challenges instructions
 
