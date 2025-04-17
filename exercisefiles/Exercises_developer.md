@@ -115,7 +115,7 @@ Implement the following methods:
 
 > In this exercise we will use GitHub Copilot to refactor existing code. 
 
-Use your prompting skills together with the slash commands. An actual overview can be found on [GitHub docs](https://docs.github.com/en/copilot/using-github-copilot/copilot-chat/github-copilot-chat-cheat-sheet?tool=jetbrains)
+Use your prompting skills together with the slash commands. An actual overview can be found on [GitHub docs](https://docs.github.com/en/copilot/using-github-copilot/copilot-chat/github-copilot-chat-cheat-sheet)
 
 Implement the following methods:
 
