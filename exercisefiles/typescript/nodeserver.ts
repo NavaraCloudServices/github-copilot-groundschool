@@ -6,3 +6,25 @@
 // when server is listening, log "server is listening on port 3000"
 
 import * as http from 'http';
+import * as url from 'url';
+import * as querystring from 'querystring';
+
+const server = http.createServer((req, res) => {
+    const parsedUrl = url.parse(req.url || '', true);
+    const pathname = parsedUrl.pathname;
+    const query = parsedUrl.query;
+
+    if (pathname === '/hello') {
+        const name = query.name;
+        if (name) {
+            res.writeHead(200, { 'Content-Type': 'text/plain' });
+            res.end(`hello ${name}`);
+        } else {
+            res.writeHead(400, { 'Content-Type': 'text/plain' });
+            res.end('name not passed');
+        }
+    } else {
+        res.writeHead(501, { 'Content-Type': 'text/plain' });
+        res.end('method not implemented');
+    }
+}
