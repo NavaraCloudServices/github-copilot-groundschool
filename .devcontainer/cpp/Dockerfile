@@ -11,4 +11,9 @@ RUN apt-get update && apt-get install -y \
     curl \
     wget \
     build-essential \
+    python3-pip \
+    gdb cmake cppcheck \
     && rm -rf /var/lib/apt/lists/*
+
+RUN pip3 install conan \
+    && conan profile detect
