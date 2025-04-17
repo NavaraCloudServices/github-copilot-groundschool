@@ -6,7 +6,7 @@
 #include <string>
 #include <iostream>
 
-TEST(ServerTest, KeyNotPassedTest) {
+TEST(ServerTest, NameNotPassedTest) {
     int sock = socket(AF_INET, SOCK_STREAM, 0);
     ASSERT_GE(sock, 0) << "Could not create socket";
 
