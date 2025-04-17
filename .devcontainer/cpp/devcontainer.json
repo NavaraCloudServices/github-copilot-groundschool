@@ -18,7 +18,6 @@
 				// GitHub
 				"GitHub.copilot",
 				"GitHub.copilot-chat",
-				"GitHub.vscode-github-actions",
 
 				// Dev Containers
 				"ms-vscode-remote.remote-containers",
