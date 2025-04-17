@@ -2,7 +2,7 @@
 	"$schema": "https://raw.githubusercontent.com/devcontainers/spec/main/schemas/devContainer.schema.json",
 	
 	"name": "C# (.NET)",
-	"image": "mcr.microsoft.com/devcontainers/dotnet:9.0",
+	"image": "mcr.microsoft.com/devcontainers/dotnet",
 
 	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}/exercisefiles/dotnet/",
 
@@ -31,7 +31,7 @@
 				// General language support
 				"redhat.vscode-yaml",
 				"zainchen.json",
-				"streetsidesoftware.code-spell-checker"
+                "mechatroner.rainbow-csv"
 			]
 		}
 	},

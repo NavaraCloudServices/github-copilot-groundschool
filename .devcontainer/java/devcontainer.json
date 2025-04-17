@@ -33,7 +33,6 @@
 				// General language support
 				"redhat.vscode-yaml",
 				"zainchen.json",
-				"streetsidesoftware.code-spell-checker",
                 "mechatroner.rainbow-csv"
 			]
 		}
