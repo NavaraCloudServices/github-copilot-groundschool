@@ -53,8 +53,6 @@ Please note, the extensions are already installed in Visual Studio 2022 if you h
 
 ## Available Exercises
 
-> Please note: The GitHub Workspaces links are 'work in progress'
-
 You can find the exercises [here](./exercisefiles/Exercises_developer.md). Please check the language instructions in the table below
 
 | Language        | Role      | Instructions                                      |
@@ -69,7 +67,8 @@ You can find the exercises [here](./exercisefiles/Exercises_developer.md). Pleas
 | Typescript      | Developer | [Link](./exercisefiles/typescript/README.md)      |
 
 You can make use of DevContainers within Visual Studio Code. Use the [VSCode documentation to setup your machine](https://code.visualstudio.com/docs/devcontainers/tutorial)
-After setting up your machine, go to your Command Pallete in VSCode and select `Dev Containers: Rebuild and open in Container`. This will open the project in a container with all the dependencies installed.
+
+After setting up your machine, go to your Command Pallete in VSCode and select `Dev Containers: Rebuild and open in Container`. Choose the correct container. You don't have to worry about the Prerequisites.
 
 ## Challenges instructions
 
