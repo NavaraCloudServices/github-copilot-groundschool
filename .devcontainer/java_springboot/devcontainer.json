@@ -1,8 +1,5 @@
-// For format details, see https://aka.ms/devcontainer.json. For config options, see the
-// README at: https://github.com/devcontainers/templates/tree/main/src/java
 {
     "name": "Java Springboot",
-    // Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
     "image": "mcr.microsoft.com/devcontainers/java",
 
     "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}/exercisefiles/java/springboot/",
@@ -16,13 +13,8 @@
         }
     },
   
-    // Use 'forwardPorts' to make a list of ports inside the container available locally.
-    // "forwardPorts": [],
-  
-    // Use 'postCreateCommand' to run commands after the container is created.
-    // "postCreateCommand": "java -version",
-  
-    // Configure tool-specific properties.
+
+	"forwardPorts": [3000],
     "customizations": {
 		"vscode": {
 			"openFiles": [
@@ -48,7 +40,4 @@
 			]
 		}
 	}
-  
-    // Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
-    // "remoteUser": "root"
   }
