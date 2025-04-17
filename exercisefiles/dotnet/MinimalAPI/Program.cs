@@ -6,7 +6,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 // Configure the web server to listen on port 3000
-builder.WebHost.UseUrls("http://localhost:3000", "https://localhost:3001");
+builder.WebHost.UseUrls("http://localhost:3000");
 
 var app = builder.Build();
 
