@@ -1,6 +1,10 @@
 # Go
 
-You can find the exercises [here](../README.md). 
+You can find the exercises [here](../Exercises_developer.md). 
+
+## Prerequisites
+
+- Install Go 1.21 or higher. See https://go.dev/doc/install
 
 ## Main File
 

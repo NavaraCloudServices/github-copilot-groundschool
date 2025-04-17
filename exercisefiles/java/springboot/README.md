@@ -1,8 +1,11 @@
 # Java - Springboot
 
-You can find the exercises [here](../../README.md). 
+You can find the exercises [here](../../Exercises_developer.md). 
 
-> Please note, this is tested on Java OpenJDK 21 (LTS) and Maven 3.9
+## Prerequisites
+
+- Install Java OpenJDK 21 (LTS) or higher. See https://jdk.java.net/21/
+- Install Maven 3.9 or higher. See https://maven.apache.org/download.cgi
 
 ## Main File
 

@@ -1,6 +1,44 @@
 # CPP
 
-You can find the exercises [here](../README.md). 
+You can find the exercises [here](../Exercises_developer.md).
+
+## Prerequisites
+
+- [Conan package manager](https://conan.io/downloads) (if not installed, run `pip install conan`)
+- CMake (version 3.18 or higher)
+- Make or another build system supported by CMake
+
+### Installing Prerequisites
+
+#### macOS
+```bash
+# Install using Homebrew
+brew install cmake conan
+
+# Make is usually pre-installed on macOS, but you can ensure it's installed with:
+brew install make
+```
+
+#### Linux (Ubuntu/Debian)
+```bash
+# Install CMake
+sudo apt-get update
+sudo apt-get install cmake build-essential
+
+# Install Conan
+pip install conan
+```
+
+#### Windows
+```bash
+# Install CMake
+# Download and install from https://cmake.org/download/
+
+# Install Conan
+pip install conan
+
+# For Make on Windows, you can use MinGW, MSYS2, or Visual Studio's build tools
+```
 
 ## Main File
 
@@ -12,13 +50,18 @@ You can find the exercises [here](../README.md).
 
 ## How to Compile?
 
-- run `cmake .` in the root of the `c++` directory
-- run `make`  in the root of the `c++` directory
+1. Install dependencies with Conan and generate build files:
+```bash
+mkdir build && cd build
+conan install .. --build=missing
+cmake .. -DCMAKE_TOOLCHAIN_FILE=conan_toolchain.cmake -DCMAKE_BUILD_TYPE=Release
+cmake --build .
+```
 
 ## How to Start the Server?
 
-- Go to the `\src` directory and run `httpserver`
+- After building, run `./src/httpserver` from the build directory
 
 ## How to Start the Tests?
 
-- Go to the `\tests` directory and run `tests`
+- After building, run `./tests/tests` from the build directory

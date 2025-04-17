@@ -56,7 +56,7 @@ Please note, the extensions are already installed in Visual Studio 2022 if you h
 
 > Please note: The GitHub Workspaces links are 'work in progress'
 
-You can find the exercises [here](./exercisefiles/README.md). Please check the language instructions in the table below
+You can find the exercises [here](./exercisefiles/Exercises_developer.md). Please check the language instructions in the table below
 
 | Language | Role | Instructions | GitHub Codespaces |
 |---|---|---|---|
