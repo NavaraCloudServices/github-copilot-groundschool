@@ -6,4 +6,4 @@ CMakeDeps
 CMakeToolchain
 
 [options]
-gtest:shared=False
+gtest/*:shared=False

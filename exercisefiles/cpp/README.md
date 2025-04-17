@@ -5,6 +5,7 @@ You can find the exercises [here](../Exercises_developer.md).
 ## Prerequisites
 
 - [Conan package manager](https://conan.io/downloads) (if not installed, run `pip install conan`)
+- Set default Conan profile `conan profile detect `
 - CMake (version 3.18 or higher)
 - Make or another build system supported by CMake
 
