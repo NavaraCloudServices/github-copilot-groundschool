@@ -1,0 +1,40 @@
+{
+	"$schema": "https://raw.githubusercontent.com/devcontainers/spec/main/schemas/devContainer.schema.json",
+	
+	"name": "Go",
+	"image": "mcr.microsoft.com/devcontainers/go",
+
+	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}/exercisefiles/go/",
+
+	"forwardPorts": [3000],
+
+	"postCreateCommand": "dotnet restore",
+
+	"customizations": {
+		"vscode": {
+			"openFiles": [
+      			"README.md"
+			],
+			"extensions": [
+				// GitHub
+				"GitHub.copilot",
+				"GitHub.copilot-chat",
+				"GitHub.vscode-github-actions",
+
+				// Dev Containers
+				"ms-vscode-remote.remote-containers",
+
+				// Specific language support
+				"golang.go",
+				"ms-vscode.go",
+				"ms-vscode.vscode-go",
+
+				// General language support
+				"redhat.vscode-yaml",
+				"zainchen.json",
+				"streetsidesoftware.code-spell-checker"
+			]
+		}
+	},
+	"remoteUser": "root"
+}
