@@ -8,9 +8,6 @@
 	// Configure tool-specific properties.
     "customizations": {
 		"vscode": {
-			"openFiles": [
-      			"README.md"
-			],
 			"extensions": [
 				// GitHub
 				"GitHub.copilot",
