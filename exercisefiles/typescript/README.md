@@ -1,6 +1,11 @@
 # Typescript
 
-You can find the exercises [here](../README.md). 
+You can find the exercises [here](../Exercises_developer.md). 
+
+## Prerequisites
+
+- Install the latest NodeJS LTS version from https://nodejs.org/en
+- Install Typescript globally using `npm install -g typescript`
 
 ## Dependency Retrieval
 

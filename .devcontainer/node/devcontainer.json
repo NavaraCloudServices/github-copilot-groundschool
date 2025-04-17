@@ -1,31 +1,25 @@
 {
-    "name": "PHP",
-    "image": "mcr.microsoft.com/devcontainers/php",
-  
-    "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}/exercisefiles/php/",
-	"features": {
-        "ghcr.io/devcontainers-extra/features/composer:1": {}
-    },
+	"name": "Javascript & Typescript",
+	"image": "mcr.microsoft.com/devcontainers/typescript-node",
+    "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}/exercisefiles/",
 	"forwardPorts": [3000],
-	"postCreateCommand": "composer install",
+	"postCreateCommand": "npm install -g mocha",
 
 	// Configure tool-specific properties.
-	"customizations": {
+    "customizations": {
 		"vscode": {
-			"openFiles": [
-      			"README.md"
-			],
 			"extensions": [
 				// GitHub
 				"GitHub.copilot",
 				"GitHub.copilot-chat",
+				"GitHub.vscode-github-actions",
 
 				// Dev Containers
 				"ms-vscode-remote.remote-containers",
 
 				// Specific language support
-				"xdebug.php-pack",
-
+                "ms-vscode.vscode-typescript-next",
+                
 				// General language support
 				"redhat.vscode-yaml",
 				"zainchen.json",
@@ -33,4 +27,4 @@
 			]
 		}
 	}
-  }
+}

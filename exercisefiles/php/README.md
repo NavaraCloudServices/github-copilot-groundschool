@@ -1,6 +1,10 @@
 # PHP
 
-You can find the exercises [here](../README.md). 
+You can find the exercises [here](../Exercises_developer.md). 
+
+## Prerequisites
+
+- Install PHP. See https://www.php.net/manual/en/install.php
 
 ## Dependency Retrieval
 

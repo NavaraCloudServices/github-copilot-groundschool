@@ -1,25 +1,14 @@
-// For format details, see https://aka.ms/devcontainer.json. For config options, see the
-// README at: https://github.com/devcontainers/templates/tree/main/src/dotnet
 {
 	"$schema": "https://raw.githubusercontent.com/devcontainers/spec/main/schemas/devContainer.schema.json",
 	
 	"name": "C++",
-	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 	"build": {
 		"dockerfile": "Dockerfile",
 		"args": { "VARIANT": "debian-11" }
 	},
 	"runArgs": ["--cap-add=SYS_PTRACE", "--security-opt", "seccomp=unconfined"],
-
 	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}/exercisefiles/cpp/",
-
-	// Features to add to the dev container. More info: https://containers.dev/features.
-	// "features": {},
-
-	// Use 'postCreateCommand' to run commands after the container is created.
-	// "postCreateCommand": "",
-	
-	// Configure tool-specific properties.
+	"forwardPorts": [3000],
 	"customizations": {
 		"vscode": {
 			"openFiles": [
@@ -29,7 +18,6 @@
 				// GitHub
 				"GitHub.copilot",
 				"GitHub.copilot-chat",
-				"GitHub.vscode-github-actions",
 
 				// Dev Containers
 				"ms-vscode-remote.remote-containers",
@@ -43,7 +31,7 @@
 				// General language support
 				"redhat.vscode-yaml",
 				"zainchen.json",
-				"streetsidesoftware.code-spell-checker"
+                "mechatroner.rainbow-csv"
 			]
 		},
 
@@ -60,7 +48,5 @@
 			"C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools"
 		}
 	},
-
-	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
 	"remoteUser": "root"
 }

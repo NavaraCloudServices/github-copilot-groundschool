@@ -1,6 +1,12 @@
 # Python
 
-You can find the exercises [here](../README.md). 
+You can find the exercises [here](../Exercises_developer.md). 
+
+## Prerequisites
+
+- Install Python 3.8 or higher. See https://www.python.org/downloads/
+- Install pip3 (Python package manager)
+- Setup a virtual environment. For VSCode see: https://code.visualstudio.com/docs/python/environments
 
 ## Dependency Retrieval
 

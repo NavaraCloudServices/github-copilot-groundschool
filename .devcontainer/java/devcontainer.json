@@ -1,0 +1,40 @@
+{
+    "name": "Java",
+    "image": "mcr.microsoft.com/devcontainers/java",
+
+    "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}/exercisefiles/java/",
+  
+    "features": {
+        "ghcr.io/devcontainers/features/java:1": {
+            "version": "none",
+            "installMaven": "true",
+            "installGradle": "false"
+        }
+    },
+
+	"forwardPorts": [3000],
+    // Configure tool-specific properties.
+    "customizations": {
+		"vscode": {
+			"openFiles": [
+      			"README.md"
+			],
+			"extensions": [
+				// GitHub
+				"GitHub.copilot",
+				"GitHub.copilot-chat",
+
+				// Dev Containers
+				"ms-vscode-remote.remote-containers",
+
+				// Specific language support
+                "vscjava.vscode-java-pack",
+                
+				// General language support
+				"redhat.vscode-yaml",
+				"zainchen.json",
+                "mechatroner.rainbow-csv"
+			]
+		}
+	}
+  }

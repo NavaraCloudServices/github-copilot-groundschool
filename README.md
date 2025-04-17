@@ -1,6 +1,5 @@
 ![alt text](Resources/navara/banner.png)
 
-
 # GitHub Copilot Ground School
 
 Supporting GitHub repository for the Navara's GitHub Copilot Ground School
@@ -54,24 +53,26 @@ Please note, the extensions are already installed in Visual Studio 2022 if you h
 
 ## Available Exercises
 
-> Please note: The GitHub Workspaces links are 'work in progress'
+You can find the exercises [here](./exercisefiles/Exercises_developer.md). Please check the language instructions in the table below
 
-You can find the exercises [here](./exercisefiles/README.md). Please check the language instructions in the table below
+| Language        | Role      | Instructions                                      |
+| --------------- | --------- | ------------------------------------------------- |
+| C++             | Developer | [Link](./exercisefiles/cpp/README.md)             |
+| C#              | Developer | [Link](./exercisefiles/dotnet/README.md)          |
+| Java Quarkus    | Developer | [Link](./exercisefiles/java/quarkus/README.md)    |
+| Java Springboot | Developer | [Link](./exercisefiles/java/springboot/README.md) |
+| PHP             | Developer | [Link](./exercisefiles/php/README.md)             |
+| Python          | Developer | [Link](./exercisefiles/python/README.md)          |
+| Javascript      | Developer | [Link](./exercisefiles/javascript/README.md)      |
+| Typescript      | Developer | [Link](./exercisefiles/typescript/README.md)      |
 
-| Language | Role | Instructions | GitHub Codespaces |
-|---|---|---|---|
-| C++ | Developer | [Link](./exercisefiles/cpp/README.md) | [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/NavaraCloudServices/github-copilot-groundschool/tree/main?devcontainer_path=.devcontainer%2Fcpp%2Fdevcontainer.json) |
-| C# | Developer | [Link](./exercisefiles/dotnet/README.md) | [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/NavaraCloudServices/github-copilot-groundschool/tree/main?devcontainer_path=.devcontainer%2Fdotnet%2Fdevcontainer.json) |
-| Java Quarkus | Developer | [Link](./exercisefiles/java/quarkus/README.md) | [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/NavaraCloudServices/github-copilot-groundschool/tree/main?devcontainer_path=.devcontainer%2Fjava_quarkus%2Fdevcontainer.json) |
-| Java Springboot | Developer | [Link](./exercisefiles/java/springboot/README.md) | [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/NavaraCloudServices/github-copilot-groundschool/tree/main?devcontainer_path=.devcontainer%2Fjava_springboot%2Fdevcontainer.json) |
-| PHP | Developer | [Link](./exercisefiles/php/README.md) | [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/NavaraCloudServices/github-copilot-groundschool/tree/main?devcontainer_path=.devcontainer%2Fphp%2Fdevcontainer.json) |
-| Python | Developer | [Link](./exercisefiles/python/README.md) | [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/NavaraCloudServices/github-copilot-groundschool/tree/main?devcontainer_path=.devcontainer%2Fpython%2Fdevcontainer.json) |
-| Javascript | Developer | [Link](./exercisefiles/javascript/README.md) | [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/NavaraCloudServices/github-copilot-groundschool/tree/main?devcontainer_path=.devcontainer%2Fjavascript-node%2Fdevcontainer.json) |
-| Typescript | Developer | [Link](./exercisefiles/typescript/README.md) | [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/NavaraCloudServices/github-copilot-groundschool/tree/main?devcontainer_path=.devcontainer%2Ftypescript-node%2Fdevcontainer.json) |
+You can make use of DevContainers within Visual Studio Code. Use the [VSCode documentation to setup your machine](https://code.visualstudio.com/docs/devcontainers/tutorial)
+
+After setting up your machine, go to your Command Pallete in VSCode and select `Dev Containers: Rebuild and open in Container`. Choose the correct container. You don't have to worry about the Prerequisites.
 
 ## Challenges instructions
 
-- [Develop a shop cart](./challenges/eshop/eshop.md) 
+- [Develop a shop cart](./challenges/eshop/eshop.md)
 - [Develop a memory game](./challenges/memorygame/memorygame.md)
 - [Develop a chat based on websockets](./challenges/chatwebsockets/chatwebsockets.md)
 - [Analysis cryptocurrency market analysis](./challenges/cryptoanalisis/crypto.md)
