@@ -4,18 +4,23 @@ import (
 	"net/http"
 	"net/http/httptest"
 	"testing"
-	"github.com/stretchr/testify/assert"
+	. "gopkg.in/check.v1"
 )
 
-func TestGetHandlerWithoutName(t *testing.T) {
+// Hook up gocheck into the "go test" runner.
+func Test(t *testing.T) { TestingT(t) }
+
+type MainSuite struct{}
+
+var _ = Suite(&MainSuite{})
+
+func (s *MainSuite) TestGetHandlerWithoutName(c *C) {
 	req, err := http.NewRequest("GET", "/hello", nil)
-	if err != nil {
-		t.Fatal(err)
-	}
+	c.Assert(err, IsNil)
 
 	rr := httptest.NewRecorder()
 	handler := http.HandlerFunc(getHandler)
 	handler.ServeHTTP(rr, req)
 
-	assert.Equal(t, "name not passed", rr.Body.String(), "handler returned unexpected body")
+	c.Assert(rr.Body.String(), Equals, "name not passed\n")
 }

@@ -26,7 +26,8 @@
 				// Specific language support
 				"golang.go",
 				"ms-vscode.go",
-				"ms-vscode.vscode-go"
+				"ms-vscode.vscode-go",
+				"babakks.vscode-go-test-suite"
 			]
 		}
 	},
