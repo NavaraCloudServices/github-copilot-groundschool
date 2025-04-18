@@ -1,14 +1,13 @@
-
 <?php
 
 use PHPUnit\Framework\TestCase;
 
-class TestServer extends TestCase
+class serverTest extends TestCase
 {
     private $baseUrl = "http://localhost:3000";
 
     // Function to send HTTP requests using cURL
-    private function sendRequest($method, $endpoint, $queryParams = [])
+    private function sendRequest($method, $endpoint, $queryParams = [], $postData = null)
     {
         $url = $this->baseUrl . $endpoint;
         if (!empty($queryParams)) {
@@ -20,6 +19,16 @@ class TestServer extends TestCase
         curl_setopt($ch, CURLOPT_URL, $url);
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
         curl_setopt($ch, CURLOPT_CUSTOMREQUEST, $method);
+        
+        // If POST data is provided, add it to the request
+        if ($postData !== null) {
+            $jsonData = json_encode($postData);
+            curl_setopt($ch, CURLOPT_POSTFIELDS, $jsonData);
+            curl_setopt($ch, CURLOPT_HTTPHEADER, [
+                'Content-Type: application/json',
+                'Content-Length: ' . strlen($jsonData)
+            ]);
+        }
 
         // Execute the request
         $response = curl_exec($ch);

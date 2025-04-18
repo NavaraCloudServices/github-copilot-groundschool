@@ -25,7 +25,8 @@
         "GitHub.copilot-chat",
 
         // Specific language support
-        "xdebug.php-pack"
+        "xdebug.php-pack",
+		"recca0120.vscode-phpunit"
       ]
     }
   }

@@ -17,7 +17,10 @@
       "extensions": [
         // GitHub
         "GitHub.copilot",
-        "GitHub.copilot-chat"
+        "GitHub.copilot-chat",
+
+		// Specific language support
+		"hbenl.vscode-mocha-test-adapter"
       ]
     }
   }
