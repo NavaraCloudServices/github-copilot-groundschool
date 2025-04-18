@@ -20,6 +20,9 @@
       "java.help.showReleaseNotes": false,
       "java.help.firstView": "none",
       "workbench.welcomePage.walkthroughs.openOnInstall": false,
+	  "workbench.settings.applyToAllProfiles": [
+		  "workbench.startupEditor"
+	  ],
       "openFiles": ["README.md"],
       "extensions": [
         // GitHub
