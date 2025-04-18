@@ -1,4 +1,4 @@
-package copilot;
+package copilot.httpserver;
 
 import io.quarkus.test.junit.QuarkusIntegrationTest;
 

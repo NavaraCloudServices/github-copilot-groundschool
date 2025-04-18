@@ -1,4 +1,4 @@
-package copilot;
+package copilot.httpserver;
 
 import static org.hamcrest.Matchers.equalTo;
 import org.junit.jupiter.api.Test;
