@@ -15,6 +15,7 @@
       "settings": {
 		"workbench.startupEditor": "none",
         "git.autoRepositoryDetection": false,
+		"git.openRepositoryInParentFolders": "never",
         "workbench.welcomePage.walkthroughs.openOnInstall": false
       },
       "openFiles": ["README.md"],
