@@ -12,8 +12,8 @@
   // Configure tool-specific properties.
   "customizations": {
     "vscode": {
-      "workbench.startupEditor": "none",
       "settings": {
+		"workbench.startupEditor": "none",
         "git.autoRepositoryDetection": false,
         "workbench.welcomePage.walkthroughs.openOnInstall": false
       },

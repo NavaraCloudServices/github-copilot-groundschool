@@ -7,8 +7,8 @@
   "postCreateCommand": "pip install --upgrade pip && pip install --user -r requirements.txt",
   "customizations": {
     "vscode": {
-      "workbench.startupEditor": "none",
       "settings": {
+		"workbench.startupEditor": "none",
         "git.autoRepositoryDetection": false,
         "workbench.welcomePage.walkthroughs.openOnInstall": false
       },
