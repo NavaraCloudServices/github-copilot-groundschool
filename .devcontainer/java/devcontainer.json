@@ -31,11 +31,7 @@
 				"ms-vscode-remote.remote-containers",
 
 				// Specific language support
-                "vscjava.vscode-java-pack",
-                
-				// General language support
-				"zainchen.json",
-                "mechatroner.rainbow-csv"
+                "vscjava.vscode-java-pack"
 			]
 		}
 	}
