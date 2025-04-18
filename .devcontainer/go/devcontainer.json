@@ -10,8 +10,10 @@
 	"customizations": {
 		"vscode": {
 			"workbench.startupEditor": "none",
-			"git.autoRepositoryDetection": false,
-			"workbench.welcomePage.walkthroughs.openOnInstall": false,
+			"settings": {
+				"git.autoRepositoryDetection": false,
+				"workbench.welcomePage.walkthroughs.openOnInstall": false
+			},
 			"openFiles": [
       			"README.md"
 			],
@@ -19,9 +21,6 @@
 				// GitHub
 				"GitHub.copilot",
 				"GitHub.copilot-chat",
-
-				// Dev Containers
-				"ms-vscode-remote.remote-containers",
 
 				// Specific language support
 				"golang.go",

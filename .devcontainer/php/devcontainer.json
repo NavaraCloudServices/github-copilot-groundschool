@@ -1,34 +1,31 @@
 {
-    "name": "PHP",
-    "image": "mcr.microsoft.com/devcontainers/php",
-  
-    "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}/exercisefiles/php/",
-	"features": {
-        "ghcr.io/devcontainers-extra/features/composer:1": {}
-    },
-	"forwardPorts": [3000],
-	"postCreateCommand": "composer install",
+  "name": "PHP",
+  "image": "mcr.microsoft.com/devcontainers/php",
 
-	// Configure tool-specific properties.
-	"customizations": {
-		"vscode": {
-			"workbench.startupEditor": "none",
-			"git.autoRepositoryDetection": false,
-			"workbench.welcomePage.walkthroughs.openOnInstall": false,
-			"openFiles": [
-      			"README.md"
-			],
-			"extensions": [
-				// GitHub
-				"GitHub.copilot",
-				"GitHub.copilot-chat",
+  "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}/exercisefiles/php/",
+  "features": {
+    "ghcr.io/devcontainers-extra/features/composer:1": {}
+  },
+  "forwardPorts": [3000],
+  "postCreateCommand": "composer install",
 
-				// Dev Containers
-				"ms-vscode-remote.remote-containers",
+  // Configure tool-specific properties.
+  "customizations": {
+    "vscode": {
+      "workbench.startupEditor": "none",
+      "settings": {
+        "git.autoRepositoryDetection": false,
+        "workbench.welcomePage.walkthroughs.openOnInstall": false
+      },
+      "openFiles": ["README.md"],
+      "extensions": [
+        // GitHub
+        "GitHub.copilot",
+        "GitHub.copilot-chat",
 
-				// Specific language support
-				"xdebug.php-pack"
-			]
-		}
-	}
+        // Specific language support
+        "xdebug.php-pack"
+      ]
+    }
   }
+}

@@ -31,9 +31,6 @@
         "GitHub.copilot",
         "GitHub.copilot-chat",
 
-        // Dev Containers
-        "ms-vscode-remote.remote-containers",
-
         // Specific language support
         "vscjava.vscode-java-pack"
       ]
