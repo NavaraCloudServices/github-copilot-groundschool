@@ -6,6 +6,15 @@
     "start": "node nodeserver.js",
     "test": "mocha test.js"
   },
+  "mocha": {
+    "extension": [
+      "js"
+    ],
+    "node-option": [
+      "experimental-specifier-resolution=node"
+    ],
+    "spec": "test.js"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
