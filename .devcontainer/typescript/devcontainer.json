@@ -9,9 +9,9 @@
   "customizations": {
     "vscode": {
       "settings": {
-		"workbench.startupEditor": "none",
+        "workbench.startupEditor": "none",
         "git.autoRepositoryDetection": false,
-		"git.openRepositoryInParentFolders": "never",
+        "git.openRepositoryInParentFolders": "never",
         "workbench.welcomePage.walkthroughs.openOnInstall": false
       },
       "extensions": [
@@ -19,8 +19,8 @@
         "GitHub.copilot",
         "GitHub.copilot-chat",
 
-		// Specific language support
-		"hbenl.vscode-mocha-test-adapter"
+        // Specific language support
+        "hbenl.vscode-mocha-test-adapter"
       ]
     }
   }
