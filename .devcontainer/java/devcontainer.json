@@ -17,6 +17,8 @@
 		"vscode": {
 			"workbench.startupEditor": "none",
 			"git.autoRepositoryDetection": "false",
+			"java.help.showReleaseNotes": false,
+			"java.help.firstView": "none",
 			"openFiles": [
       			"README.md"
 			],
