@@ -16,9 +16,10 @@
     "customizations": {
 		"vscode": {
 			"workbench.startupEditor": "none",
-			"git.autoRepositoryDetection": "false",
+			"git.autoRepositoryDetection": false,
 			"java.help.showReleaseNotes": false,
 			"java.help.firstView": "none",
+			"workbench.welcomePage.walkthroughs.openOnInstall": false,
 			"openFiles": [
       			"README.md"
 			],

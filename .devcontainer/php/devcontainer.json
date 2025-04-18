@@ -13,8 +13,8 @@
 	"customizations": {
 		"vscode": {
 			"workbench.startupEditor": "none",
-			"git.autoRepositoryDetection": "false",
-			"workbench.welcomePage.walkthroughs.openOnInstall": "false",
+			"git.autoRepositoryDetection": false,
+			"workbench.welcomePage.walkthroughs.openOnInstall": false,
 			"openFiles": [
       			"README.md"
 			],
