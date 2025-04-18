@@ -20,7 +20,6 @@
         "ms-vscode.cpptools",
         "ms-vscode.cpptools-extension-pack",
         "ms-vscode.cmake-tools",
-        "ms-vscode.makefile-tools",
         "matepek.vscode-catch2-test-adapter"
       ]
     },
@@ -34,7 +33,7 @@
       "git.autoRepositoryDetection": false,
       "git.openRepositoryInParentFolders": "never",
       "workbench.welcomePage.walkthroughs.openOnInstall": false,
-      "C_Cpp.default.cppStandard": "c++20"
+      "C_Cpp.default.cppStandard": "c++17"
     }
   },
   "remoteUser": "root"

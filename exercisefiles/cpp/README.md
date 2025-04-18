@@ -54,7 +54,7 @@ pip install conan
 1. Install dependencies with Conan and generate build files:
 ```bash
 mkdir build && cd build
-conan install .. --build=missing
+conan install .. --build=missing -s compiler.cppstd=gnu17
 cmake .. -DCMAKE_TOOLCHAIN_FILE=conan_toolchain.cmake -DCMAKE_BUILD_TYPE=Release
 cmake --build .
 ```
