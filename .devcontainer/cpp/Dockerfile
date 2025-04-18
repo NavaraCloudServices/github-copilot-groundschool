@@ -5,6 +5,7 @@ RUN apt-get update && apt-get install -y \
     python3-pip \
     libgtest-dev \
     build-essential \
-    cmake
+    cmake \
+    libfmt-dev
 
 RUN sudo python3 -m pip install conan --break-system-packages
