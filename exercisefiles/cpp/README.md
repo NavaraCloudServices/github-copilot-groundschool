@@ -65,4 +65,4 @@ cmake --build .
 
 ## How to Start the Tests?
 
-- After building, run `./tests/tests` from the build directory
+- After building, run `./test/tests` from the build directory
