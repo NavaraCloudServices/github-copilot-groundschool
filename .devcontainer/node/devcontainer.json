@@ -17,10 +17,7 @@
       "extensions": [
         // GitHub
         "GitHub.copilot",
-        "GitHub.copilot-chat",
-
-        // Specific language support
-        "ms-vscode.vscode-typescript-next"
+        "GitHub.copilot-chat"
       ]
     }
   }
