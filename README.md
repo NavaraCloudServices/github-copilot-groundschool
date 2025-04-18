@@ -57,7 +57,7 @@ You can find the exercises [here](./exercisefiles/Exercises_developer.md). Pleas
 
 | Language        |  Type      | Instructions   | Codespaces       | Notes |
 | --------------- | --------- | -------------|---|---|
-| C++ | Developer | [Link](./exercisefiles/cpp/README.md) | [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/NavaraCloudServices/github-copilot-groundschool/tree/main?devcontainer_path=.devcontainer%2Fcpp%2Fdevcontainer.json) | |
+| C++ | Developer | [Link](./exercisefiles/cpp/README.md) | [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/NavaraCloudServices/github-copilot-groundschool/tree/main?devcontainer_path=.devcontainer%2Fcpp%2Fdevcontainer.json) | Select 'Conan' as profile |
 | C# | Developer | [Link](./exercisefiles/dotnet/README.md) | [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/NavaraCloudServices/github-copilot-groundschool/tree/main?devcontainer_path=.devcontainer%2Fdotnet%2Fdevcontainer.json) ||
 | Go | Developer | [Link](./exercisefiles/go/README.md) | [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/NavaraCloudServices/github-copilot-groundschool/tree/main?devcontainer_path=.devcontainer%2Fgo%2Fdevcontainer.json) | |
 | Java Quarkus | Developer | [Link](./exercisefiles/java/quarkus/README.md) | [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/NavaraCloudServices/github-copilot-groundschool/tree/main?devcontainer_path=.devcontainer%2Fjava%2Fdevcontainer.json) | Import the projects (Java Projects) to enable the test discovery |
