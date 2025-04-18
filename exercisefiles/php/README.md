@@ -16,7 +16,7 @@ You can find the exercises [here](../Exercises_developer.md).
 
 ## Tests File
 
-- `TestServer.php`
+- `serverTest.php`
 
 ## How to Start the Server?
 
@@ -24,4 +24,4 @@ You can find the exercises [here](../Exercises_developer.md).
 
 ## How to Start the Tests?
 
-- Use `./vendor/bin/phpunit tests/TestServer.php`
+- Use `./vendor/bin/phpunit tests/serverTest.php`

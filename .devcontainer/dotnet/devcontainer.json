@@ -1,39 +1,35 @@
 {
-	"$schema": "https://raw.githubusercontent.com/devcontainers/spec/main/schemas/devContainer.schema.json",
-	
-	"name": "C# (.NET)",
-	"image": "mcr.microsoft.com/devcontainers/dotnet",
+  "$schema": "https://raw.githubusercontent.com/devcontainers/spec/main/schemas/devContainer.schema.json",
 
-	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}/exercisefiles/dotnet/",
+  "name": "C# (.NET)",
+  "image": "mcr.microsoft.com/devcontainers/dotnet",
 
-	"forwardPorts": [3000],
+  "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}/exercisefiles/dotnet/",
 
-	"postCreateCommand": "dotnet restore",
+  "forwardPorts": [3000],
 
-	"customizations": {
-		"vscode": {
-			"openFiles": [
-      			"README.md"
-			],
-			"extensions": [
-				// GitHub
-				"GitHub.copilot",
-				"GitHub.copilot-chat",
+  "postCreateCommand": "dotnet restore",
 
-				// Dev Containers
-				"ms-vscode-remote.remote-containers",
+  "customizations": {
+    "vscode": {
+      "settings": {
+		"workbench.startupEditor": "none",
+		"git.openRepositoryInParentFolders": "never",
+        "git.autoRepositoryDetection": false,
+        "workbench.welcomePage.walkthroughs.openOnInstall": false
+      },
+      "openFiles": ["README.md"],
+      "extensions": [
+        // GitHub
+        "GitHub.copilot",
+        "GitHub.copilot-chat",
 
-				// Specific language support
-				"ms-dotnettools.csharp",
-				"ms-dotnettools.csdevkit",
-				"ms-dotnettools.vscode-dotnet-runtime",
-
-				// General language support
-				"redhat.vscode-yaml",
-				"zainchen.json",
-                "mechatroner.rainbow-csv"
-			]
-		}
-	},
-	"remoteUser": "root"
+        // Specific language support
+        "ms-dotnettools.csharp",
+        "ms-dotnettools.csdevkit",
+        "ms-dotnettools.vscode-dotnet-runtime"
+      ]
+    }
+  },
+  "remoteUser": "root"
 }

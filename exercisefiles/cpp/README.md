@@ -4,6 +4,8 @@ You can find the exercises [here](../Exercises_developer.md).
 
 ## Prerequisites
 
+We recommend running this in a devcontainer or GitHub Codespace. If you are running locally, please ensure you have the following installed:
+
 - [Conan package manager](https://conan.io/downloads) (if not installed, run `pip install conan`)
 - Set default Conan profile `conan profile detect`
 - CMake (version 3.18 or higher)
@@ -43,18 +45,18 @@ pip install conan
 
 ## Main File
 
-- `main.cpp`
+- `src/main.cpp`
 
 ## Tests File
 
-- `tests.cpp`
+- `test/tests.cpp`
 
 ## How to Compile?
 
 1. Install dependencies with Conan and generate build files:
 ```bash
 mkdir build && cd build
-conan install .. --build=missing
+conan install .. --build=missing -s compiler.cppstd=gnu17
 cmake .. -DCMAKE_TOOLCHAIN_FILE=conan_toolchain.cmake -DCMAKE_BUILD_TYPE=Release
 cmake --build .
 ```
@@ -65,4 +67,4 @@ cmake --build .
 
 ## How to Start the Tests?
 
-- After building, run `./tests/tests` from the build directory
+- After building, run `./test/tests` from the build directory

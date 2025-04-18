@@ -5,13 +5,28 @@
   "scripts": {
     "build": "tsc",
     "start": "npx ts-node nodeserver.ts",
-    "test": "npx mocha --require ts-node/register test.ts"
+    "test": "npx mocha test.ts"
+  },
+  "mocha": {
+    "extension": [
+      "ts"
+    ],
+    "node-option": [
+      "experimental-specifier-resolution=node",
+      "loader=ts-node/esm"
+    ],
+    "require": [
+      "ts-node/register",
+      "source-map-support/register"
+    ],
+    "spec": "test.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "source-map-support": "^0.5.21",
     "typescript": "^5.8.2"
   },
   "devDependencies": {

@@ -1,40 +1,40 @@
 {
-    "name": "Java",
-    "image": "mcr.microsoft.com/devcontainers/java",
+  "name": "Java",
+  "image": "mcr.microsoft.com/devcontainers/java",
 
-    "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}/exercisefiles/java/",
-  
-    "features": {
-        "ghcr.io/devcontainers/features/java:1": {
-            "version": "none",
-            "installMaven": "true",
-            "installGradle": "false"
-        }
-    },
+  "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}/exercisefiles/java/",
 
-	"forwardPorts": [3000],
-    // Configure tool-specific properties.
-    "customizations": {
-		"vscode": {
-			"openFiles": [
-      			"README.md"
-			],
-			"extensions": [
-				// GitHub
-				"GitHub.copilot",
-				"GitHub.copilot-chat",
+  "features": {
+    "ghcr.io/devcontainers/features/java:1": {
+      "version": "none",
+      "installMaven": "true"
+    }
+  },
 
-				// Dev Containers
-				"ms-vscode-remote.remote-containers",
+  "forwardPorts": [3000],
+  // Configure tool-specific properties.
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "workbench.startupEditor": "none",
+        "git.autoRepositoryDetection": false,
+        "git.openRepositoryInParentFolders": "never",
+        "java.help.showReleaseNotes": false,
+        "java.help.firstView": "none",
+        "workbench.welcomePage.walkthroughs.openOnInstall": false,
+        "redhat.telemetry.enabled": false,
+        "workbench.settings.applyToAllProfiles": ["workbench.startupEditor"],
+        "java.configuration.detectJdksAtStart": true
+      },
+      "openFiles": ["README.md"],
+      "extensions": [
+        // GitHub
+        "GitHub.copilot",
+        "GitHub.copilot-chat",
 
-				// Specific language support
-                "vscjava.vscode-java-pack",
-                
-				// General language support
-				"redhat.vscode-yaml",
-				"zainchen.json",
-                "mechatroner.rainbow-csv"
-			]
-		}
-	}
+        // Specific language support
+        "vscjava.vscode-java-pack"
+      ]
+    }
   }
+}

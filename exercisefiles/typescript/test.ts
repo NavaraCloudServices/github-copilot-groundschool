@@ -1,5 +1,6 @@
 import * as assert from 'assert';
 import * as http from 'http';
+import './nodeserver';
 
 describe('Node Server', () => {
     it('should return "name not passed" if name is not passed', (done: Mocha.Done) => {

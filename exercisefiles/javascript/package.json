@@ -4,7 +4,16 @@
   "main": "nodeserver.js",
   "scripts": {
     "start": "node nodeserver.js",
-    "test": "npx mocha test.js"
+    "test": "mocha test.js"
+  },
+  "mocha": {
+    "extension": [
+      "js"
+    ],
+    "node-option": [
+      "experimental-specifier-resolution=node"
+    ],
+    "spec": "test.js"
   },
   "keywords": [],
   "author": "",

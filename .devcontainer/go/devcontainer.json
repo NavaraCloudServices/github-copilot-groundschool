@@ -9,6 +9,12 @@
 	"forwardPorts": [3000],
 	"customizations": {
 		"vscode": {
+			"settings": {
+				"workbench.startupEditor": "none",
+				"git.autoRepositoryDetection": false,
+				"git.openRepositoryInParentFolders": "never",
+				"workbench.welcomePage.walkthroughs.openOnInstall": false
+			},
 			"openFiles": [
       			"README.md"
 			],
@@ -17,18 +23,11 @@
 				"GitHub.copilot",
 				"GitHub.copilot-chat",
 
-				// Dev Containers
-				"ms-vscode-remote.remote-containers",
-
 				// Specific language support
 				"golang.go",
 				"ms-vscode.go",
 				"ms-vscode.vscode-go",
-
-				// General language support
-				"redhat.vscode-yaml",
-				"zainchen.json",
-                "mechatroner.rainbow-csv"
+				"babakks.vscode-go-test-suite"
 			]
 		}
 	},
