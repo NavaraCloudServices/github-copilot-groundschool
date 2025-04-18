@@ -61,8 +61,8 @@ cmake --build .
 
 ## How to Start the Server?
 
-- After building, run `./src/httpserver` from the build directory
+- After building, run `./build/src/httpserver` from the build directory
 
 ## How to Start the Tests?
 
-- After building, run `./test/tests` from the build directory
+- After building, run `./build/test/tests` from the build directory
