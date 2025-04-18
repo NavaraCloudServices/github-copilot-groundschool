@@ -15,14 +15,16 @@
   // Configure tool-specific properties.
   "customizations": {
     "vscode": {
-      "workbench.startupEditor": "none",
-      "git.autoRepositoryDetection": false,
-      "java.help.showReleaseNotes": false,
-      "java.help.firstView": "none",
-      "workbench.welcomePage.walkthroughs.openOnInstall": false,
-	  "workbench.settings.applyToAllProfiles": [
-		  "workbench.startupEditor"
-	  ],
+      "settings": {
+        "workbench.startupEditor": "none",
+        "git.autoRepositoryDetection": false,
+        "java.help.showReleaseNotes": false,
+        "java.help.firstView": "none",
+        "workbench.welcomePage.walkthroughs.openOnInstall": false,
+        "redhat.telemetry.enabled": false,
+        "workbench.settings.applyToAllProfiles": ["workbench.startupEditor"],
+        "java.configuration.detectJdksAtStart": true
+      },
       "openFiles": ["README.md"],
       "extensions": [
         // GitHub
