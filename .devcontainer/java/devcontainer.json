@@ -5,11 +5,7 @@
     "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}/exercisefiles/java/",
   
     "features": {
-        "ghcr.io/devcontainers/features/java:1": {
-            "version": "none",
-            "installMaven": "true",
-            "installGradle": "false"
-        }
+        "ghcr.io/devcontainers-extra/features/maven-sdkman:2":  {}
     },
 
 	"forwardPorts": [3000],
