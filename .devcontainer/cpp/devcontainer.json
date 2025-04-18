@@ -26,12 +26,7 @@
 				"ms-vscode.cpptools",
 				"ms-vscode.cpptools-extension-pack",
 				"ms-vscode.cmake-tools",
-				"ms-vscode.makefile-tools",
-
-				// General language support
-				"redhat.vscode-yaml",
-				"zainchen.json",
-                "mechatroner.rainbow-csv"
+				"ms-vscode.makefile-tools"
 			]
 		},
 

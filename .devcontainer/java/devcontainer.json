@@ -30,7 +30,6 @@
                 "vscjava.vscode-java-pack",
                 
 				// General language support
-				"redhat.vscode-yaml",
 				"zainchen.json",
                 "mechatroner.rainbow-csv"
 			]

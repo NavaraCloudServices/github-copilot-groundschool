@@ -23,12 +23,7 @@
 				// Specific language support
 				"golang.go",
 				"ms-vscode.go",
-				"ms-vscode.vscode-go",
-
-				// General language support
-				"redhat.vscode-yaml",
-				"zainchen.json",
-                "mechatroner.rainbow-csv"
+				"ms-vscode.vscode-go"
 			]
 		}
 	},

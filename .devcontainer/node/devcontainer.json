@@ -18,12 +18,7 @@
 				"ms-vscode-remote.remote-containers",
 
 				// Specific language support
-                "ms-vscode.vscode-typescript-next",
-                
-				// General language support
-				"redhat.vscode-yaml",
-				"zainchen.json",
-                "mechatroner.rainbow-csv"
+                "ms-vscode.vscode-typescript-next"
 			]
 		}
 	}
