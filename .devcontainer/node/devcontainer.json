@@ -8,6 +8,8 @@
 	// Configure tool-specific properties.
     "customizations": {
 		"vscode": {
+			"workbench.startupEditor": "none",
+			"git.autoRepositoryDetection": "false",
 			"extensions": [
 				// GitHub
 				"GitHub.copilot",
