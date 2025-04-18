@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>copilot</groupId>
-	<artifactId>httpserver</artifactId>
+	<artifactId>github-copilot-springboot</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>httpserver</name>
 	<description>Demo project for GitHub Copilot</description>
