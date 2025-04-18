@@ -11,6 +11,7 @@
 		"workbench.startupEditor": "none",
         "git.autoRepositoryDetection": false,
 		"git.openRepositoryInParentFolders": "never",
+		"python.testing.pytestEnabled": true,
         "workbench.welcomePage.walkthroughs.openOnInstall": false
       },
       "openFiles": ["README.md"],
