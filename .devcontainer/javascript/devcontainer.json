@@ -3,7 +3,7 @@
   "image": "mcr.microsoft.com/devcontainers/javascript-node",
   "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}/exercisefiles/javascript",
   "forwardPorts": [3000],
-  "postCreateCommand": "npm install -g mocha",
+  "postCreateCommand": "npm install && npm install -g mocha",
 
   // Configure tool-specific properties.
   "customizations": {
