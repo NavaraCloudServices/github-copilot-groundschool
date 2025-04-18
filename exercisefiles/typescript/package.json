@@ -5,8 +5,11 @@
   "scripts": {
     "build": "tsc",
     "start": "npx ts-node nodeserver.ts",
-    "test": "npx mocha --require ts-node/register test.ts"
+    "test": "mocha test.ts"
   },
+  "mocha": {
+    "require": ["tsconfig/register"]
+    },
   "keywords": [],
   "author": "",
   "license": "ISC",
