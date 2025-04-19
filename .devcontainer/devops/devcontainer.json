@@ -1,0 +1,38 @@
+{
+  "$schema": "https://raw.githubusercontent.com/devcontainers/spec/main/schemas/devContainer.schema.json",
+
+  "name": "DevOps",
+  "image": "mcr.microsoft.com/devcontainers/base",
+
+  "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}/exercisefiles/devops/",
+  "features": {
+    "ghcr.io/devcontainers/features/aws-cli:1": {},
+    "ghcr.io/devcontainers/features/azure-cli:1": {},
+    "ghcr.io/devcontainers/features/powershell:1": {},
+    "ghcr.io/devcontainers/features/terraform:1": {}
+
+  },
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "workbench.startupEditor": "none",
+        "git.openRepositoryInParentFolders": "never",
+        "git.autoRepositoryDetection": false,
+        "workbench.welcomePage.walkthroughs.openOnInstall": false
+      },
+      "openFiles": ["README.md"],
+      "extensions": [
+        // GitHub
+        "GitHub.copilot",
+        "GitHub.copilot-chat",
+
+        // Specific tool support
+        "hashicorp.terraform",
+        "ms-azuretools.vscode-bicep",
+        "ms-vscode.powershell",
+        "github.vscode-github-actions"
+      ]
+    }
+  },
+  "remoteUser": "root"
+}
