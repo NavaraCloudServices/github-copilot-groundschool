@@ -106,7 +106,7 @@ Create a VM with the following specs:
 
 #### Make environmentindpendent
 
-- Your organization has multiple environments (dev, test, prod). Make sure your code is environment independent.
+- Your organization has multiple environments (dev, tst, prd). Make sure your code is environment independent. All resources should be created in the same way, regardless of the environment but with a postfix with the environment name.
 
 ### Exercise 5: Document the code
 
