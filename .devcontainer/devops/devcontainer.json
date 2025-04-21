@@ -9,7 +9,9 @@
     "ghcr.io/devcontainers/features/aws-cli:1": {},
     "ghcr.io/devcontainers/features/azure-cli:1": {},
     "ghcr.io/devcontainers/features/powershell:1": {},
-    "ghcr.io/devcontainers/features/terraform:1": {}
+    "ghcr.io/devcontainers/features/terraform:1": {},
+    "ghcr.io/devcontainers/features/go:1": {},
+    "ghcr.io/rchaganti/vsc-devcontainer-features/azurebicep:1": {}
 
   },
   "customizations": {
@@ -18,7 +20,9 @@
         "workbench.startupEditor": "none",
         "git.openRepositoryInParentFolders": "never",
         "git.autoRepositoryDetection": false,
-        "workbench.welcomePage.walkthroughs.openOnInstall": false
+        "workbench.welcomePage.walkthroughs.openOnInstall": false,
+        "aws.telemetry": false,
+        
       },
       "openFiles": ["README.md"],
       "extensions": [
@@ -30,7 +34,12 @@
         "hashicorp.terraform",
         "ms-azuretools.vscode-bicep",
         "ms-vscode.powershell",
-        "github.vscode-github-actions"
+        "github.vscode-github-actions",
+				"golang.go",
+				"ms-vscode.go",
+				"ms-vscode.vscode-go",
+				"babakks.vscode-go-test-suite"
+
       ]
     }
   },

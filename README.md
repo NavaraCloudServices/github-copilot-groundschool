@@ -53,12 +53,19 @@ Please note, the extensions are already installed in Visual Studio 2022 if you h
 
 ## Available Exercises
 
-You can find the exercises [here](./exercisefiles/Exercises_developer.md). Please check the language instructions in the table below:
+The exercises are divided into two categories: Developer and DevOps Engineer. The exercises are designed to help you learn how to use GitHub Copilot in different programming languages and environments.
+
+[Exercises Developer](./exercisefiles/Exercises_developer.md)
+
+[Exercises DevOps](./exercisefiles/Exercises_devops.md)
+
+ Please check the language instructions in the table below:
 
 | Language        |  Type      | Instructions   | Codespaces       | Notes |
 | --------------- | --------- | -------------|---|---|
 | C++ | Developer | [Link](./exercisefiles/cpp/README.md) | [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/NavaraCloudServices/github-copilot-groundschool/tree/main?devcontainer_path=.devcontainer%2Fcpp%2Fdevcontainer.json) | Select 'Conan' as profile |
 | C# | Developer | [Link](./exercisefiles/dotnet/README.md) | [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/NavaraCloudServices/github-copilot-groundschool/tree/main?devcontainer_path=.devcontainer%2Fdotnet%2Fdevcontainer.json) ||
+| DevOps (Terraform/Bicep/PowerShell/Bash) | DevOps Engineer | [Link](./exercisefiles/devops/README.md) | [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/NavaraCloudServices/github-copilot-groundschool/tree/main?devcontainer_path=.devcontainer%2Fdevops%2Fdevcontainer.json) | Experimental |
 | Go | Developer | [Link](./exercisefiles/go/README.md) | [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/NavaraCloudServices/github-copilot-groundschool/tree/main?devcontainer_path=.devcontainer%2Fgo%2Fdevcontainer.json) | |
 | Java Quarkus | Developer | [Link](./exercisefiles/java/quarkus/README.md) | [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/NavaraCloudServices/github-copilot-groundschool/tree/main?devcontainer_path=.devcontainer%2Fjava%2Fdevcontainer.json) | Import the projects (Java Projects) to enable the test discovery |
 | Java Springboot | Developer | [Link](./exercisefiles/java/springboot/README.md) | [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/NavaraCloudServices/github-copilot-groundschool/tree/main?devcontainer_path=.devcontainer%2Fjava%2Fdevcontainer.json) | Import the projects (Java Projects) to enable the test discovery |
@@ -77,12 +84,23 @@ There are three ways to execute the exercises:
 
 ## Challenges instructions
 
+### Developer
 - [Develop a shop cart](./challenges/eshop/eshop.md)
 - [Develop a memory game](./challenges/memorygame/memorygame.md)
 - [Develop a chat based on websockets](./challenges/chatwebsockets/chatwebsockets.md)
+
+### Data
+
 - [Analysis cryptocurrency market analysis](./challenges/cryptoanalisis/crypto.md)
 - [COVID19 Worldwide Testing Data (Python Data Engineer)](./challenges/python_data_engineer/README.md)
 - [Decision Tree Classicication Based on Diabetest Dataset (Python Data Scientist)](./challenges/python_data_scientist/README.md)
+
+### DevOps
+- [Infrastructure as Code](./challenges/devops_application/README.md)
+- [Deploy Kubernetes Application](./challenges/devops_kubernetesapp/README.md)
+
+
+
 
 ## Quick Links
 

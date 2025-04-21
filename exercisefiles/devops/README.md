@@ -1,10 +1,7 @@
-# DevOps
+# Typescript
 
-You can find the exercises [here](../Exercises_DevOps.md). 
+You can find the exercises [here](../Exercises_devops.md). 
 
 ## Prerequisites
 
-- Terraform, tflint
-- Bicep
-- PowerShell
-- Bash
+- Due to the number of tools required we recommentd using GitHub Codespaces or [DevContainers](https://code.visualstudio.com/docs/devcontainers/containers) to run the exercises.

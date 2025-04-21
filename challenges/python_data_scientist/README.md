@@ -49,8 +49,3 @@
 ### 6. Visualizing the Decision Tree
 
 ### 7. Conclusion
-
-
-
-
-
