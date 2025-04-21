@@ -95,14 +95,18 @@ Create a VM with the following specs:
 
 ### Exercise 4: Refactoring and optimizing
 
-#### Use Variables, Outputs and Modules
-
 >The goal of this exersize is to refactor your code from Exercise 3.
+
+#### Use Variables, Outputs and Modules
 
 - Move hardcoded values to variable files.
 - Create modules for re-usability.
 - For Bicep, create a main.bicep file that calls the modules including the input parameters
 - For Terraform, create a main.tf file that calls the modules.
+
+#### Make environmentindpendent
+
+- Your organization has multiple environments (dev, test, prod). Make sure your code is environment independent.
 
 ### Exercise 5: Document the code
 
@@ -114,6 +118,6 @@ In the chat, ask GitHub Copilot to document your code. Tip: use the `#file` opti
 
 >The goal is to let GitHub Copilot write tests for your code.
 
-With terratest (based on Go) you can write tests for your terraform code. You can find a basic setup in the [test](./test/) directory. You can use the build in Visual Studio Code test runner or the command line to run the tests.
+With terratest (based on Go) you can write tests for your terraform code. You can find a basic setup in the [test](./test/) directory. You can use the built-in Visual Studio Code test runner or the command line to run the tests.
 
 > If you are using Visual Studio Code, you can try out GitHub Copilot Chat Agent to iterate over the code and test outcomes.
