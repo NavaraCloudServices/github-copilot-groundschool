@@ -1,35 +1,33 @@
 {
-	"$schema": "https://raw.githubusercontent.com/devcontainers/spec/main/schemas/devContainer.schema.json",
-	
-	"name": "Go",
-	"image": "mcr.microsoft.com/devcontainers/go",
+  "$schema": "https://raw.githubusercontent.com/devcontainers/spec/main/schemas/devContainer.schema.json",
 
-	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}/exercisefiles/go/",
+  "name": "Go",
+  "image": "mcr.microsoft.com/devcontainers/go",
 
-	"forwardPorts": [3000],
-	"customizations": {
-		"vscode": {
-			"settings": {
-				"workbench.startupEditor": "none",
-				"git.autoRepositoryDetection": false,
-				"git.openRepositoryInParentFolders": "never",
-				"workbench.welcomePage.walkthroughs.openOnInstall": false
-			},
-			"openFiles": [
-      			"README.md"
-			],
-			"extensions": [
-				// GitHub
-				"GitHub.copilot",
-				"GitHub.copilot-chat",
+  "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}/exercisefiles/go/",
 
-				// Specific language support
-				"golang.go",
-				"ms-vscode.go",
-				"ms-vscode.vscode-go",
-				"babakks.vscode-go-test-suite"
-			]
-		}
-	},
-	"remoteUser": "root"
+  "forwardPorts": [3000],
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "workbench.startupEditor": "none",
+        "git.autoRepositoryDetection": false,
+        "git.openRepositoryInParentFolders": "never",
+        "workbench.welcomePage.walkthroughs.openOnInstall": false
+      },
+      "openFiles": ["README.md"],
+      "extensions": [
+        // GitHub
+        "GitHub.copilot",
+        "GitHub.copilot-chat",
+
+        // Specific language support
+        "golang.go",
+        "ms-vscode.go",
+        "ms-vscode.vscode-go",
+        "babakks.vscode-go-test-suite"
+      ]
+    }
+  },
+  "remoteUser": "root"
 }

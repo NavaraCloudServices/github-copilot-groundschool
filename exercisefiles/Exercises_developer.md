@@ -5,7 +5,7 @@ The goal is to create a HTTPServer using the language of your choice. You can fi
 Follow the instructions below and try to use GitHub Copilot as much as possible.
 Try different things and see what GitHub Copilot can do for you, like generating a class, add comments, tests or a Docker file.
 
-> First make sure that you installed the appropriate IDE and SDK's. Follow the [pre-requisites.md](../README.md#pre-requisites) to setup GitHub Copilot for your IDE.
+> First, follow the [pre-requisites.md](../README.md#pre-requisites) to setup GitHub Copilot for your IDE.
 
 ## Exercises
 
@@ -26,14 +26,11 @@ Do the following activities:
 
 >The goal of this exercise is using GitHub Copilot Inline suggestions feature to extend the HTTP server endpoints. 
 
+You can describe something you want to do using natural language within a comment, and GitHub Copilot will suggest the code to accomplish your goal. Use your fresh prompting skill to first type in your requirement as a code comment.
+
 GitHub Copilot offers coding suggestions as you type. GitHub Copilot will automatically suggest the rest of the function. To accept the suggestion, press `Tab`. Within Jetbrains IDE's you can enable code completions with `Alt + \` (Windows) and `Option (⌥) + \` for Mac 
 
-You can also describe something you want to do using natural language within a comment, and GitHub Copilot will suggest the code to accomplish your goal.
-
-GitHub Copilot will automatically suggest code. To accept the suggestion, press `Tab`.
-
 Click [here](https://docs.github.com/en/copilot/using-github-copilot/getting-code-suggestions-in-your-ide-with-github-copilot#getting-code-suggestions-2) for more information on GitHub Copilot code suggestions
-
 
 Implement the following methods:
 
@@ -43,7 +40,7 @@ Implement the following methods:
   - receive by query string two parameters `timestamp1` and `timestamp2`, and calculate the seconds between those two timestamps.
   - If you want, add some validation
 
-  > **_NOTE:_** Use above information inside the GitHub Copilot inline feature in your server code file. Press enter and wait for GitHub Copilot to suggest you the code.
+  > Use above information inside the GitHub Copilot inline feature in your server code file. Press enter and wait for GitHub Copilot to suggest you the code.
 
 #### **/ValidateDutchPhoneNumber**:
 
@@ -52,7 +49,7 @@ Implement the following methods:
   - if phoneNumber is valid return `"valid"`
   - if phoneNumber is not valid return `"invalid"`
 
-  > **_NOTE:_** Use above information inside the GitHub Copilot inline feature in your server code file. Press enter and wait for GitHub Copilot to suggest you the code.
+  >Use above information inside the GitHub Copilot inline feature in your server code file. Press enter and wait for GitHub Copilot to suggest you the code.
 
 #### **/ValidateDutchBSN**:
 
@@ -67,7 +64,7 @@ Implement the following methods:
     - 051424548 - invalid
     - 262868303 - invalid
 
-  > NOTE: Use above information inside a comment in your server code file. In this case, you may want to see multiple solutions from GitHub Copilot to pick the one that best fits the way to calculate the letter. In order to see the firs 10 suggestions from GitHub Copilot press `ctrl + enter`.
+  >Use above information inside a comment in your server code file. In this case, you may want to see multiple solutions from GitHub Copilot to pick the one that best fits the way to calculate the letter. In order to see the firs 10 suggestions from GitHub Copilot press `ctrl + enter`.
 
 ### Exercise 3: GitHub Copilot Chat and prompting
 
@@ -82,7 +79,7 @@ Implement the following methods:
   - Receive by querystring a parameter called *colorName*
   - read the `colors.json` file and return the *hex* field of the right collor
 
-  > **_NOTE:_** Paste the above information in the GitHub Copilot Chat window and make it as detailed as possible. GitHub Copilot will use by default the open file as context in order to generate the suggestion.
+  >Paste the above information in the GitHub Copilot Chat window and make it as detailed as possible. GitHub Copilot will use by default the open file as context in order to generate the suggestion.
 
 #### **/GiveMeARandomChuckNorrisQuote**:
 
@@ -93,7 +90,7 @@ Implement the following methods:
   - Receive by querystring a parameter called *season*
   - Make a call to the movie api and return the lists of episodes of that Game Of Thrones season
 
-  > **_NOTE:_** This will require to browse to https://www.omdbapi.com/apikey.aspx and request a FREE API Key
+  >This will require to browse to https://www.omdbapi.com/apikey.aspx and request a FREE API Key
 
 #### **/ValidateDutchIBAN**:
 
@@ -108,14 +105,11 @@ Implement the following methods:
   - Get the list of files in the current directory
   - Return the list of files
 
-  > **_NOTE:_** GitHub Copilot can also help with these kind of commands locally. The feature is called GitHub Copilot in the CLI. You can learn more information about this feature [here](https://docs.github.com/en/copilot/github-copilot-in-the-cli/about-github-copilot-in-the-cli).
-
+  >GitHub Copilot can also help with these kind of commands locally. The feature is called GitHub Copilot in the CLI. You can learn more information about this feature [here](https://docs.github.com/en/copilot/github-copilot-in-the-cli/about-github-copilot-in-the-cli).
 
 ### Exercise 4: Refactoring and optimizing
 
 > In this exercise we will use GitHub Copilot to refactor existing code. 
-
-Use your prompting skills together with the slash commands. An actual overview can be found on [GitHub docs](https://docs.github.com/en/copilot/using-github-copilot/copilot-chat/github-copilot-chat-cheat-sheet)
 
 Implement the following methods:
 
@@ -123,9 +117,9 @@ Implement the following methods:
 
   - Read `sample.txt` and return lines that contains the word "lacinia"
 
-  > **_NOTE:_** Be careful with this implementation, since this normally reads the full content of the file before analyzing it, so memory usage is high and may fail when files are too big.
+  >Be careful with this implementation, since this normally reads the full content of the file before analyzing it, so memory usage is high and may fail when files are too big.
 
-  > Start with implementing the logic by yourself using GitHub Copilot Code completion. Then ask GitHub Copilot Chat to refactor the code to use a more memory efficient way of reading the file. 
+  >Start with implementing the logic by yourself using GitHub Copilot Code completion. Then ask GitHub Copilot Chat to refactor the code to use a more memory efficient way of reading the file. 
 
 #### **/RandomEuropeanCountry**:
 
@@ -133,7 +127,7 @@ Implement the following methods:
   - select a random country from the array
   - return the country and its ISO-code
 
-  > **_NOTE:_** GitHub Copilot can help you to generate data sets.
+  >GitHub Copilot can help you to generate data sets.
 
 #### Make Controllers
 
@@ -143,22 +137,12 @@ As you might have noticed, the code is getting a bit messy. We can use GitHub Co
 
 ### Exercise 5: Document the code
 
-> GitHub Copilot can also be used for documenting code. We can use GitHub Copilot to document it for us. 
+> GitHub Copilot can also be used for documenting code. We can use GitHub Copilot to document it for us. Write both inline comments and a README file.
 
-Use your prompting skills together with the slash commands. An actual overview can be found on [GitHub docs](https://docs.github.com/en/copilot/using-github-copilot/copilot-chat/github-copilot-chat-cheat-sheet?tool=jetbrains).
-
-In the chat, ask GitHub Copilot to document your code. Tip: use the `#file` option if available
+In the chat, ask GitHub Copilot to document your code. Tip: use the `#file` option if available. Write both inline comments and a README.md file.
 
 ### Exercise 6: Building tests
 
 Use GitHub Copilot for your testing. We will create automated tests to check that the functionality of the previous endpoints is correctly implemented. Create both unit tests and integration tests.
 
 > If you are using Visual Studio Code, you can try out GitHub Copilot Chat Agent to iterate over the code and test outcomes.
-
-### Exercise 7: Create a Dockerfile
-
-> Let's do some DevOpsy stuff
-
-Now that we have the new functionality added and tests covering it, lets create a Dockerfile to host your application
-
-Build the image using GitHub Copilot and expose the port `3000`. Use all the GitHub Copilot features you want.

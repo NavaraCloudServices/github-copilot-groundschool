@@ -1,0 +1,18 @@
+# Azure region to deploy resources
+azure_location = "westeurope"
+
+# Environment name
+environment = "dev"
+
+# Project name
+project_name = "my-azure-project"
+
+# Resource group name
+resource_group_name = "my-azure-resources"
+
+# Virtual Network configuration
+vnet_address_space = ["10.0.0.0/16"]
+
+# Subnet configuration
+subnet_prefixes = ["10.0.1.0/24", "10.0.2.0/24"]
+subnet_names = ["web-subnet", "db-subnet"]

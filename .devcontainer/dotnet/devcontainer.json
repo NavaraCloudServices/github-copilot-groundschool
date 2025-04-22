@@ -13,8 +13,8 @@
   "customizations": {
     "vscode": {
       "settings": {
-		"workbench.startupEditor": "none",
-		"git.openRepositoryInParentFolders": "never",
+        "workbench.startupEditor": "none",
+        "git.openRepositoryInParentFolders": "never",
         "git.autoRepositoryDetection": false,
         "workbench.welcomePage.walkthroughs.openOnInstall": false
       },

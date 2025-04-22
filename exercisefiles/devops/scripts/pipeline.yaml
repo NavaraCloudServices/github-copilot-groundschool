@@ -1,0 +1,3 @@
+# We use <tool> to run the pipeline
+# The pipeline is triggered on every push to the main branch and every sunday at 10:00
+
