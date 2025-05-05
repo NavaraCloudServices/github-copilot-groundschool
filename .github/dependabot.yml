@@ -13,6 +13,7 @@ updates:
   - package-ecosystem: "pip"
     directories:
       - "/exercisefiles/python/"
+      - "/exercisefiles/data_engineering/"   
     schedule:
       interval: "monthly"
     groups:
