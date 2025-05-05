@@ -10,6 +10,17 @@ updates:
       all:
         patterns:
           - "*"
+  - package-ecosystem: "gomod"
+    directories:
+      - "/exercisefiles/go/"
+      - "/exercisefiles/devops/terraform/aws/test"
+      - "/exercisefiles/devops/terraform/azure/test"   
+    schedule:
+      interval: "monthly"
+    groups:
+      all:
+        patterns:
+          - "*"
   - package-ecosystem: "pip"
     directories:
       - "/exercisefiles/python/"
