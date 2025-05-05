@@ -1,4 +1,20 @@
-# Sources
+# Python Data Engineering
+
+You can find the exercises [here](../../Exercises_data.md).
+
+## Prerequisites
+
+- Install Python 3.11 or higher. See https://www.python.org/downloads/ (Lower versions may work, but are not tested)
+- Install pip (Python package manager)
+- Setup a virtual environment. For VSCode see: https://code.visualstudio.com/docs/python/environments
+
+## How to run the code and tests
+
+1. install the requirements using `pip install -r requirements.txt`, if you haven't already.
+2. run the code using `python phil_analysis.py`.
+3. run the tests using `pytest` in the same directory as the `test_phil_analysis.py` file.
+
+## Sources
 
 ## Data source: Groundhog Day Dataset
 
