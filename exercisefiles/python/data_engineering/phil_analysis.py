@@ -1,4 +1,4 @@
-# Load and analyze data from Punxutawney Phil's Groundhog Day predictions
+# Load and analyze data from Punxsutawney Phil's Groundhog Day predictions
 # using pandas and matplotlib.
 
 import pandas as pd
