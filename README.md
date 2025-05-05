@@ -57,7 +57,7 @@ The exercises are divided into three categories: Developer, Data Engineer/Scient
 
 [Exercises Developer](./exercisefiles/Exercises_developer.md)
 
-[Exercises Data](./exercisefiles/Exercises_data.md)
+[Exercises Data Engineer/Scientist](./exercisefiles/Exercises_data.md)
 
 [Exercises DevOps](./exercisefiles/Exercises_devops.md)
 
