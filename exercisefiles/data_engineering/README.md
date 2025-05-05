@@ -1,6 +1,6 @@
 # Python Data Engineering
 
-You can find the exercises [here](../../Exercises_data.md).
+You can find the exercises [here](../Exercises_data.md).
 
 ## Prerequisites
 

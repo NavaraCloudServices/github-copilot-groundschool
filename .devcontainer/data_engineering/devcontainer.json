@@ -2,7 +2,7 @@
   "name": "Python 3",
   "image": "mcr.microsoft.com/devcontainers/python:3",
 
-  "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}/exercisefiles/python/",
+  "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}/exercisefiles/data_engineering/",
   "forwardPorts": [3000],
   "postCreateCommand": "pip install --upgrade pip && pip install --user -r requirements.txt",
   "customizations": {
@@ -26,7 +26,10 @@
         "kevinrose.vsc-python-indent",
 
         // General language support
-        "mechatroner.rainbow-csv"
+        "mechatroner.rainbow-csv",
+
+        "ms-toolsai.jupyter",
+        "ms-python.pylance"
       ]
     }
   }
