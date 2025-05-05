@@ -1,5 +1,6 @@
 package copilot;
 
+
 import jakarta.ws.rs.Path;
 
 // write a java quarkus that will expose a method call "hello" that will return the value of the name passed in the query string

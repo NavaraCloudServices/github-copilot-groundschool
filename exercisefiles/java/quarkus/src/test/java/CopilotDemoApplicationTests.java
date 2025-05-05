@@ -1,9 +1,9 @@
-package copilot.httpserver;
-
 import static org.hamcrest.Matchers.equalTo;
 import org.junit.jupiter.api.Test;
 
 import io.quarkus.test.junit.QuarkusTest;
+import io.restassured.RestAssured;
+
 import static io.restassured.RestAssured.given;
 
 @QuarkusTest
@@ -13,7 +13,7 @@ class CopilotDemoApplicationTests {
     void hello() {
 
         RestAssured.port = 3000; // Set the port if different from default
-
+        
         given()
             .queryParam("name", "world")
         .when()
