@@ -10,7 +10,6 @@
     "ghcr.io/devcontainers/features/azure-cli:1": {},
     "ghcr.io/devcontainers/features/powershell:1": {},
     "ghcr.io/devcontainers/features/terraform:1": {},
-    "ghcr.io/robbert229/devcontainer-features/opentofu:1": {},
     "ghcr.io/devcontainers/features/go:1": {},
     "ghcr.io/rchaganti/vsc-devcontainer-features/azurebicep:1": {}
 
