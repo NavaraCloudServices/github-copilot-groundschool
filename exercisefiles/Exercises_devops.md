@@ -9,7 +9,6 @@ Try different things and see what GitHub Copilot can do for you, like generating
 
 ## Exercises
 
-### Exercise 1: Introduction
 
 >The goal of this exercise is to verify if GitHub Copilot is working.
 
@@ -39,7 +38,7 @@ Implement the following:
 #### Extend your cleanup script 
 
 Extend your cleanup script to include the following functionality:
-- Deletes them safely, add a dry-run option
+- Add a dry-run option (list of files/directories to be deleted)
 - Make it recursive
 - Logs the deleted files to a log file.
 - Parameterize it (e.g., --dry-run, --days, --path, etc.)
@@ -100,7 +99,7 @@ Create a VM with the following specs:
 #### Use Variables, Outputs and Modules
 
 - Move hardcoded values to variable files.
-- Create modules for re-usability.
+- Create modules for re-usability (yes this might sound tedius for this assignment, but it is a good practice).
 - For Bicep, create a main.bicep file that calls the modules including the input parameters
 - For Terraform, create a main.tf file that calls the modules.
 
