@@ -99,7 +99,7 @@ Create a VM with the following specs:
 #### Use Variables, Outputs and Modules
 
 - Move hardcoded values to variable files.
-- Create modules for re-usability.
+- Create modules for re-usability (yes this might sound tedius for this assignment, but it is a good practice).
 - For Bicep, create a main.bicep file that calls the modules including the input parameters
 - For Terraform, create a main.tf file that calls the modules.
 
