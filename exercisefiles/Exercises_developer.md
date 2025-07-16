@@ -54,7 +54,7 @@ Implement the following methods:
 #### **/ValidateDutchBSN**:
 
   - Receive by querystring a parameter called *bsn*
-  - Make it comply to the '11 proef'
+  - Make it comply to the '11 proef' (For more information about the 11-proef in English see [this](https://github.com/MrLuit/elfproef) repository)
   - if BSN is valid return `"valid"`
   - if BSN is not valid return `"invalid"`
   - Provide examples in your prompt as comment
